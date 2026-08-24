@@ -12,7 +12,9 @@
 ## Communicate
 
 
-## Task A - Portfolio Analysis
+## Part 1 - Analyze
+
+### Task A - Portfolio Analysis
 We are tasked to analyze two engineering portfolios online and study their functionality. The one I chose hosted from GitHub belongs to Nathan Hoong, an Engineer based in California
 https://nhoong.github.io/index.html 
 
@@ -34,12 +36,12 @@ c) Similarly to the last answer, his evidence of reasoning fluctuates between pr
 
 d) Even though the portfolio displays relevant engineering experience and uses technical terms, the introductory of his page is not the most professional. Thanh uses humor and informal working on his portfolio, such as describing himself as "addicted to machining" and mentioning his laptop problems. Although this is not prevalent throughout his resume and it could be changed to make his entire website match the tone of a document given to an employer. 
 
-## Task B - Product Analysis
+### Task B - Product Analysis
 
 a) The physical product that I decided to go with are scissors. The primary function of this product is to separate a material, whether its paper, cloth, plastic, ect. It uses the force of your hand to open and close two opposing blades connected by a common pivot. The applied force of your hands opening and closing gets converted into a shearing force that cuts material. 
 
 b) A physical principle that governs scissors behavior could be described using a lever equilibrium equation- the two scissor blades plus the handles are rotating around a pivot in the middle. An equation that would best represent this is F1d1 = F2d2 (force * distance)
-+ The variables used in this equation are 
+  + The variables used in this equation are 
 
  F1= force from hand
 
@@ -49,7 +51,9 @@ b) A physical principle that governs scissors behavior could be described using 
  
  d2= distance from cutting point to pivot
  
-+ One assumption that makes this model valid is the fact that scissors are rigid and the pivot has negligible friction.
+ 
+  + One assumption that makes this model valid is the fact that scissors are rigid and the pivot has negligible friction.
+
 
 
 c) Photo examples provided below
@@ -70,6 +74,12 @@ photot 3 & 4 <img width="200" height="242" alt="underneath" src="https://github.
 In this image the scissor is flipped around to show the back of the scissors The second blade is identical and works the same way as the font blade to created the shearing motion. the opposing placement allows the the blades to pass each other, producing a shearing action rather than compressing the material. 
 
 d) After furhter research I discovered that there is no single names person who invented scissors, and that its creation dates back to BCE. There are plenty of alternative scissor patents that exist online, but I chose the one that resembles my pair the most, which belongs to the author Lian-Jen Chiou with a patent number of US5421090A
+
+
+<img width="200" height="242" alt="3" src="https://github.com/user-attachments/assets/22112e1f-53b0-4fa6-ac4f-d5ffdda81e60" />
+<img width="200" height="242" alt="2" src="https://github.com/user-attachments/assets/bd7756b1-c4a5-413d-bfd2-87f4de1e7aca" />
+<img width="200" height="242" alt="1" src="https://github.com/user-attachments/assets/9312ae3d-258e-4c75-bed4-8bbc53ced52d" />
+
 + two alternative devices that solve the same primary function could be a knife. This uses one singular sharp blade that moves through material to create a cut. And the other is garden shears, 
 
 + One design i notice is the use of the two blades overlapping and moving past eachother instead of meeting at the middle and cutting from there. I would imagine the upkeep of the former would be higher since the blades would need to be kpt sharp to ensure that the item being cut doesnt get squeezed or bent.
