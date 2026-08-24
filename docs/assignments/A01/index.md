@@ -1,19 +1,9 @@
 # A1 – Build Your Professional Portfolio
 
-## Objective
+# Objective
+The objective is ___
 
-
-## Analyze
-
-
-## Decide
-
-
-## Communicate
-
-
-## Part 1 - Analyze
-
+# Analyze
 ### Task A - Portfolio Analysis
 We are tasked to analyze two engineering portfolios online and study their functionality. The one I chose hosted from GitHub belongs to Nathan Hoong, an Engineer based in California
 https://nhoong.github.io/index.html 
@@ -43,12 +33,9 @@ a) The physical product that I decided to go with are scissors. The primary func
 b) A physical principle that governs scissors behavior could be described using a lever equilibrium equation- the two scissor blades plus the handles are rotating around a pivot in the middle. An equation that would best represent this is F1d1 = F2d2 (force * distance)
   + The variables used in this equation are 
 
- F1= force from hand
-
- d1= distance from hand to pivot
- 
- F2= cutting force at the blade
- 
+ F1= force from hand\
+ d1= distance from hand to pivot\
+ F2= cutting force at the blade\
  d2= distance from cutting point to pivot
  
  
@@ -84,6 +71,15 @@ d) After furhter research I discovered that there is no single names person who 
 
 + One design i notice is the use of the two blades overlapping and moving past eachother instead of meeting at the middle and cutting from there. I would imagine the upkeep of the former would be higher since the blades would need to be kpt sharp to ensure that the item being cut doesnt get squeezed or bent.
 
-  ## Decide
+# Decide
+### 1. Homepage Identity :
+Something a visitor needs to immediately know in order to understand what this portfolio contains is the fact that this is an engineering portfolio that is meant to document my work throughout the course of this semester. The standard its being held to is that expected by an engineering professor or professional. The portfolio is meant to follow the provided template from class  so that the assigbmentd ate organized consistently that gives gradesrs easy access and navigation when evaluating my work. The homepage will be sure to provide a  clear purpose as well as the organization of the portfolio for a visitor before they get to the individual assignments. 
 
-  1) 
+### 2.  One Intentional Customization :
+I changed thesection labels located within the a1 assignment, more specivially the heading size has been changed from what originally provided in the template. I made the main sections, such as Analyze and Objective, larger than the previous size. I can then use medium-sized headings for the individual questions within those sections. This creates a visual hierarchy that makes the portfolio easier for a grader to navigate and quickly identify the major sections and the specific questions within them. The default formatting did not provide enough distinction between major sections versus smaller.
+
+### 3. Your Documentation Standard :
+For every assignment, I will be sure to provide enough explanation, evidence, and reasoning that a professor and fellow engineering student can understand and evaluate my work without needing to ask for missing information or further explanation. 
+
+# Communicate
+
