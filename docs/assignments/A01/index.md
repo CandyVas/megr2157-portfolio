@@ -49,4 +49,31 @@ b) A physical principle that governs scissors behavior could be described using 
  
  d2= distance from cutting point to pivot
  
-+ One assumption that makes this model valid is the fact that scissors are rigid and the pivot has negligible friction.  
++ One assumption that makes this model valid is the fact that scissors are rigid and the pivot has negligible friction.
+
+
+c) Photo examples provided below
+
+
+ photo 1 <img width="200" height="242" alt="front blade" src="https://github.com/user-attachments/assets/da8a2d14-ab8a-4658-b9d5-1369c1be4bf2" />
+ 
+ The blade on this pair of scissors is long, thin, with a sharp edge which helps it move through the material that is being cut. The handle starts on one side and extends past the pivot and into the opposite direction. This geometry of two blades being positioned in equal but opposite sides helps create the shearing force between two sharp edges that creates cuts. 
+
+  
+photo 2 <img width="200" height="242" alt="pivot" src="https://github.com/user-attachments/assets/4c4d00df-0abf-4aab-b0d0-e84713deb675" />
+
+The pivot is demonstrated by the silver button in the middle of the two blades. This is what constrains the two handles and blades to rotate them about the axis. The location of the pivot being in the middle helps turn the force from the handles into cutting force, versus if it were lower or higher on the product it would not have the same mechanical advantage which would give it harder use. It allows for force from the handle to be transferred to the blade as it rotates. 
+
+photot 3 & 4 <img width="200" height="242" alt="underneath" src="https://github.com/user-attachments/assets/c4322b95-40b5-468e-9c2e-17964accda9c" />
+<img width="200" height="242" alt="back blade" src="https://github.com/user-attachments/assets/82252568-2c1d-46a3-b26f-8dc09755d0ea" />
+
+In this image the scissor is flipped around to show the back of the scissors The second blade is identical and works the same way as the font blade to created the shearing motion. the opposing placement allows the the blades to pass each other, producing a shearing action rather than compressing the material. 
+
+d) After furhter research I discovered that there is no single names person who invented scissors, and that its creation dates back to BCE. There are plenty of alternative scissor patents that exist online, but I chose the one that resembles my pair the most, which belongs to the author Lian-Jen Chiou with a patent number of US5421090A
++ two alternative devices that solve the same primary function could be a knife. This uses one singular sharp blade that moves through material to create a cut. And the other is garden shears, 
+
++ One design i notice is the use of the two blades overlapping and moving past eachother instead of meeting at the middle and cutting from there. I would imagine the upkeep of the former would be higher since the blades would need to be kpt sharp to ensure that the item being cut doesnt get squeezed or bent.
+
+  ## Decide
+
+  1) 
