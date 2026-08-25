@@ -1,6 +1,7 @@
-#About Me
 
-Hello, my name is Candy Vasquez. I am a mechanical engineering student interested in understanding how engineering shapes the environment and products we interact with every day. My path to mechanical engineering began with an interest in interior design, which developed into a curiosity about architecture and eventually led me toward sustainable design. Along the way, I became increasingly interested not only in how things look and function, but also in the systems and decisions that make them possible. College has helped me explore these areas and recognize that I was most interested in the technical work behind how things are designed, built, and made to function.
+## About Me
+
+Hello, my name is Candy Vasquez and I am a mechanical engineering student interested in understanding how engineering shapes the environment, systems, and products around us. My path to mechanical engineering began with an interest in interior design, which developed into a curiosity about architecture and eventually led me toward sustainable design. Along the way, I became increasingly interested in not only how things look and function, but also in the systems and decisions that make them possible. College has helped me explore these areas and recognize that I was most interested in the technical work behind how things are designed, built, and made to function.
 
 As an engineer, I am learning to develop a mindset that combines creativity with problem solving. What draws me to mechanical engineering is its versatility and its presence in nearly every part of everyday life, as well as around the world. Mechanical engineering can be applied across a wide range of industries, from energy and manufacturing to transportation, building systems, and product development. As a college student, I am still exploring the different paths within the field and developing the knowledge and skills needed to determine where I can make the greatest impact.
 
