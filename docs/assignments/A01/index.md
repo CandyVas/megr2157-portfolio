@@ -31,11 +31,15 @@ The second portfolio I decided to analyze belongs to Thanh Tran, who is a mechan
 a) The physical product that I decided to go with is scissors. The primary function of this product is to separate a material, whether its paper, cloth, plastic, etc. It uses the force of your hand to open and close two opposing blades connected by a common pivot. The applied force of your hands opening and closing gets converted into a shearing force that cuts material. 
 
 b) A physical principle that governs scissors behavior could be described using a lever equilibrium equation: the two scissor blades plus the handles are rotating around a pivot in the middle. An equation that would best represent this is F1d1 = F2d2 (force * distance)
+
   + i. The variables used in this equation are 
 
  F1= force from hand\
+ 
  d1= distance from hand to pivot\
+ 
  F2= cutting force at the blade\
+ 
  d2= distance from cutting point to pivot
  
  
