@@ -32,18 +32,17 @@ a) The physical product that I decided to go with is scissors. The primary funct
 
 b) A physical principle that governs scissors behavior could be described using a lever equilibrium equation: the two scissor blades plus the handles are rotating around a pivot in the middle. An equation that would best represent this is F1d1 = F2d2 (force * distance)
 
-  + i. The variables used in this equation are 
++ i. The variables used in this equation are 
 
- F1= force from hand\
+ F1= force from hand
  
- d1= distance from hand to pivot\
+ d1= distance from hand to pivot
  
- F2= cutting force at the blade\
+ F2= cutting force at the blade
  
  d2= distance from cutting point to pivot
  
- 
-  + ii. One assumption that makes this model valid is the fact that scissors are rigid, and the pivot has negligible friction.
+ + ii. One assumption that makes this model valid is the fact that scissors are rigid, and the pivot has negligible friction.
 
 
 
