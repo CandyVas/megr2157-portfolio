@@ -35,8 +35,11 @@ b) A physical principle that governs scissors behavior could be described using 
 + i. The variables used in this equation are 
 
  F<sub>1</sub>= force from hand
+ 
  d<sub>1</sub>= distance from hand to pivot
+ 
  F<sub>2</sub>= cutting force at the blade
+ 
  d<sub>2</sub>= distance from cutting point to pivot
  
  + ii. One assumption that makes this model valid is the fact that scissors are rigid, and the pivot has negligible friction.
