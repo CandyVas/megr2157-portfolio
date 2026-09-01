@@ -38,8 +38,10 @@ Internal forces are the pushing (compression) and pulling (tension) forces carri
 
 <img width="348" height="302" alt="image" src="https://github.com/user-attachments/assets/e0b2804c-eb1a-4d33-a4fb-412319c555f8" />
 
-
+ 
 ### iii. Symbolically solve for all internal forces.
+
+i decided to solve this via method of joints and began with joint A,  
   
 ### iv. Numerically solve for all internal forces.
 
