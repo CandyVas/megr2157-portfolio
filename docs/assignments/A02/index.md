@@ -34,9 +34,12 @@ i then solved for the external forces - i chose to make the moment about a since
 <img width="458" height="304" alt="Screenshot 2026-09-01 003514" src="https://github.com/user-attachments/assets/e5f75605-7a72-44b5-b8c5-718df90fe78e" />
 
 + ii. Sketch and label a FBD of each joint on the truss.
-Internal forces are the pushing (compression) and pulling (tension) forces carried inside the members meeting at each joint. If youll notice that the direction of my external forces arent the same as my internal forces. Despite the fact that i have By as a positive force, when looking at the result you will find that i got a negative number (-8.3333) therefore the
+Internal forces are the pushing (compression) and pulling (tension) forces carried inside the members meeting at each joint. If you'll notice that the direction of my external forces arent the same as my internal forces. Despite the fact that i have By as a positive force, when looking at the result you will find that i got a negative number (-8.3333). Same goes for the Ax value, since the sum ended up being 0 it was removed. 
 
-<img width="375" height="316" alt="image" src="https://github.com/user-attachments/assets/fdb1be16-51c2-4802-bd0d-fcd52cd57f9d" />
+<img width="348" height="302" alt="image" src="https://github.com/user-attachments/assets/e0b2804c-eb1a-4d33-a4fb-412319c555f8" />
+
+
+
 
 + iii. Symbolically solve for all internal forces.
   
