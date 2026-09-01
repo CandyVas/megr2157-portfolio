@@ -17,8 +17,8 @@ The force and geometric constraints of the truss are provided below
 
 Some things I noticed from the figure is that there is an upward force *P* at point C, and a downward force *P* at point D. There is also 4 joints to take into account, A, B, C, and D. Since A is a pin, that accounts for 2 support reactions. And B is a roller which is 1 support reaction, which totals to 3 support reactions.  How I began to approach my design is by first, choosing the number for P. I decided on a applied force of **25 kN**, simply because it is exactly halfway between the lowest and highest permitted load. The next step in my process was to find external forces which is accomplished by looking at the entire truss as a single structure. This takes into consideration the loads and supporting forces 
 
-### a. Design the truss structure using the parameters in Figure #1.
-+ i. Since we are meant to generate the lengths of each element based to support the loads at point C and D, here is the sketch a truss structure i have come up with to fit this criteria. We need to connect load points C & D to supports A & B
+## a. Design the truss structure using the parameters in Figure #1.
+### + i. Since we are meant to generate the lengths of each element based to support the loads at point C and D, here is the sketch a truss structure i have come up with to fit this criteria. We need to connect load points C & D to supports A & B
  
 <img width="449" height="246" alt="image" src="https://github.com/user-attachments/assets/aa038163-6e95-4983-a886-66c31bacb273" />
 
@@ -33,23 +33,22 @@ i then solved for the external forces - i chose to make the moment about a since
 
 <img width="458" height="304" alt="Screenshot 2026-09-01 003514" src="https://github.com/user-attachments/assets/e5f75605-7a72-44b5-b8c5-718df90fe78e" />
 
-+ ii. Sketch and label a FBD of each joint on the truss.
+### ii. Sketch and label a FBD of each joint on the truss.
 Internal forces are the pushing (compression) and pulling (tension) forces carried inside the members meeting at each joint. If you'll notice that the direction of my external forces arent the same as my internal forces. Despite the fact that i have By as a positive force, when looking at the result you will find that i got a negative number (-8.3333). Same goes for the Ax value, since the sum ended up being 0 it was removed. 
 
 <img width="348" height="302" alt="image" src="https://github.com/user-attachments/assets/e0b2804c-eb1a-4d33-a4fb-412319c555f8" />
 
 
-
-
-+ iii. Symbolically solve for all internal forces.
+### iii. Symbolically solve for all internal forces.
   
-+ iv. Numerically solve for all internal forces.
+### iv. Numerically solve for all internal forces.
 
-### b. Use the largest internal force to calculate the required cross-sectional area of the elements using a safety factor of 3.5, and the yield strength. 
-+ i. List all the knowns and unknowns.
-+ ii. Symbolically solve for minimum cross-sectional area (without numbers).
-+ iii.Numerically solve for the cross-sectional area.
-+ iv. Determine the approximate weight of the truss
+## b. Use the largest internal force to calculate the required cross-sectional area of the elements using a safety factor of 3.5, and the yield strength. 
+
+### i. List all the knowns and unknowns.
+### ii. Symbolically solve for minimum cross-sectional area (without numbers).
+### iii.Numerically solve for the cross-sectional area.
+### iv. Determine the approximate weight of the truss
 
 
 ## Decide
