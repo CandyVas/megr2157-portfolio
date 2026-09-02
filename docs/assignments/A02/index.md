@@ -17,7 +17,7 @@ The force and geometric constraints of the truss are provided below
 
 Some things I noticed from the figure is that there is an upward force *P* at point C, and a downward force *P* at point D. There is also 4 joints to take into account, A, B, C, and D. Since A is a pin, that accounts for 2 support reactions. And B is a roller which is 1 support reaction, which totals to 3 support reactions.  How I began to approach my design is by first, choosing the number for P. I decided on a applied force of **25 kN**, simply because it is exactly halfway between the lowest and highest permitted load. The next step in my process was to find external forces which is accomplished by looking at the entire truss as a single structure. This takes into consideration the loads and supporting forces 
 
-## a. Design the truss structure using the parameters in Figure #1.
+## a. Design a truss
 ### + i. Since we are meant to generate the lengths of each element based to support the loads at point C and D, here is the sketch a truss structure i have come up with to fit this criteria. We need to connect load points C & D to supports A & B. The constraints were to keep the design simple, therefore i didnt deicde to add any additional joints 
  
 <img width="449" height="246" alt="image" src="https://github.com/user-attachments/assets/aa038163-6e95-4983-a886-66c31bacb273" />
@@ -38,7 +38,6 @@ however, at this point i realized that at both points A and B, there are two dia
     + triangle BCD
     + triangle ABD
     
-
 <img width="382" height="192" alt="image" src="https://github.com/user-attachments/assets/31a7d989-ca49-4b15-a2cd-91cef57f0f84" />
 
 I essentially did the same last steps as written before, except with my new and improved design 
@@ -59,14 +58,19 @@ i decided to solve this via method of joints and began with joint A. In the free
 i then proceeded onto joint AC since we have just solved for Fac when solving joit A's internal forces. Once again that leaves us with only 2 unknowns (since we know the value for P) ewhich makes this equatin=on solvable 
 
 <img width="512" height="265" alt="image" src="https://github.com/user-attachments/assets/d924a9a1-dcf6-4488-852c-8f32c486d94f" />
+
 solving this symbolically helps me visualize when inserting the numbers of which joint t start withthen which one to proceed to. 
 
 ### iv. Numerically solve for all internal forces.
 I worked o joint A, then proressed onto joint C since it was similar in structure to joint A, int he sense that there was only two chords.  
-<img width="446" height="316" alt="image" src="https://github.com/user-attachments/assets/f16d48e2-2d46-45f2-bd45-8ab8cc17d439" />
-Despite the steps i took when labeling my joints, i wored out of line when it came to solving. By the time i reached the Fx of joint c, i realized that i have solved for a total of 5 members, meaning all my unknowns have been solved for. 
 
-## b. Use the largest internal force to calculate the required cross-sectional area of the elements using a safety factor of 3.5, and the yield strength. 
+<img width="419" height="285" alt="image" src="https://github.com/user-attachments/assets/87758fbc-4b32-41e8-bb27-e21aee86fed2" />
+
+Despite the steps i took when labeling my joints, i wored out of line when it came to solving. By the time i reached the Fx of joint C, i realized that i have solved for a total of 5 members, meaning all my unknowns have been solved for. 
+
+## b. Cross-sectional
+
+We are then tasked to find the the largest internal force to calculate the required cross-sectional area of the elements using a safety factor of 3.5, and the yield strength. 
 
 ### i. List all the knowns and unknowns.
 ### ii. Symbolically solve for minimum cross-sectional area (without numbers).
