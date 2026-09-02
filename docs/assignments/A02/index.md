@@ -18,7 +18,7 @@ The force and geometric constraints of the truss are provided below
 Some things I noticed from the figure is that there is an upward force *P* at point C, and a downward force *P* at point D. There is also 4 joints to take into account, A, B, C, and D. Since A is a pin, that accounts for 2 support reactions. And B is a roller which is 1 support reaction, which totals to 3 support reactions.  How I began to approach my design is by first, choosing the number for P. I decided on a applied force of **25 kN**, simply because it is exactly halfway between the lowest and highest permitted load. The next step in my process was to find external forces which is accomplished by looking at the entire truss as a single structure. This takes into consideration the loads and supporting forces 
 
 ## a. Design the truss structure using the parameters in Figure #1.
-### + i. Since we are meant to generate the lengths of each element based to support the loads at point C and D, here is the sketch a truss structure i have come up with to fit this criteria. We need to connect load points C & D to supports A & B
+### + i. Since we are meant to generate the lengths of each element based to support the loads at point C and D, here is the sketch a truss structure i have come up with to fit this criteria. We need to connect load points C & D to supports A & B. The constraints were to keep the design simple, therefore i didnt deicde to add any additional joints 
  
 <img width="449" height="246" alt="image" src="https://github.com/user-attachments/assets/aa038163-6e95-4983-a886-66c31bacb273" />
 
@@ -36,12 +36,15 @@ i then solved for the external forces - i chose to make the moment about a since
 ### ii. Sketch and label a FBD of each joint on the truss.
 Internal forces are the pushing (compression) and pulling (tension) forces carried inside the members meeting at each joint. If you'll notice that the direction of my external forces arent the same as my internal forces. Despite the fact that i have By as a positive force, when looking at the result you will find that i got a negative number (-8.3333). Same goes for the Ax value, since the sum ended up being 0 it was removed. 
 
-<img width="348" height="302" alt="image" src="https://github.com/user-attachments/assets/e0b2804c-eb1a-4d33-a4fb-412319c555f8" />
+<img width="374" height="338" alt="image" src="https://github.com/user-attachments/assets/ce756bb0-565c-4f2d-ae6b-f79079d63ada" />
+
 
  
 ### iii. Symbolically solve for all internal forces.
 
-i decided to solve this via method of joints and began with joint A,  
+i decided to solve this via method of joints and began with joint A. In the free body diagram it may look like we have 3 unknowns, but its actually only 2 since we have already solved for Ay. 
+
+i then proceeded onto joint AC since we have just solved for Fac when solving joit A's internal forces. Once again that leaves us with only 2 unknowns (since we know the value for P) ewhich makes this equatin=on solvable 
   
 ### iv. Numerically solve for all internal forces.
 
