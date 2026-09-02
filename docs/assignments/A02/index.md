@@ -62,7 +62,9 @@ i then proceeded onto joint AC since we have just solved for Fac when solving jo
 solving this symbolically helps me visualize when inserting the numbers of which joint t start withthen which one to proceed to. 
 
 ### iv. Numerically solve for all internal forces.
-
+I worked o joint A, then proressed onto joint C since it was similar in structure to joint A, int he sense that there was only two chords.  
+<img width="446" height="316" alt="image" src="https://github.com/user-attachments/assets/f16d48e2-2d46-45f2-bd45-8ab8cc17d439" />
+Despite the steps i took when labeling my joints, i wored out of line when it came to solving. By the time i reached the Fx of joint c, i realized that i have solved for a total of 5 members, meaning all my unknowns have been solved for. 
 
 ## b. Use the largest internal force to calculate the required cross-sectional area of the elements using a safety factor of 3.5, and the yield strength. 
 
