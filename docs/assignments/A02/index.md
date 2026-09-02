@@ -18,7 +18,8 @@ The force and geometric constraints of the truss are provided below
 Some things I noticed from the figure is that there is an upward force *P* at point C, and a downward force *P* at point D. There is also 4 joints to take into account, A, B, C, and D. Since A is a pin, that accounts for 2 support reactions. And B is a roller which is 1 support reaction, which totals to 3 support reactions.  How I began to approach my design is by first, choosing the number for P. I decided on a applied force of **25 kN**, simply because it is exactly halfway between the lowest and highest permitted load. The next step in my process was to find external forces which is accomplished by looking at the entire truss as a single structure. This takes into consideration the loads and supporting forces 
 
 ## a. Design a truss
-### + i. Since we are meant to generate the lengths of each element based to support the loads at point C and D, here is the sketch a truss structure i have come up with to fit this criteria. We need to connect load points C & D to supports A & B. The constraints were to keep the design simple, therefore i didnt deicde to add any additional joints 
+### + i.
+Since we are meant to generate the lengths of each element based to support the loads at point C and D, here is the sketch a truss structure i have come up with to fit this criteria. We need to connect load points C & D to supports A & B. The constraints were to keep the design simple, therefore i didnt deicde to add any additional joints 
  
 <img width="449" height="246" alt="image" src="https://github.com/user-attachments/assets/aa038163-6e95-4983-a886-66c31bacb273" />
 
@@ -70,12 +71,31 @@ Despite the steps i took when labeling my joints, i wored out of line when it ca
 
 ## b. Cross-sectional
 
-We are then tasked to find the the largest internal force to calculate the required cross-sectional area of the elements using a safety factor of 3.5, and the yield strength. 
+We are then tasked to find the the largest internal force to calculate the required cross-sectional area of the elements using a safety factor of 3.5, and the yield strength. The largest internal force 47.4 kN, however the yield strength is not provided. The assignment asks for the specific material of A500 structural steel to be used. After further [research](https://www.tottentubes.com/astm-a500-specification-information), i have discovered that steel strength varies by grade and shape, with a minimum yield strengths of 228 MPa, and maximum 345 MPa. I decided to settle on a yield strength of 250 
 
 ### i. List all the knowns and unknowns.
+We know that... 
++ The largest internal force is Fbd which is equal to 47.46 kN. 
++ Safety factor is N = 3.5
++ The chosen Yield Strength is 250 MPa
+
+Some Unknowns include...
++  minimum cross sectional area 
+
 ### ii. Symbolically solve for minimum cross-sectional area (without numbers).
+
+<img width="242" height="250" alt="image" src="https://github.com/user-attachments/assets/b8eea650-adf1-42d0-bca8-b295c1ad3c80" />
+
 ### iii.Numerically solve for the cross-sectional area.
+
+<img width="257" height="229" alt="image" src="https://github.com/user-attachments/assets/bc23c016-b491-420b-9287-ddae7a3e24a4" />
+
+
 ### iv. Determine the approximate weight of the truss
+
+The standard density of steel is approximately 7.85 g/cm³, and since i am looking for kilogram as my result it changes t  (7,850 kg/m³
+
+<img width="261" height="328" alt="image" src="https://github.com/user-attachments/assets/a70ea873-7340-4d8c-b453-1d9475646ddc" />
 
 
 ## Decide
