@@ -33,20 +33,36 @@ i then solved for the external forces - i chose to make the moment about a since
 
 <img width="458" height="304" alt="Screenshot 2026-09-01 003514" src="https://github.com/user-attachments/assets/e5f75605-7a72-44b5-b8c5-718df90fe78e" />
 
+however, at this point i realized that at both points A and B, there are two diagonal chords that are not only facing the same direction, but also bth angled downwards. This made me think about solving the potential internal forces. If i wanted to solve for the joints, lets say either A or B since those supports will be solved via solving external forces. If i wanted to solce for the internal, I'd either be unable to solve for the hypotehiical Fac and Fad unknwon, or it would give me a hard time progressing onto the other joint its chorded to. This made me change my approach of the problem. Still considering the earlier equation m + r = 2j, i would need to be able to keep the total of 5 members. This resulted me in this as my final design 
++ These are two triangles that generate the following, with **<u>NEW</u>** members **BC, BD, CD, AB, AD**
+    + triangle BCD
+    + triangle ABD
+    
+
+<img width="382" height="192" alt="image" src="https://github.com/user-attachments/assets/31a7d989-ca49-4b15-a2cd-91cef57f0f84" />
+
+I essentially did the same last steps as written before, except with my new and improved design 
+
+<img width="359" height="236" alt="image" src="https://github.com/user-attachments/assets/ee9c23c7-973a-47fa-a533-b5dd6fd0452c" />
+
+you'll notice we got the same result, which makes sense since this is the external forces which is __. 
+
 ### ii. Sketch and label a FBD of each joint on the truss.
 Internal forces are the pushing (compression) and pulling (tension) forces carried inside the members meeting at each joint. If you'll notice that the direction of my external forces arent the same as my internal forces. Despite the fact that i have By as a positive force, when looking at the result you will find that i got a negative number (-8.3333). Same goes for the Ax value, since the sum ended up being 0 it was removed. 
 
-<img width="374" height="338" alt="image" src="https://github.com/user-attachments/assets/ce756bb0-565c-4f2d-ae6b-f79079d63ada" />
-
-
+<img width="324" height="247" alt="image" src="https://github.com/user-attachments/assets/5d9a5be9-f0f8-4f4c-963b-b5e49582b579" />
  
 ### iii. Symbolically solve for all internal forces.
 
 i decided to solve this via method of joints and began with joint A. In the free body diagram it may look like we have 3 unknowns, but its actually only 2 since we have already solved for Ay. 
 
 i then proceeded onto joint AC since we have just solved for Fac when solving joit A's internal forces. Once again that leaves us with only 2 unknowns (since we know the value for P) ewhich makes this equatin=on solvable 
-  
+
+<img width="512" height="265" alt="image" src="https://github.com/user-attachments/assets/d924a9a1-dcf6-4488-852c-8f32c486d94f" />
+solving this symbolically helps me visualize when inserting the numbers of which joint t start withthen which one to proceed to. 
+
 ### iv. Numerically solve for all internal forces.
+
 
 ## b. Use the largest internal force to calculate the required cross-sectional area of the elements using a safety factor of 3.5, and the yield strength. 
 
