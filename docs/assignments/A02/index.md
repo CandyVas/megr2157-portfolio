@@ -87,9 +87,11 @@ Some Unknowns include...
 <img width="242" height="250" alt="image" src="https://github.com/user-attachments/assets/b8eea650-adf1-42d0-bca8-b295c1ad3c80" />
 
 ### iii.Numerically solve for the cross-sectional area.
+FOllowing the previous steps from when i symbolically solved the minumim cross sectional area, i plugged in what i found before and found the minumym. However, this question does not ask for the minimum and instead just the regular area. I progressed using the same formulas from the symbolic equation.
 
-<img width="257" height="229" alt="image" src="https://github.com/user-attachments/assets/bc23c016-b491-420b-9287-ddae7a3e24a4" />
+<img width="457" height="221" alt="image" src="https://github.com/user-attachments/assets/002567bc-b058-4f73-bf34-00581c07250f" />
 
+Then, I found the numerical values for the cross-sectioanl area using the same formulas from the symbolic equation.
 
 ### iv. Determine the approximate weight of the truss
 
@@ -99,7 +101,53 @@ The standard density of steel is approximately 7.85 g/cm³, and since i am looki
 
 
 ## Decide
-3. & 4 Determine the cross-sectional area of the connecting pins which are made of hardened tool steel with a yield shear strength of 170 ksi and a density of 0.278 lb/in3. Assume that elements that are in compression won’t fail in buckling.
+### 3. 
+Next, we are tasked to determine the cross-sectional area of the connecting pins which are made of hardened tool steel with a yield shear strength of 170 ksi and a density of 0.278 lb/in^3. Since we have already solved for the forces in every member, we can now find the cross sectional area od the connecting pins. They can withstad a shear stress up to 170 ksi before beggining to yeild
+Using the truss forces we just calculated, we can use that for solving the connecting pins. 
+
+### i. List all the knowns and unknowns.
+We know that... 
++ The largest shear force in a connecting pin is 25 kN. 
++ Safety factor is N = 4
++ The provided Yield Strength is 170 ksi
++ Density of 0.278 lb/in^3
+
+Some Unknowns include...
++  minimum cross sectional area of each pin
+
+### ii. Generate a FBD of the pin with the largest reaction load.
+ Since this is asking for the largest reaction load, that would mean the largest of the external supports, not the same internal member Fbd that we used to solve part b. This turns out to be both our P loads at pin C & D, so this diagram could be applied to either or 
+
+<img width="296" height="328" alt="image" src="https://github.com/user-attachments/assets/4494c8a5-cbd7-4bea-9c16-15f2c6492c94" />
+
+
+
+### iii. Symbolically solve for minimum cross-sectional area.
+Since we are meant to design a **single shear connection** i decided to use the shear equation τ = F / A as opposed to its double shear counterpart τ = F / 2A. Since we are supposed to consider the safety factor of 4, we now have to consider th allowable shear stress in order for the pin to be safe 
+
+<img width="176" height="271" alt="image" src="https://github.com/user-attachments/assets/9fb83d7b-9fd5-4136-901b-f2564803b19f" />
+
+
+### iv. Numerically solve for the cross-sectional area   
+Despite the provided values, they are not the matching units for calculating. Therefore the first thing i did before solving was [converting my shear](https://www.youtube.com/watch?v=1_m2h_itxs0&t=243s) force of 25 kN to be lbf and my yield strength to be psi instead of ksi. 
+
+<img width="472" height="220" alt="image" src="https://github.com/user-attachments/assets/aa9cfae0-2e19-4dc7-ba43-a6af63fdf094" />
+
+### v. Determine the approximate combined weight of the pins.
+The weight of an individual member could be determined using the volume-density formula Weight = A * L * ρ. However, we are dealing with a truss which carries four identical pins, therefore we can change the equation to be W = A * L * 4ρ. i figured i'd use the cross sectional area found in part three, which for me estimated to be 26 x 26 mm 
+
+<img width="449" height="277" alt="image" src="https://github.com/user-attachments/assets/3a46e6dc-9595-41cc-b333-f73e5ac43a97" />
+
+There was some confusin when trying to deipher what the length of the pin was. I started calculationg for the diameter and area of the pin, however that didnt quite fit the formula since it wants the length, i eventually connected the dots that in part b i found the cross section of the truss, meaning the l x w is 26 by 26 
+
+## 4
+Utilize CAD software to generate a 3D model of the truss. Model the pins as cylinders with the appropriate cross-sectional areas and lengths.
+ 
+### i. Represent the truss minus the pins as one part in CAD.
+### ii.Maintain the cross-sectional area of each element at the intersection of the pin joint.
+### iii.Ensure that the truss design satisfies the safety factor, weight optimization goal, and geometric constraints while maintaining structural integrity and stability.
+### iv.Implement mass properties in the CAD model and determine the predicted weight, accordingly.          
+
 _Which geometry did you select, and why? This is your first open design choice in the course — defend it._
 
 ## Communicate
