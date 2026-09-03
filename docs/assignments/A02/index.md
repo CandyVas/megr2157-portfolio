@@ -17,7 +17,7 @@ The force and geometric constraints of the truss are provided below
 Some things I noticed from the figure is that there is an upward force *P* at point C, and a downward force *P* at point D. There is also 4 joints to take into account, A, B, C, and D. Since A is a pin support, it provides two support reactions, while B is a roller support, providing one support reaction. This gives a total of three support reactions total. I began my design process by first selecting a value for P. I decided to use an applied force of 25 kN, which is exactly halfway between the lowest and highest permitted loads. The next step was to determine the external forces acting on the truss. This can be accomplished by treating the entire truss as a single structure and considering the applied loads and support reactions acting on it.
 
 ## a. Design a truss
-### + i. sketch truss
+### i. sketch truss
 Since the goal is to generate lengths that'll support the loads at both C and D, we need to connect the supports at A and B so that the applied loads can be transferred through the truss to the supports. One of the constraints was to keep the design as simple as possible. Therefore, I decided not to add any additional joints beyond the four required points, A, B, C, and D. This results in a straightforward truss configuration while still providing the necessary structural connections between the loads and the supports.
 
 <img width="449" height="246" alt="image" src="https://github.com/user-attachments/assets/aa038163-6e95-4983-a886-66c31bacb273" />
