@@ -153,6 +153,9 @@ Once I was satisfied with the sketch, I extruded the truss to the 26 mm thicknes
 
 <img width="535" height="240" alt="image" src="https://github.com/user-attachments/assets/f7445d91-f509-4f15-bd22-bc9b05f10799" />
 
+<img width="695" height="239" alt="Screenshot 2026-09-03 033823" src="https://github.com/user-attachments/assets/893bfadd-9d6c-4eff-ab59-8b661e8d7cde" />
+
+
 <img width="625" height="189" alt="image" src="https://github.com/user-attachments/assets/cac7d67b-7a72-4739-a425-c92c62d80384" />
 
 When assigning the material in SolidWorks, I noticed that A500 structural steel was not available in the material library. Since the purpose of this portion of the assignment is to compare the CAD results with my hand calculations, I needed to find a material with similar density and mass properties. After searching for an alternative, I decided to use AISI 1020 steel as an approximation because its density is close enough to A500 steel for the purpose of estimating the mass of the truss.
@@ -173,6 +176,7 @@ The CAD result was noticeably different from my hand calculation. My calculated 
 ## Communicate
 ### Engineering lesson learned
 During the course of completing this project, there was not just a singular lesson that I learned. It taught me several 
+
 + Keeping units consistent: I learned how important it is to keep my units consistent throughout the entire calculation. I switched between meters, millimeters, inches, kN, N, and psi during the project, which caused some confusion. In the future, I will choose one unit system at the beginning and convert everything before starting my calculations.
 
 + Rounding numbers: One thing that caused problems was rounding my numbers too early when solving for the internal forces. I kept using slightly different values as I moved from one joint to another, which caused the final answers to become less consistent. I learned that it is better to keep more decimal places during the calculations and only round at the end.
