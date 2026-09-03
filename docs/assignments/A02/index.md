@@ -184,3 +184,5 @@ During the course of completing this project, there was not just a singular less
 + Pay attention to CAD settings!!!!!: I also learned (the very hard way) that I need to pay closer attention to the CAD program I am using. Switching between Creo and SolidWorks and dealing with different unit settings caused some issues with my model. I learned that i should check that BEFORE starting the model or I'd be forced to either remake or convert everything.
  
 + Checking my work with CAD: Finally, I learned that CAD is useful for checking hand calculations. Comparing my SolidWorks mass to my calculated mass showed me that there were differences in my results and gave me a reason to go back and look at my units, dimensions, and the material properties.
+
+... the time it took me to complete these assignment was 2 days. However my progress has been inconsistent, I did dedicate a lot of time into working on this. 
