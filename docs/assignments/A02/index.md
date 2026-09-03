@@ -149,7 +149,7 @@ I then used the line chain tool to create the diagonal chords of the truss. This
 
 <img width="591" height="293" alt="Screenshot 2026-09-03 022449" src="https://github.com/user-attachments/assets/55ee3718-2882-497c-9fdc-398de5113d39" />
 
-Once I was satisfied with the sketch, I extruded the truss to the 26 mm thickness that I had calculated (in meters, ,026m). As for my pin diameter, I have it calculated as .5 inches which converts to 0.0127 m. Luckily diameter fit within the dimensions of my design without requiring any changes to my previous calculations. 
+Once I was satisfied with the sketch, I extruded the truss to the 26 mm thickness that I had calculated (in meters, .026m). As for my pin diameter, I have it calculated as .5 inches which converts to 0.0127 m. Luckily diameter fit within the dimensions of my design without requiring any changes to my previous calculations. 
 
 <img width="535" height="240" alt="image" src="https://github.com/user-attachments/assets/f7445d91-f509-4f15-bd22-bc9b05f10799" />
 
