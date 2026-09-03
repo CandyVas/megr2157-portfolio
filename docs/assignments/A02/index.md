@@ -3,6 +3,8 @@
 We are tasked to design a light weight planar truss using A500 structural steel using the shown figure below
 <img width="248" height="161" alt="image" src="https://github.com/user-attachments/assets/7ab8182e-a6b2-46e3-84f0-a8988ce9f15b" />
 
+If you'd like to explore my personal Truss file, feel free to access it [here](https://drive.google.com/file/d/175j9Z404NAykfFYtjPtPNOQ78aiE7OAK/view?usp=drive_link). 
+
 ## Overall Truss
 
 The force and geometric constraints of the truss are provided below  
@@ -173,7 +175,7 @@ After completing the model and assigning the material, I used the Mass Propertie
 
 The CAD result was noticeably different from my hand calculation. My calculated weight for the truss was approximately 176.636 N, which is 18.01 kg when converted. This means there is a difference of approximately 4.50 kg between my hand calculation and the SolidWorks result. While this difference is larger than I initially expected, it can be a contribution of many factors to several factors, including the different material densities used, rounding during the CAD modeling process, and the different conversions.
 
-If you'd like to explore my personal Truss file, feel free to access it [here](https://drive.google.com/file/d/175j9Z404NAykfFYtjPtPNOQ78aiE7OAK/view?usp=drive_link). 
+Here's my link again in case u missed it [:P](https://drive.google.com/file/d/175j9Z404NAykfFYtjPtPNOQ78aiE7OAK/view?usp=drive_link). 
 
 ## Communicate
 ### Engineering lesson learned
