@@ -28,17 +28,13 @@ Using the direct tension elongation equation in the Machinery’s Handbook, I fo
 I used the global variables inserted into Solidworks's equation tab to then build the shape of my bar. 
 
 <img width="495" height="358" alt="image" src="https://github.com/user-attachments/assets/5ce37f43-86df-4567-bfbd-88352f5daf6c" />
-
-
-I then extruded using the length 
-
 <img width="830" height="288" alt="image" src="https://github.com/user-attachments/assets/5bbd031d-dc61-49d6-b127-788a9de3a77e" />
 
 
 
 ## 2. Conduct FEA
 
-WE are then taskjied to work with solidworks stimulation, also known as FEA. Since the bar is to be designed from Aluminum, i went into the materials and switched it to the alluminum alloy material available, alumina 
+We are then tasked to work with Solidworks stimulation, also known as FEA. Since the bar is to be designed from Aluminum, i went into the materials and switched it to the aluminum alloy material available, Alumina. 
 
 <img width="728" height="371" alt="image" src="https://github.com/user-attachments/assets/2527add2-fda0-4e2d-8f55-984b5c718a7f" />
 
@@ -48,7 +44,7 @@ I started off by applying the fixture of one end of my beam. The green marks on 
 
 <img width="713" height="358" alt="image" src="https://github.com/user-attachments/assets/a7988d6c-5db7-458d-a20d-6410d9ea148b" />
 
-i selectd the entire bar to carry the load as for the direcion of the forces, i selected it to be normal to the surface. 
+I then selected the entire bar to carry the load as for the direction of the forces, I selected it to be normal to the surface. 
 
 <img width="897" height="296" alt="image" src="https://github.com/user-attachments/assets/bbeee518-3d21-4638-834b-8b14839cdf99" />
 
