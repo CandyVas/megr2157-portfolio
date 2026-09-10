@@ -9,48 +9,77 @@ We are to design a bar which has a circular cross section using the values of th
 The first set of instruction is to parametrically design a bar in CAD with an <ins>applied direct load</ins> between **300 lbf < F < 500 lbf** and the <ins>max axial</ins> deflection of the bar being **.009 inches.** The material it will be designed with is from <ins>Aluminum</ins> with a range of Young’s Modulus from **(8.5 - 11.5) x 10^6 psi.**
 
 
-I decided to choose a direct load of 500 lbf because it is the largest load within range. Since the bar should not exceed 0.009-in deflection, if I were to choose 300 lbf, there could be a chance of it deflecting when the load reaches 500 lbf.   would be best to design it. 
+I decided to choose a direct load of 500 lbf because it is the largest load within range. Since the bar should not exceed 0.009-in deflection, if I were to choose 300 lbf, there could be a chance of it deflecting when the load reaches 500 lbf. Would be best to design it. 
 
-We are also tasked to choose from the Young’s Modulus range, and I settled on 10 x 10^6 (10,000,000) psi for the sake of convenience, same for my width of .600 inches and thickness of .300 inches. 
+We are also tasked to choose from the Young’s Modulus range, and I settled on 10 x 10^6 (10,000,000) psi for the sake of convenience, same for my radius i decided to go with .600 inches. 
 
 with that in mind then... 
 + Maximum load: F = 500 lbf
 + Aluminum modulus: E = 10 x 10^6 psi
 + Maximum axial deflection: δ = 0.009 in
-+ t = .600 inches
-+ w = .300 inches
++ r = .600 inches
 
-<img width="655" height="237" alt="image" src="https://github.com/user-attachments/assets/eedf38bf-b4b4-4d21-a27c-28da6b0ab9f7" />
+<img width="649" height="232" alt="image" src="https://github.com/user-attachments/assets/d3ba4269-38d1-49d3-ab66-b3004e503723" />
 
 Using the direct tension elongation equation in the Machinery’s Handbook, I found the length of the bar 32.4 inches. I wanted to confirm this manual calculation was correct, so using the Equations Tab in solidworks, I added all the given values I provided above. This helped me confirm that my Length of the axial deflection was indeed correct. 
 
-<img width="590" height="254" alt="image" src="https://github.com/user-attachments/assets/04654e5b-96e6-44d6-8bed-17746a8bb34e" />
+<img width="589" height="253" alt="image" src="https://github.com/user-attachments/assets/031c7e1f-9b28-4ebd-8c4d-d644f46548e2" />
 
 I used the global variables inserted into Solidworks's equation tab to then build the shape of my bar. 
 
-<img width="696" height="347" alt="image" src="https://github.com/user-attachments/assets/035dde4a-972a-4ac6-8e8a-1d3de12b4d0f" />
-<img width="487" height="183" alt="image" src="https://github.com/user-attachments/assets/0ef1ff94-d194-4d76-aa8a-408e78eda969" />
+<img width="495" height="358" alt="image" src="https://github.com/user-attachments/assets/5ce37f43-86df-4567-bfbd-88352f5daf6c" />
 
-I then extruded using the thickness 
 
-<img width="688" height="364" alt="image" src="https://github.com/user-attachments/assets/06cc74a4-963e-4116-9e76-c1275247f992" />
-<img width="566" height="282" alt="image" src="https://github.com/user-attachments/assets/6a176d2b-4eed-48a2-b02f-e744d5dd1b80" />
+I then extruded using the length 
+
+<img width="830" height="288" alt="image" src="https://github.com/user-attachments/assets/5bbd031d-dc61-49d6-b127-788a9de3a77e" />
+
 
 
 ## 2. Conduct FEA
 
-WE are then taskjed to work with solidworks stimulation, also known as FEA. 
-### a.
-### b.
-### c.
+WE are then taskjied to work with solidworks stimulation, also known as FEA. Since the bar is to be designed from Aluminum, i went into the materials and switched it to the alluminum alloy material available, alumina 
 
-(20%) Generate a deflection map in the FEA.
-(20%) Generate a von Mises Stress map.
-(5%) Check the maximum stress is lower than the strength of Aluminum (Sy = 40 ksi) and note the safety factor.
+<img width="728" height="371" alt="image" src="https://github.com/user-attachments/assets/2527add2-fda0-4e2d-8f55-984b5c718a7f" />
+
+After parametrically determining the length of the beam and assigning a material, Then i went into the "simulation" tab on the top left corner of my solidworks panel to created a new study of my design. This is meant to generate simulated values for deflection, strain, and to generate a Von Mises stress map. I kept my design on the "static' setting 
+
+I started off by applying the fixture of one end of my beam. The green marks on my canvas indicate that its been fixed, which leads me to the last step of applying the loads. 
+
+<img width="713" height="358" alt="image" src="https://github.com/user-attachments/assets/a7988d6c-5db7-458d-a20d-6410d9ea148b" />
+
+i selectd the entire bar to carry the load as for the direcion of the forces, i selected it to be normal to the surface. 
+
+<img width="897" height="296" alt="image" src="https://github.com/user-attachments/assets/bbeee518-3d21-4638-834b-8b14839cdf99" />
+
+
+
+
+
+### a. Deflection Map
+
+<img width="878" height="309" alt="image" src="https://github.com/user-attachments/assets/4f3b6be5-ab7a-463d-9acf-101e39d58364" />
+<img width="158" height="272" alt="image" src="https://github.com/user-attachments/assets/e83fe708-3e2e-41f2-bb50-b81be8920bf6" />
+
+
+### b. Von Mises
+
+I then converted it to a mesh, and began to run the simulation to generate results of my bar. 
+
+<img width="918" height="356" alt="Screenshot 2026-09-09 194407" src="https://github.com/user-attachments/assets/2a9939c3-31f3-4bfe-91df-aa2d25892af1" />
+<img width="635" height="341" alt="Screenshot 2026-09-09 195130" src="https://github.com/user-attachments/assets/f5d28454-c9e9-41c8-8450-f2fc4359b2d2" />
 
 ## 3. Design Reflection
 
 ### a.
+My hand calculation was based on a maximum axial deflection of 0.009 inches, while the maximum displacement obtained from SolidWorks FEA was 1.5e-3 (or .0015 inches). Similaraly, alluminum has a set strentgh of Sy = 40 ksi, the maximum stress I recieved on my bar was WAY below, a whopping 4.309e-02. 
+
+
+<img width="513" height="146" alt="image" src="https://github.com/user-attachments/assets/648996f3-7b50-4566-ae3c-4e7678f9c08f" />
+
+There is a drastic discrepancy in my calculations, so much so that i could have done this completely wrong. One likely source that i can come up with is something in the FEA setup, such as the  material properties, load application, or units. Since the bar has a simple circular cross section and is only being loaded via normal force, I would expect the FEA result to be fairly close to the hand calculation. The large difference suggests that some of the input values are different. However for this particular design, I would trust the hand calculation more because they are also the design limits. 
+
 ### b.
+
 
 ## 4. Lessons Learned
