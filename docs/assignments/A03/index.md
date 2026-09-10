@@ -1,4 +1,4 @@
-# A3 – [Topic]
+# A3 – [Parametric and FEA]
 
 ## Objective
 We are to design a bar which has a circular cross section using the values of the criteria given for the material, maximum deflection, and load. This is meant to determine the bar’s minimum geometry, for example its length, diameter, and weight, through parametric design while under direct tension. Only then can we verify the geometry through finite element analysis.
@@ -54,8 +54,6 @@ i selectd the entire bar to carry the load as for the direcion of the forces, i 
 
 
 
-
-
 ### a. Deflection Map
 
 <img width="878" height="309" alt="image" src="https://github.com/user-attachments/assets/4f3b6be5-ab7a-463d-9acf-101e39d58364" />
@@ -80,6 +78,13 @@ My hand calculation was based on a maximum axial deflection of 0.009 inches, whi
 There is a drastic discrepancy in my calculations, so much so that i could have done this completely wrong. One likely source that i can come up with is something in the FEA setup, such as the  material properties, load application, or units. Since the bar has a simple circular cross section and is only being loaded via normal force, I would expect the FEA result to be fairly close to the hand calculation. The large difference suggests that some of the input values are different. However for this particular design, I would trust the hand calculation more because they are also the design limits. 
 
 ### b.
+Using Peterson's Chart, the stress concentration factor (Kt) for a hole in a flat bar in tension is approximately Kt= 2.16. Using my FEA's nominal stress away from the hole (4.309×10−3 ksi), the estimated peak stress at the hole that I've determine was 9.31 * 10e-2 ksi (0.0931 ksi) which is much lower than the aluminum strength of 40 ksi. With that, i calculated the Safety Factor of 429 which technically the bar would still pass the safety factor requirement even with the addition of a pin hole. 
+
+<img width="403" height="93" alt="image" src="https://github.com/user-attachments/assets/e5ea2d0d-fda3-495d-98e0-7198eb336492" />
 
 
 ## 4. Lessons Learned
+
+One of the biggest things I learned from this project was that hand calculations and FEA results should be compared for the sake of checking accuracy. Cross referencing your results can help confirm whether or not a assignment was done correctly. This also leads me to my mistakes, which contributed to having a large difference between my calculated axial deflection and my SolidWorks FEA result. My hand calculation gave an axial deflection of 0.009 in, while the FEA gave 0.0015 in. This resulted in an 83.3% difference. This showed me that I need to pay closer attention to the material properties, boundary conditions, load application, and units in the FEA setup. Another thing I learned was that Solidworks Simulation (FEA) should be used as a verification tool, not something that you should assume to be automatically correct. It's good to compare them to hand cslculation so that they seem reasonable.
+
+Overall, I spent approximately 7 hours on this assignment. Most of the time was spent trying to understand the project and how to produce it into Solidworks.
