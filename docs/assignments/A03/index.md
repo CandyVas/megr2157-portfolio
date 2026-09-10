@@ -5,6 +5,7 @@ We are to design a bar which has a circular cross section using the values of th
 
 <img width="650" height="143" alt="image" src="https://github.com/user-attachments/assets/61611d9c-ad92-49cf-9e84-eff8cf7c3304" />
 
+[Use this link](https://drive.google.com/file/d/1855GWirkCnZJMhWWx79BQbYXRzbFPLYa/view?usp=drive_link) to download the CAD file for this assignment !
 ## 1. Parametric Design
 The first set of instruction is to parametrically design a bar in CAD with an <ins>applied direct load</ins> between **300 lbf < F < 500 lbf** and the <ins>max axial</ins> deflection of the bar being **.009 inches.** The material it will be designed with is from <ins>Aluminum</ins> with a range of Young’s Modulus from **(8.5 - 11.5) x 10^6 psi.**
 
@@ -30,8 +31,6 @@ I used the global variables inserted into Solidworks's equation tab to then buil
 <img width="495" height="358" alt="image" src="https://github.com/user-attachments/assets/5ce37f43-86df-4567-bfbd-88352f5daf6c" />
 <img width="830" height="288" alt="image" src="https://github.com/user-attachments/assets/5bbd031d-dc61-49d6-b127-788a9de3a77e" />
 
-
-
 ## 2. Conduct FEA
 
 We are then tasked to work with Solidworks stimulation, also known as FEA. Since the bar is to be designed from Aluminum, i went into the materials and switched it to the aluminum alloy material available, Alumina. 
@@ -47,7 +46,6 @@ I started off by applying the fixture of one end of my beam. The green marks on 
 I then selected the entire bar to carry the load as for the direction of the forces, I selected it to be normal to the surface. 
 
 <img width="897" height="296" alt="image" src="https://github.com/user-attachments/assets/bbeee518-3d21-4638-834b-8b14839cdf99" />
-
 
 
 ### a. Deflection Map
@@ -66,6 +64,7 @@ I then converted it to a mesh, and began to run the simulation to generate resul
 ## 3. Design Reflection
 
 ### a.
+
 My hand calculation was based on a maximum axial deflection of 0.009 inches, while the maximum displacement obtained from SolidWorks FEA was 1.5e-3 (or .0015 inches). Similaraly, alluminum has a set strentgh of Sy = 40 ksi, the maximum stress I recieved on my bar was WAY below, a whopping 4.309e-02. 
 
 
