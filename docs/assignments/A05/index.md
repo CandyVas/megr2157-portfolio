@@ -29,9 +29,14 @@ We are suppose to consider both features when designing for the yield strength a
 
 When designing, there is a safety factor of 3 to take into account, and we were instructed to neglect the weight of the motor.
 
-___Research the design of different motor mounts and place the links in an appendix on your page. Make justifiable aproximations in your design to simplify your analysis. (ie. use the beam calculations) Follow Appendix B for the initial approach to set up the design analysis.____nnnmmn
+___Research the design of different motor mounts and place the links in an appendix on your page. Make justifiable aproximations in your design to simplify your analysis. (ie. use the beam calculations) .____nnnmmn
 
+Finally, we are meant to follow Appendix B for the initial approach when setting up the design analysis
 
+<img width="226" height="349" alt="image" src="https://github.com/user-attachments/assets/3f052ea1-f82d-446e-b114-a61c2ca3060f" />
+
+> Appendix B
+> 
 ## Feature 1
 
 + a. List all the knowns and unknowns.
@@ -53,3 +58,5 @@ ___Research the design of different motor mounts and place the links in an appen
 + a. Design features on the motor mount to minimize deflection.
 + b. Where appropriate, use parametric modeling techniques to design.
 + c. Create clearance holes for the shaft and bolts (3.4 mm clearance holes for bolts).
+
+## Appendix
