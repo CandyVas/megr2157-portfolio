@@ -23,8 +23,6 @@ We are suppose to consider both features when designing for the yield strength a
 
 > [PLA vs. PETG](https://store.sunlu.com/blogs/products-knowledge/a-comprehensive-comparison-pla-vs-petg-in-3d-printing)
 
- However i will be using this [website](https://www.matweb.com/search/DataSheet.aspx?MatGUID=ab96a4c0655c4018a8785ac4031b9278) for my numbers, and here it says pla has 
-
 
 When designing, there is a safety factor of 3 to take into account, and we were instructed to neglect the weight of the motor.
 
