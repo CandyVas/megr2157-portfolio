@@ -141,7 +141,15 @@ Now that i learned from this mistake, i went back to my figure one and plugged m
 The criteria for this sketch portion was that we had to determine the dimensions from the previous problems. However in my CAD design i will definitley make the wall plate wider than the 10-mm width because we need room for the four bolts.
 
 ## 3D CAD mode
-I then created the model in solidowkrs.  
+I then created the model in solidowkrs.  I started off by going into the equations tab and addig all my calculated numbers as parameters so that everything was fixed. this is the graph i ended up with. Only until it came to designing my cad did i realize that i dumbly chose two different bases, knowing that this was an attached piece. However i was too dar into this project to want to go back and calculate for a difference so i simply just increased what i had. If i continue with this my design will fold in on itself. so i decided to double down on the initial length i had when veryfirst designing, which was 80 mm. 
+
+<img width="341" height="295" alt="image" src="https://github.com/user-attachments/assets/ad0134a6-f657-4517-95df-be0e7797cf37" />
+
+i sketched the first part in th front plane then went onward to the top plan to draw feature 2 .
+
+and as you can see, with the new implemented length of feature one, i can keep feature 2's height. which lesves me with this design 
+
+<img width="390" height="305" alt="image" src="https://github.com/user-attachments/assets/52e86cfd-4f17-405d-983c-907b81aed9e4" />
 
 
 
