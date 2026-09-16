@@ -26,8 +26,6 @@ We are suppose to consider both features when designing for the yield strength a
 
 When designing, there is a safety factor of 3 to take into account, and we were instructed to neglect the weight of the motor.
 
-___Research the design of different motor mounts and place the links in an appendix on your page. Make justifiable aproximations in your design to simplify your analysis. (ie. use the beam calculations) .____nnnmmn
-
 Finally, we are meant to follow Appendix B for the initial approach when setting up the design analysis
 
 <img width="263" height="314" alt="Screenshot 2026-09-15 231143" src="https://github.com/user-attachments/assets/f0ee0cf6-8fea-4d94-a894-55b747c27180" />
@@ -138,6 +136,9 @@ Now that i learned from this mistake, i went back to my figure one and plugged m
 
 ## Sketch
 
+ I am very aware that my hand calculations lengths do not translate well, especially since they are meant to carry this gear.If i were to solve it the way i initially did with feature one, using my predetermined lengths, maybe i wouldve gotten something out of it. However, im only really upset about feature 2 having a shorter base then its height. Im hoping that swapping the numbers will essentially be fine. 
+
+The criteria for this sketch portion was that we had to determine the dimensions from the previous problems. However in my CAD design i will definitley make the wall plate wider than the 10-mm width because we need room for the four bolts.
 
 ## 3D CAD mode
 + a. Design features on the motor mount to minimize deflection.
