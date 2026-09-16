@@ -50,34 +50,53 @@ When acessing the link  for the gear motor, luckily there are already specificat
   + Max Allowed deflection: δmax = .30 mm
   + PLA young modulus: E = 3.5 GPa
   + PLA tensile strength: σy = 58 MPa
-
+  + Length: L = 80 mm
+  
 + Some Unknowns...
   + σmax = max bending stress
   + δmax = max tip deflection
+
+
+ 
+### b. Sketch a FBD of the feature.
 
 Since we are meant to design this beam, i figured I'd use the existing features of the gear to make up my dimensions. So far i know that the size of the motor is motor 38 mm, and the length of the gearbox is 36.6. 
 
 38 + 36.5 = 74.6 mm
 
-hence, i decided I'd make the length of my beam to be 80 mm to provide some extra room when adding the mount.
- 
-### b. Sketch a FBD of the feature.
+hence, i decided I'd make the length of my beam to be 80 mm to provide some extra room when adding the mount. As for where my load will be applied, i calculated my moment around the length of the shaft which is 18 mm. Despite the ambiguity of the motor's specifications, the shaft is the only size included that mentions length, so i decided to use that as my distance. Adding it into my diagram, it gave me my calculated moment of 5400 N * mm 
 
 *pic*
 
 ### c. Model the equations and symbolically solve.
-Based off my free body diagram, the example we did in class does not resemble this project. after consulting the lecture slides, the proper deflection equation would actually be 
-<img width="545" height="293" alt="image" src="https://github.com/user-attachments/assets/a2098e67-9ac4-4fa9-a853-8f4b51603022" />
+Since the appendix b feature of the beam includes a moment, the equation i decided to go with was a moment acting upon the cantilver beam, which allows me to use the same equation we did an example on in class. 
 
-Using this information i used it to calculate symbolically 
+When it came to the step of solving symbolically, i realized that i had more unknowns than what i have previously predicted. In order to solve for both the bending stress and deflection, i would need to find out not only the length (which i calculated above) but also the base *and* height of my cross section. After consolidating with the lecture notes, it appears i did the steps correct. SInce we are technically meant to design the beam i gave myself the liberty of assigning whatever height and base since in the class example height was provided. therfore I selected a height of base = 35 mm and a height of 10 mm. Since the base is meant to be wide enough to carry the motor, i noticed that it has a diameter of 28 mm. The 35 mm size allows some leeway where it rests. The height didnt take up much thought, i assigned it a simple 10 mm
+
+so now we have 
++ Base: b = 35 mm
++ Height: h = 10 mm
+
+
+I then used my new information to solve for the minimum required beam width b. 
 
 *pic*
+
+However my chosen height proved to exceed the max deflection. i decided to double it nd make it 20 mm instead. 
+Youll also see that i tried numerically solving for ase instead of assigning it a number, however, those numbers also exceeded my max so i decided to stick with my original method. 
+
++ NEW Height: h = 20 mm
+
+### **UPDATE**
+
+this will make sense after reading feature 2, but i applied my new knowlegde of having to discover the height. So i stuck with a base of __ and kept my length 80. I discovered this was because i tried solving for base instead of height and has my equation all wrong which messed with my calculations. Using the symbolically solved equations in part b of feature 2, the NEw height i got was ___. However when i solved using 80 mm lentgh, i got a abundanley large number of a height of 58 which is unrealistic. And this is where the project confuses me because i keep going back and forth. When thinking about it realistically, a short length mount wont be able to carry something larger. However for the sake of my cslculations, i decided to proceed but with another length. When deciding this length, i simply just played with numbers on my calculator until i settled with a acceptable number, and it ended up being 20. 
+
+*NEW picture*
 
 ### d. Numerically solve for the cross-sectional geometry.   
 
 After calculating the allowable stress, i got an allowable stress of 19.33 MPa. 
 
-By this step i realized that i had more unknowns than what i have previously predicted. In order to solve for both the bending stress and deflection, i would need to find out both the base and height of my cross section. After consolidating with the lecture notes, it appears i did the steps correct however the unknown of b was th eonly thing we were meant to look for. SInce we are technically meant to design the beam i gave myself the liberty of assigning whatever height since in the class example height was provided. therfore I selected a beam height of h = 35 mm. I then used my new information to solve for the minimum required beam width b. 
 
 *pic*
 
@@ -88,7 +107,7 @@ after numerically solving, i finally was able to compare my allowed stress to my
 <img width="182" height="137" alt="Screenshot 2026-09-15 231155" src="https://github.com/user-attachments/assets/b2ee1368-e07a-4b11-a70b-3e28d8800819" />
 
 ### a. List all the knowns and unknowns.
-Similarly to the steps taken in fature one, i repeated the process of finding the knowns and unknowns necessary to solving the wall attached portion of this design. SO far 
+Similarly to the steps taken in fature one, i repeated the process of finding the knowns and unknowns necessary to solving the wall attached portion of this design. SO once again i took the liberty of asigning it anotherlength, this time 50 mm. I learned that from the last example, you need to specify one cross-sectional dimension before you can solve for the other. Therefore i went for a practical width b = 10 mm for the sake of finding required height
 
 we know...
   + Applied load: P = 300 N
@@ -96,18 +115,26 @@ we know...
   + Max Allowed deflection: δmax = .30 mm
   + PLA young modulus: E = 3.5 GPa
   + PLA tensile strength: σy = 58 MPa
-assuming we will be using the same length as before
-  + Length: L = 80 mm
+  + Length: L = 50 mm
+  + Base: h = 10 mm
 
 + Some Unknowns...
   + σmax = max bending stress
   + δmax = max tip deflection
-  + b =
-  + I = 
+  + Inertia: I = ?
 
 ### b. Sketch a FBD of the feature.
+As shown in the diagram above, i ureferenced that when designing my cantilever. I treated the wall above it as the rigid support and  the lower section of Feature 2 as the cantilever. In this design i am including my predetermined 
+
+
 ### c. Model the equations and solve them symbolically.
+
 ### d. Numerically solve for the cross-sectional geometry.
+this section asks for the cross sectional geometry, so i decided to take another approach when solving. 
+
+From here i got a maximum length of 25 mm that passed both stress and deflection requirements. SO therefore my cross section is offically 25 x 10 mm. 
+
+Now that i learned from this mistake, i went back to my figure one and plugged my discovery into these new equation 
 
 ## Sketch
 
