@@ -54,9 +54,25 @@ When acessing the link  for the gear motor, luckily there are already specificat
  
 ### b. Sketch a FBD of the feature.
 
+*pic*
 
 ### c. Model the equations and symbolically solve.
+Based off my free body diagram, the example we did in class does not resemble this project. after consulting the lecture slides, the proper deflection equation would actually be 
+<img width="545" height="293" alt="image" src="https://github.com/user-attachments/assets/a2098e67-9ac4-4fa9-a853-8f4b51603022" />
+
+Using this information i used it to calculate symbolically 
+
+*pic*
+
 ### d. Numerically solve for the cross-sectional geometry.   
+
+After calculating the allowable stress, i got an allowable stress of 19.33 MPa. 
+
+By this step i realized that i had more unknowns than what i have previously predicted. In order to solve for both the bending stress and deflection, i would need to find out both the base and height of my cross section. After consolidating with the lecture notes, it appears i did the steps correct however the unknown of b was th eonly thing we were meant to look for. SInce we are technically meant to design the beam i gave myself the liberty of assigning whatever height since in the class example height was provided. therfore I selected a beam height of h = 14 mm since i had a legth of 18, i fiured to go proportional. I then used my new information to solve for the minimum required beam width b. 
+
+*pic*
+
+after numerically solving, i finally was able to compare my allowed stress to my max, and luckily with my first attempt the design passed the stress requirement which allowed me to continue on my design. 
 
 ##  Feature 2
 
@@ -74,3 +90,4 @@ When acessing the link  for the gear motor, luckily there are already specificat
 + c. Create clearance holes for the shaft and bolts (3.4 mm clearance holes for bolts).
 
 ## Appendix
+
