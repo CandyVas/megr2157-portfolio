@@ -141,6 +141,10 @@ Now that i learned from this mistake, i went back to my figure one and plugged m
 The criteria for this sketch portion was that we had to determine the dimensions from the previous problems. However in my CAD design i will definitley make the wall plate wider than the 10-mm width because we need room for the four bolts.
 
 ## 3D CAD mode
+I then created the model in solidowkrs.  
+
+
+
 + a. Design features on the motor mount to minimize deflection.
 + b. Where appropriate, use parametric modeling techniques to design.
 + c. Create clearance holes for the shaft and bolts (3.4 mm clearance holes for bolts).
