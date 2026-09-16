@@ -30,11 +30,14 @@ ___Research the design of different motor mounts and place the links in an appen
 
 Finally, we are meant to follow Appendix B for the initial approach when setting up the design analysis
 
-<img width="226" height="349" alt="image" src="https://github.com/user-attachments/assets/3f052ea1-f82d-446e-b114-a61c2ca3060f" />
+<img width="263" height="314" alt="Screenshot 2026-09-15 231143" src="https://github.com/user-attachments/assets/f0ee0cf6-8fea-4d94-a894-55b747c27180" />
+
 
 > Appendix B
 
 ## Feature 1
+
+<img width="230" height="86" alt="Screenshot 2026-09-15 231150" src="https://github.com/user-attachments/assets/13558271-18d7-4199-93fe-4eff33092082" />
 
 ### a. List all the knowns and unknowns.
 When acessing the link  for the gear motor, luckily there are already specifications such as the diameters and sizes of the gearbox. we will add those to our knowns 
@@ -51,6 +54,12 @@ When acessing the link  for the gear motor, luckily there are already specificat
 + Some Unknowns...
   + σmax = max bending stress
   + δmax = max tip deflection
+
+Since we are meant to design this beam, i figured I'd use the existing features of the gear to make up my dimensions. So far i know that the size of the motor is motor 38 mm, and the length of the gearbox is 36.6. 
+
+38 + 36.5 = 74.6 mm
+
+hence, i decided I'd make the length of my beam to be 80 mm to provide some extra room when adding the mount.
  
 ### b. Sketch a FBD of the feature.
 
@@ -68,7 +77,7 @@ Using this information i used it to calculate symbolically
 
 After calculating the allowable stress, i got an allowable stress of 19.33 MPa. 
 
-By this step i realized that i had more unknowns than what i have previously predicted. In order to solve for both the bending stress and deflection, i would need to find out both the base and height of my cross section. After consolidating with the lecture notes, it appears i did the steps correct however the unknown of b was th eonly thing we were meant to look for. SInce we are technically meant to design the beam i gave myself the liberty of assigning whatever height since in the class example height was provided. therfore I selected a beam height of h = 14 mm since i had a legth of 18, i fiured to go proportional. I then used my new information to solve for the minimum required beam width b. 
+By this step i realized that i had more unknowns than what i have previously predicted. In order to solve for both the bending stress and deflection, i would need to find out both the base and height of my cross section. After consolidating with the lecture notes, it appears i did the steps correct however the unknown of b was th eonly thing we were meant to look for. SInce we are technically meant to design the beam i gave myself the liberty of assigning whatever height since in the class example height was provided. therfore I selected a beam height of h = 35 mm. I then used my new information to solve for the minimum required beam width b. 
 
 *pic*
 
@@ -76,10 +85,29 @@ after numerically solving, i finally was able to compare my allowed stress to my
 
 ##  Feature 2
 
-+ a. List all the knowns and unknowns.
-+ b. Sketch a FBD of the feature.
-+ c. Model the equations and solve them symbolically.
-+ d. Numerically solve for the cross-sectional geometry.
+<img width="182" height="137" alt="Screenshot 2026-09-15 231155" src="https://github.com/user-attachments/assets/b2ee1368-e07a-4b11-a70b-3e28d8800819" />
+
+### a. List all the knowns and unknowns.
+Similarly to the steps taken in fature one, i repeated the process of finding the knowns and unknowns necessary to solving the wall attached portion of this design. SO far 
+
+we know...
+  + Applied load: P = 300 N
+  + Safety Factor: N = 3
+  + Max Allowed deflection: δmax = .30 mm
+  + PLA young modulus: E = 3.5 GPa
+  + PLA tensile strength: σy = 58 MPa
+assuming we will be using the same length as before
+  + Length: L = 80 mm
+
++ Some Unknowns...
+  + σmax = max bending stress
+  + δmax = max tip deflection
+  + b =
+  + I = 
+
+### b. Sketch a FBD of the feature.
+### c. Model the equations and solve them symbolically.
+### d. Numerically solve for the cross-sectional geometry.
 
 ## Sketch
 
