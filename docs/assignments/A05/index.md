@@ -165,10 +165,12 @@ Only when it came to designing my CAD did I realize that I had dumbly chosen two
 <img width="433" height="269" alt="Screenshot 2026-09-16 170045" src="https://github.com/user-attachments/assets/8191619a-58cb-49f1-8685-401e66e8a1bd" />
 
 <img width="341" height="295" alt="Screenshot 2026-09-16 171510" src="https://github.com/user-attachments/assets/ee45e4fd-0549-487e-8d06-cda79784f9ab" />
-> In this image, it shows my attempt to draw feature 2's height of 25mm, which exceeds the 20mm length of feature 1
+
+> In this last image, you can see my attempt to draw feature 2's height of 25mm, which exceeds the 20mm length of feature 1
 
 <img width="279" height="313" alt="Screenshot 2026-09-16 172249" src="https://github.com/user-attachments/assets/deecc7bf-ff92-415b-8c52-e1380a0b3ad7" />
-> However, with the new implemented length of Feature 1, I can keep Feature 2's height, which lead me to this design
+
+> However, with the "new" implemented length of Feature 1, I can keep Feature 2's height, which lead me to this design
 
 <img width="390" height="305" alt="image" src="https://github.com/user-attachments/assets/52e86cfd-4f17-405d-983c-907b81aed9e4" />
 
