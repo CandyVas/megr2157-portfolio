@@ -2,6 +2,8 @@
 
 ## Objective
 
+If you'd like to download my CAD file, you can using [this link](https://drive.google.com/file/d/11BwIIBuTp2zlIRskjAGCmuQI-3zcJ8Bv/view?usp=drive_link)
+
 For this project, we are tasked with designing a motor mount using a [*24V DC Gear Motor](https://www.omc-stepperonline.com/brushed-24v-dc-gear-motor-3-6kg-cm-46rpm-w-99-5-1-planetary-gearbox-pa28-28245800-g100) that is meant to attach to a rigid wall under a 300 N force.
 
 <img width="448" height="132" alt="image" src="https://github.com/user-attachments/assets/2a4df698-0af7-4709-8320-374c683521bc" />
