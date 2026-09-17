@@ -151,11 +151,19 @@ and as you can see, with the new implemented length of feature one, i can keep f
 
 <img width="390" height="305" alt="image" src="https://github.com/user-attachments/assets/52e86cfd-4f17-405d-983c-907b81aed9e4" />
 
+This project took me approximatley nine hours simply because i kept going back and forth on whether or not i was doing this appropriatley. and by the time i realized the proper technique i was too far into the project to want to go back. Im aware my design is very thick cmpares to the example provided in class, but based off my hand calculations this is meant to minimize deflection. If i were to simply design this base and freely choose the legth height and base then mayhaps it wouldnt have been such a struggle, ut the assignment did say to find the cross sectional geometry and that wasnt something i could simply gloss over. However in the rubric it technically does not mention using the specifications of the provided gearbox, simply to consider the four clearance holes. I acknowledge that perhaps thats where i began to mess myself up and conclude stuff i shouldny have. And further into my conclusive [research](https://www.omc-stepperonline.com/nema-23-bracket-for-stepper-motor-and-geared-stepper-motor-alloy-steel-bracket-st-m2)  did i discver that motor mounts are indeed not meant to be so thick
 
-
-+ a. Design features on the motor mount to minimize deflection.
-+ b. Where appropriate, use parametric modeling techniques to design.
-+ c. Create clearance holes for the shaft and bolts (3.4 mm clearance holes for bolts).
 
 ## Appendix
 
+[ABS](https://www.specialchem.com/plastics/guide/acrylonitrile-butadiene-styrene-abs-plastic)
+> used to find the elasticity module for the material ABS
+
+[PLA vs. PETG](https://store.sunlu.com/blogs/products-knowledge/a-comprehensive-comparison-pla-vs-petg-in-3d-printing)
+> used to compare which would be the most optimal material to use
+
+[*24V DC Gear Motor](https://www.omc-stepperonline.com/brushed-24v-dc-gear-motor-3-6kg-cm-46rpm-w-99-5-1-planetary-gearbox-pa28-28245800-g100)
+> used to find the specifications of my designed mount
+
+[Example Motor Mount](https://www.omc-stepperonline.com/nema-23-bracket-for-stepper-motor-and-geared-stepper-motor-alloy-steel-bracket-st-m2) 
+> used for cross referencing motor mount design and its purpose 
