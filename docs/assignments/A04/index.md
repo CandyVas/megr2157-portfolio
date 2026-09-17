@@ -140,10 +140,12 @@ As shown in the diagram above, I treated the wall asmy rigid support and the low
 
 ### c. Model the equations and solve them symbolically.
 
+<img width="671" height="347" alt="image" src="https://github.com/user-attachments/assets/1a8e705e-0a61-43db-aef8-38ffb53d14b2" />
+
 ### d. Numerically solve for the cross-sectional geometry.
 I was not satisfied with my attempt in feature 1, so after looking at the rubric again did i see that we are meant to solve for the cross sectional geometry, so I decided to take another approach when solving.
 
-<img width="671" height="347" alt="image" src="https://github.com/user-attachments/assets/1a8e705e-0a61-43db-aef8-38ffb53d14b2" />
+<img width="746" height="347" alt="image" src="https://github.com/user-attachments/assets/81b47de4-066c-4148-820b-b5d8eef8ba41" />
 
 From here, I got a maximum length of 25 mm that passed both the stress and deflection requirements. Therefore, my cross section is officially 25 × 10 mm.
 
