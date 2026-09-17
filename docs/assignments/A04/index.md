@@ -44,13 +44,18 @@ When accessing the link for the gear motor, luckily there are already specificat
 
 On top of that we know...
   + Applied load: P = 300 N
+
   + Safety Factor: N = 3
+  
   + Max Allowed deflection: δmax = .30 mm
+    
   + PLA young modulus: E = 3.5 GPa
+    
   + PLA tensile strength: σy = 58 MPa
   
 Some Unknowns include...
   + σmax = max bending stress
+    
   + δmax = max tip deflection
 
 ### b. Sketch a FBD of the feature.
@@ -73,7 +78,9 @@ After consolidating with the lecture notes and the projects rubric, it appears I
 
 Some **new** knowns are...
 + Length: L = 80 mm
+  
 + Base: b = 35 mm
+  
 + Height: h = 10 mm
 
 I then used my new information to solve for the minimum required beam width b. 
@@ -120,16 +127,24 @@ So, once again, I took the liberty of assigning it another length, this time 50 
 
 We know...
 + Applied load: P = 300 N
-+  + Safety Factor: N = 3
+  
++ Safety Factor: N = 3
+  
 + Max Allowed deflection: δmax = .30 mm
+  
 + PLA young modulus: E = 3.5 GPa
+  
 + PLA tensile strength: σy = 58 MPa
+  
 + Length: L = 50 mm
+
 + Base: h = 10 mm
 
 Some Unknowns...
 + σmax = max bending stress
+  
 + δmax = max tip deflection
+
 + Inertia: I = ?
 
 ### b. Sketch a FBD of the feature.
