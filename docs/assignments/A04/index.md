@@ -186,9 +186,6 @@ I then created the model in SolidWorks. I started off by going into the equation
 
 Only when it came to designing my CAD did I realize that I had dumbly chosen two different bases, knowing that this was supposed to be an attached piece. However, I was too far into this project to want to go back and calculate for a different dimension, so I simply just increased what I had. If I continued with this, my design would fold in on itself. So, I decided to double down on the initial length I had when first designing, which was 80 mm.
 
-
-<img width="341" height="295" alt="image" src="https://github.com/user-attachments/assets/ad0134a6-f657-4517-95df-be0e7797cf37" />
-
 <img width="406" height="266" alt="Screenshot 2026-09-16 165901" src="https://github.com/user-attachments/assets/0a44c03f-1530-492a-b118-0b6c14fbc265" />
 <img width="433" height="269" alt="Screenshot 2026-09-16 170045" src="https://github.com/user-attachments/assets/8191619a-58cb-49f1-8685-401e66e8a1bd" />
 
@@ -201,8 +198,6 @@ Only when it came to designing my CAD did I realize that I had dumbly chosen two
 > However, with the "new" implemented length of Feature 1, I can keep Feature 2's height, which lead me to this design
 
 <img width="390" height="305" alt="image" src="https://github.com/user-attachments/assets/52e86cfd-4f17-405d-983c-907b81aed9e4" />
-
-<img width="390" height="305" alt="Screenshot 2026-09-16 172429" src="https://github.com/user-attachments/assets/7b56404c-bb57-4596-8786-70c8912f2593" />
 
 <img width="343" height="332" alt="Screenshot 2026-09-16 172621" src="https://github.com/user-attachments/assets/ec9c9469-1de4-4f8e-818a-d62208ce80eb" />
 
