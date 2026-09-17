@@ -43,6 +43,7 @@ When accessing the link for the gear motor, luckily there are already specificat
 <img width="211" height="140" alt="image" src="https://github.com/user-attachments/assets/02d84be6-e697-4aab-897f-6e0abd282776" />
 
 On top of that we know...
+
   + Applied load: P = 300 N
 
   + Safety Factor: N = 3
@@ -54,6 +55,7 @@ On top of that we know...
   + PLA tensile strength: σy = 58 MPa
   
 Some Unknowns include...
+
   + σmax = max bending stress
     
   + δmax = max tip deflection
@@ -77,6 +79,7 @@ When it came to the step of solving symbolically, I realized that I had more unk
 After consolidating with the lecture notes and the projects rubric, it appears I did the steps correctly. Since we are technically meant to design the beam, I gave myself the liberty of assigning whatever height and base I wanted, since in the class example, the height was provided. Therefore, I selected a base of 35 mm and a height of 10 mm. Since the base is meant to be wide enough to carry the motor, I noticed that it has a diameter of 28 mm. The 35 mm size allows some leeway where the motor rests. The height didn't take up much thought, so I assigned it a simple 10 mm.
 
 Some **new** knowns are...
+
 + Length: L = 80 mm
   
 + Base: b = 35 mm
@@ -126,6 +129,7 @@ So, once again, I took the liberty of assigning it another length, this time 50 
 > **EDIT** As I'm tidying up my document, I realize that here is another place I made a mistake by choosing another base length, knowing that mount features 1 and 2 are meant to attach.
 
 We know...
+
 + Applied load: P = 300 N
   
 + Safety Factor: N = 3
@@ -141,6 +145,7 @@ We know...
 + Base: h = 10 mm
 
 Some Unknowns...
+
 + σmax = max bending stress
   
 + δmax = max tip deflection
