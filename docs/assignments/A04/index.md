@@ -184,7 +184,7 @@ I then created the model in SolidWorks. I started off by going into the equation
 
 <img width="503" height="157" alt="Screenshot 2026-09-16 165503" src="https://github.com/user-attachments/assets/f5f769b8-29f7-4b82-97db-1845f28f0668" />
 
-Only when it came to designing my CAD did I realize that I had dumbly chosen two different bases, knowing that this was supposed to be an attached piece. However, I was too far into this project to want to go back and calculate for a different dimension, so I simply just increased what I had. If I continued with this, my design would fold in on itself. So, I decided to double down on the initial length I had when first designing, which was 80 mm.
+Only when it came to designing my CAD did I realize that I had chosen two different bases, knowing that this was supposed to be an attached piece. However, I was too far into this project to want to go back and calculate for a different dimension, so I simply just increased what I had. If I continued with this, my design would fold in on itself. So, I decided to double down on the initial length I had when first designing, which was 80 mm.
 
 <img width="406" height="266" alt="Screenshot 2026-09-16 165901" src="https://github.com/user-attachments/assets/0a44c03f-1530-492a-b118-0b6c14fbc265" />
 <img width="433" height="269" alt="Screenshot 2026-09-16 170045" src="https://github.com/user-attachments/assets/8191619a-58cb-49f1-8685-401e66e8a1bd" />
@@ -219,9 +219,7 @@ This project took me approximately nine hours, simply because I kept going back 
 
 I'm aware my design is very thick compared to the example provided in class, but based on my hand calculations, this is meant to minimize deflection. If I were to simply design this base and freely choose the length, height, and base, then maybe it wouldn't have been such a struggle. But the assignment did say to find the cross-sectional geometry, and that wasn't something I could simply gloss over.
 
-However, in the rubric, it technically does not mention using the specifications of the provided gearbox, simply to consider the four clearance holes. I acknowledge that perhaps that's where I began to mess myself up and started concluding things I shouldn't have. And further into my [research](https://www.omc-stepperonline.com/nema-23-bracket-for-stepper-motor-and-geared-stepper-motor-alloy-steel-bracket-st-m2), did I discover that motor mounts are indeed not meant to be this thick.
-
-In the future, before I blindly decide to go straight into the math, I should really consider what exactly I'm designing first. This should be pretty obvious for engineers, however, I get pretty blindsided when it comes to class assignments.
+However, in the rubric, it technically does not mention using the specifications of the provided gearbox, simply to consider the four clearance holes. I acknowledge that perhaps that's where I began to mess myself up and started concluding things I shouldn't have. And further into my [research](https://www.omc-stepperonline.com/nema-23-bracket-for-stepper-motor-and-geared-stepper-motor-alloy-steel-bracket-st-m2), did I discover that motor mounts are indeed not meant to be this thick. In the future, before I blindly decide to go straight into the math, I should really consider what exactly I'm designing first.
 
 ## Appendix
 
