@@ -60,8 +60,8 @@ Since we are meant to design this beam, I figured I'd use the existing features 
 
 Hence, I decided I'd make the length of my beam 80 mm to provide some extra room when adding the mount. As for where my load will be applied, I calculated my moment around the length of the shaft, which is 18 mm. Despite the ambiguity of the motor's specifications, the shaft is the only size included that mentions length, so I decided to use that as my distance.
 
+<img width="539" height="143" alt="image" src="https://github.com/user-attachments/assets/43c6dbc9-61b3-401a-ad8b-a509fcfb749a" />
 
-*pic*
 
 ### c. Model the equations and symbolically solve.
 Since the Appendix B feature of the beam includes a moment, the equation I decided to go with was a moment acting upon the cantilever beam. This allows me to use the same equation we did an example on in class.
@@ -77,7 +77,18 @@ so some new knowns now we have are...
 
 I then used my new information to solve for the minimum required beam width b. 
 
-*pic*
+<img width="527" height="201" alt="image" src="https://github.com/user-attachments/assets/a56b817d-2ace-4b22-a331-cc8288b2c530" />
+
+> You'll notice that in my symbolic solving versus numerical one, I have the equation for height here, but I tried solving for base later. Further into the document you'll find that I was doing the wrong math, so I erased my equation for base and replaced it with an attempt to find height.
+
+
+### d. Numerically solve for the cross-sectional geometry.   
+
+After calculating for the allowable stress, I got 19.33 MPa.
+
+<img width="668" height="339" alt="image" src="https://github.com/user-attachments/assets/8b75edba-a612-4a82-b189-5dc7f7ac1825" />
+
+This helped me to finally able to compare my allowable stress to my maximum stress. Luckily, with my first attempt, the design passed the stress requirement, which let me continue on with my design.
 
 However, my chosen height proved to exceed the maximum allowed deflection. I decided to double it and make it 20 mm instead.
 
@@ -87,22 +98,13 @@ You'll also see that I tried numerically solving for the base instead of assigni
 
 ### **UPDATE**
 
-This will make more sense after reading Feature 2, but I applied my new knowledge of having to discover the height. I stuck with a base of 35 mm and kept my length at 80 mm. I discovered that this was because I tried solving for the base instead of the height, and I had my equation all wrong, which messed with my calculations.
+> This will make more sense after reading Feature 2, but I applied my new knowledge of having to discover the height. I stuck with a base of 35 mm and kept my length at 80 mm. I discovered that this was because I tried solving for the base instead of the height, and I had my equation all wrong, which messed with my calculations.
 
-Using the symbolically solved equations in Part B of Feature 2, the new height I got was 24 mm. However, when I solved using an 80 mm length, I got an abundantly large required height of 58 mm, which seemed unrealistic.
+> Using the symbolically solved equations in Part B of Feature 2, the new height I got was 24 mm. However, when I solved using an 80 mm length, I got an abundantly large required height of 58 mm, which seemed unrealistic.
 
-This is where the project started to confuse me because I kept going back and forth between the different dimensions. When thinking about it realistically, a short-length mount wouldn't necessarily be able to carry something larger because of how the load and moment would act on the beam. However, for the sake of my calculations, I decided to proceed but with another length. When deciding this length, I simply played with different numbers on my calculator until I settled with an acceptable number, and it ended up being 20 mm.
+> This is where the project started to confuse me because I kept going back and forth between the different dimensions. When thinking about it realistically, a short-length mount wouldn't necessarily be able to carry something larger because of how the load and moment would act on the beam. However, for the sake of my calculations, I decided to proceed but with another length. When deciding this length, I simply played with different numbers on my calculator until I settled with an acceptable number, and it ended up being 20 mm.
 
-*NEW picture*
-
-### d. Numerically solve for the cross-sectional geometry.   
-
-After calculating for the allowable stress, I got 19.33 MPa.
-
-
-*pic*
-
-This helped me to finally able to compare my allowable stress to my maximum stress. Luckily, with my first attempt, the design passed the stress requirement, which let me continue on with my design.
+<img width="668" height="350" alt="image" src="https://github.com/user-attachments/assets/2e50806d-a761-4d4f-8cd4-f79d8a3af9f9" />
 
 ##  Feature 2
 
@@ -113,7 +115,7 @@ Similarly to the steps taken in Feature 1, I repeated the process of finding the
 
 So, once again, I took the liberty of assigning it another length, this time 50 mm. I learned from the last example that you need to specify one cross-sectional dimension before you can solve for the other. Therefore, I went with a practical width of b = 10 mm for the sake of finding the required height.
 
-**EDIT** As I'm tidying up my document, I realize that here is another place I made a mistake by choosing another base length, knowing that mount features 1 and 2 are meant to attach.
+> **EDIT** As I'm tidying up my document, I realize that here is another place I made a mistake by choosing another base length, knowing that mount features 1 and 2 are meant to attach.
 
 we know...
   + Applied load: P = 300 N
@@ -131,6 +133,7 @@ we know...
 
 ### b. Sketch a FBD of the feature.
 
+<img width="605" height="331" alt="image" src="https://github.com/user-attachments/assets/9c0d730d-6510-465a-9f92-0efd4015b90e" />
 
 As shown in the diagram above, I treated the wall asmy rigid support and the lower section of Feature 2 as the cantilever.
 
@@ -139,7 +142,7 @@ As shown in the diagram above, I treated the wall asmy rigid support and the low
 ### d. Numerically solve for the cross-sectional geometry.
 I was not satisfied with my attempt in feature 1, so after looking at the rubric again did i see that we are meant to solve for the cross sectional geometry, so I decided to take another approach when solving.
 
-*pic*
+<img width="671" height="347" alt="image" src="https://github.com/user-attachments/assets/1a8e705e-0a61-43db-aef8-38ffb53d14b2" />
 
 From here, I got a maximum length of 25 mm that passed both the stress and deflection requirements. Therefore, my cross section is officially 25 × 10 mm.
 
@@ -147,9 +150,11 @@ Now that I learned from this mistake, I went back to Figure 1 and plugged my dis
 
 ## Sketch
 
-I am very aware that my hand-calculated results do not translate well, especially since they are meant to carry this gear. If I were to solve it the way I initially did with Feature 1, using my predetermined lengths, maybe I would have gotten something out of it. However, I'm only really upset about Feature 2 having a shorter base than its height. I'm hoping that swapping the numbers will essentially be fine.
+I am very aware that my hand-calculated results do not translate well, especially since they are meant to carry this gear. If I were to solve it the way I initially did with Feature 1, using my predetermined lengths, maybe I would have gotten something out of it. However, I'm only really upset about them not having consistent bases.
 
-The criteria for this sketch portion was that we had to determine the dimensions from the previous problems. However, in my CAD design, I will definitely make the wall plate wider than the 10 mm width because we need room for the four bolts.
+<img width="468" height="355" alt="image" src="https://github.com/user-attachments/assets/fae99b59-bf97-4bd6-ba41-e9a6b60af8a7" />
+
+The criteria for this sketch portion was that we had to determine the dimensions from the previous problems. However, in my CAD design, I will definitely make the length in feature one to be longer to accommodate feature 2's size. As well as fix both bases to be a consistent 35 mm. 
 
 ## 3D CAD mode
 I then created the model in SolidWorks. I started off by going into the equations tab and adding all my calculated numbers as parameters so that everything was fixed. This is the graph I ended up with.
