@@ -12,6 +12,38 @@ Detail design a bracket, using the concept design in Appendix B, to hold a horiz
 
 Design using a safety factor of 4 and applied load in between 500 lbf < F < 800 lbf. Choose one of three metals, aluminum 6061 T6, Steel (ASTM A36), or Titanium (Ti-6Al-V4). Furthermore, state assumptions and approximations about the design in order to use fundamental strength of materials analysis. For example, use the proper stress analysis and deflection analysis where appropriate. Assume no failure due to direct shear stress. 
 
+
+We know...
+
+  + Applied load: P = 300 N
+
+  + Safety Factor: N = 3
+  
+  + Max Allowed deflection: δmax = .30 mm
+    
+  + PLA young modulus: E = 3.5 GPa
+    
+  + PLA tensile strength: σy = 58 MPa
+
+
+
+## 1. Stress Analysis
+
+## 2. Stiffness Analysis
+
+## 3. Multiview Sketches 
+
+
+## 4. Lessons Learned 
+
+### a. Governing failure mode
+
+### b. Error propagation 
+
+### c. Assumption sensitivity
+
+
+
 ## Appendix
 
 [ABS](https://www.specialchem.com/plastics/guide/acrylonitrile-butadiene-styrene-abs-plastic)
