@@ -8,26 +8,47 @@ Detail design a bracket, using the concept design in Appendix B, to hold a horiz
 “b” is about the closest fits that can be expected to run freely
 “c” is where accurate location and minimum play is desired
 
-<img width="1338" height="611" alt="image" src="https://github.com/user-attachments/assets/2a063384-5979-40a3-b3f2-b59eea513e41" />
+<img width="398" height="305" alt="Screenshot 2026-09-22 205002" src="https://github.com/user-attachments/assets/3a990a89-adae-4d6f-9bb4-8b8a3df7f058" />
+
+> appendix b
+
+
 
 Design using a safety factor of 4 and applied load in between 500 lbf < F < 800 lbf. Choose one of three metals, aluminum 6061 T6, Steel (ASTM A36), or Titanium (Ti-6Al-V4). Furthermore, state assumptions and approximations about the design in order to use fundamental strength of materials analysis. For example, use the proper stress analysis and deflection analysis where appropriate. Assume no failure due to direct shear stress. 
 
+<img width="1338" height="611" alt="image" src="https://github.com/user-attachments/assets/2a063384-5979-40a3-b3f2-b59eea513e41" />
 
-We know...
 
-  + Applied load: P = 300 N
+## 1. Stress Analysis
 
-  + Safety Factor: N = 3
-  
-  + Max Allowed deflection: δmax = .30 mm
-    
-  + PLA young modulus: E = 3.5 GPa
-    
+ For each dimension or feature a FBD is to be generated and stress analysis is to be completed. See Appendix A as an example of sizing the frame support for the strap. In order to design the correct dimensions, use the reaction forces from one dimension(s) as the applied loads of the next dimension(s) until a feature that connects to the T beam.(There are five different analyses to conduct) For each dimension/area of a feature complete a strength analysis. The point system below is for each analysis complete on a feature.
+
++ a. Known values
+
+  + Applied load: P =  500 lbf < F < 800 lbf
+
+  + Safety Factor: N = 4
+
   + PLA tensile strength: σy = 58 MPa
 
 
 
-## 1. Stress Analysis
++ b. Unknown values
+
+  + Applied load: P =  500 lbf < F < 800 lbf
+
+  + Safety Factor: N = 4
+
+  + PLA tensile strength: σy = 58 MPa
+
+
+(.8%) State the assumptions
+
++ Assume no failure due to direct shear stress.
+
+(1.6%) Draw a Free Body Diagram of the feature
+(4%) Model the algebraic solution
+(.8%) Calculate the numerical solution
 
 ## 2. Stiffness Analysis
 
