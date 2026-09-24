@@ -21,36 +21,36 @@ Design using a safety factor of 4 and applied load in between 500 lbf < F < 800 
 
 ## 1. Stress Analysis
 
- For each dimension or feature a FBD is to be generated and stress analysis is to be completed. See Appendix A as an example of sizing the frame support for the strap. In order to design the correct dimensions, use the reaction forces from one dimension(s) as the applied loads of the next dimension(s) until a feature that connects to the T beam.(There are five different analyses to conduct) For each dimension/area of a feature complete a strength analysis. The point system below is for each analysis complete on a feature.
+The material I decided to go with was steel as i The yield stress of ASTM A36 steel is 36,000 psi, 250 MPa. Since the force was given in lbf we will stick wwith the psi units so it will convert correctly. Since we are meant to design applied load in between 500 lbf < F < 800 lbf, i decided to choose the medium allowable strength of 650 lbf. Using the available information, i make sure to list my knowns and unknowns in order to solve for a stress analysis. SInce the Design consist of 5 parts, i will be generating Free Body DIagrams for each dimension accordibgly to the stress analysis being done. Since we easily have the yeild strength and safety factor, we can easily calculate the allowed stress by dividg 36000 by 4m which gives us 9,000 psi. 
 
-+ a. Known values
+One thing i made sure to do was that is a stumled along something with inconsistent units, i made sure to convert it before it got into my mathematical solving. 
 
-  + Applied load: P =  500 lbf < F < 800 lbf
+In the process of solving these i recognized that we arepretty much solving this with no dimensions. Therefore i took the liberty of making up numbers and start with unknown dimensions to eventually solve for the minimum dimensions needed to survive the load. 
 
-  + Safety Factor: N = 4
+### Feature A
+<img width="464" height="262" alt="Screenshot 2026-09-24 050722" src="https://github.com/user-attachments/assets/09cdf869-f499-4dd3-b5ce-295383e18c10" />
 
-  + PLA tensile strength: σy = 58 MPa
+### Feature B
+<img width="446" height="258" alt="Screenshot 2026-09-24 050736" src="https://github.com/user-attachments/assets/51b86982-a029-45a2-b252-124161cd00c5" />
 
+### Feature C
+For feaure C, in the appendix A it appears that the cylinder is potruding/ appears to be loger than the rest f the design.SO i reduced the assumed length of 2 inches down to 1.5 in. I also wasnt condient with my previous attempt at solving because i ended up with a potential of two areas ad i didnt know which one to decide more valid than the other. i figured it would be the first calculation because it doesnt use the hypothetical width i assigned it, but that wouldnt explain why the area is less than the thickness we solved numerically. 
 
+<img width="467" height="252" alt="Screenshot 2026-09-24 050748" src="https://github.com/user-attachments/assets/368d610f-0eb2-4d74-a921-edbe2b484e45" />
 
-+ b. Unknown values
+### Feature D
+Same goes here for feature D, i figured id keep shrinking it by incriments so i have settled on a lenth of 1 inch. I essemtiay followed th same steps as C on E and D. the mist idficuly part was parts a b and c because of the many unknowns. they essentially act as setting stone for the future problems
 
-  + Applied load: P =  500 lbf < F < 800 lbf
+I'm the previous Fbd i had 2 forces visible, but since both features D and E appear on two sides of the design, i decided to half the load which ca be justified by the symmetrical fixes. 
 
-  + Safety Factor: N = 4
+<img width="467" height="257" alt="Screenshot 2026-09-24 050800" src="https://github.com/user-attachments/assets/66a6d7a2-f6aa-4643-84b2-93316a22e9f7" />
 
-  + PLA tensile strength: σy = 58 MPa
+### Feature E
+<img width="462" height="257" alt="Screenshot 2026-09-24 050809" src="https://github.com/user-attachments/assets/8255504b-b415-48c9-84db-63092bfd4a5a" />
 
-
-(.8%) State the assumptions
-
-+ Assume no failure due to direct shear stress.
-
-(1.6%) Draw a Free Body Diagram of the feature
-(4%) Model the algebraic solution
-(.8%) Calculate the numerical solution
-
+ 
 ## 2. Stiffness Analysis
+
 
 ## 3. Multiview Sketches 
 
@@ -67,14 +67,3 @@ Design using a safety factor of 4 and applied load in between 500 lbf < F < 800 
 
 ## Appendix
 
-[ABS](https://www.specialchem.com/plastics/guide/acrylonitrile-butadiene-styrene-abs-plastic)
-> Used to find the elasticity module for the material ABS
-
-[PLA vs. PETG](https://store.sunlu.com/blogs/products-knowledge/a-comprehensive-comparison-pla-vs-petg-in-3d-printing)
-> Used to compare which would be the most optimal material to use
-
-[*24V DC Gear Motor](https://www.omc-stepperonline.com/brushed-24v-dc-gear-motor-3-6kg-cm-46rpm-w-99-5-1-planetary-gearbox-pa28-28245800-g100)
-> Used to find the specifications of my designed mount
-
-[Example Motor Mount](https://www.omc-stepperonline.com/nema-23-bracket-for-stepper-motor-and-geared-stepper-motor-alloy-steel-bracket-st-m2) 
-> Used for cross referencing motor mount design and its purpose 
