@@ -51,6 +51,21 @@ I'm the previous Fbd i had 2 forces visible, but since both features D and E app
  
 ## 2. Stiffness Analysis
 
+### Feature A
+<img width="326" height="180" alt="image" src="https://github.com/user-attachments/assets/3eaccd74-19f8-4222-a761-17d9f96597a0" />
+
+### Feature B
+<img width="323" height="164" alt="image" src="https://github.com/user-attachments/assets/9360153c-8299-4bf8-a136-d750c10969e6" />
+
+### Feature C
+<img width="327" height="168" alt="image" src="https://github.com/user-attachments/assets/ae93d21b-f326-46f7-8f9b-a8a280c6db85" />
+
+### Feature D
+<img width="326" height="179" alt="image" src="https://github.com/user-attachments/assets/53f1b40b-bacc-4cf2-abfa-6d0e16c88b33" />
+
+### Feature E
+<img width="326" height="170" alt="image" src="https://github.com/user-attachments/assets/2fee5a58-8e7d-4cd6-9802-da384ed6a6e4" />
+
 
 ## 3. Multiview Sketches 
 
