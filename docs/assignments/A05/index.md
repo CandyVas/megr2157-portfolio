@@ -12,8 +12,6 @@ Detail design a bracket, using the concept design in Appendix B, to hold a horiz
 
 > appendix b
 
-
-
 Design using a safety factor of 4 and applied load in between 500 lbf < F < 800 lbf. Choose one of three metals, aluminum 6061 T6, Steel (ASTM A36), or Titanium (Ti-6Al-V4). Furthermore, state assumptions and approximations about the design in order to use fundamental strength of materials analysis. For example, use the proper stress analysis and deflection analysis where appropriate. Assume no failure due to direct shear stress. 
 
 <img width="1338" height="611" alt="image" src="https://github.com/user-attachments/assets/2a063384-5979-40a3-b3f2-b59eea513e41" />
@@ -69,16 +67,15 @@ I'm the previous Fbd i had 2 forces visible, but since both features D and E app
 
 ## 3. Multiview Sketches 
 
+<img width="487" height="292" alt="image" src="https://github.com/user-attachments/assets/146a9914-5f7e-4f8c-b507-6aea935df421" />
 
 ## 4. Lessons Learned 
 
 ### a. Governing failure mode
+For Feature E, stress governed the design. The stress analysis required a minimum height of 0.329 in, while the stiffness analysis required .0024 in to keep the deflection below 0.005 in. Perhaps that was due to an error on my end of the work for it to come out so drastically different. However if we were to work off these numbers alone, the stress requirement would control the final dimension. This is because they are nowhere near close, and since the stress requirement is larger then that governs final dimension. 
 
 ### b. Error propagation 
+I struggled with this throuhout the assignment, especially because the load is transferred from one feature to the next and i had a difficult time making assumptions for each feature due to the fact they all connected. This is particularly true with the reaction forces from the symmetric load split which was carried throughout the features. An early mistake of using the full 650-lbf load instead of the 325-lbf load on each symmetric side would have trickled down into Features B–E, or vise versa. This would have increased their calculations and make them invalid.
 
 ### c. Assumption sensitivity
-
-
-
-## Appendix
-
+One important assumption was the equal load distribution between the two symmetric sides. If the strap load were not centered, one side could carry more than 325 lbf. Because of the equation M = PL, the increased load would increase the bending moment and required section modulus, resulting in larger required dimensions. Therefore, the symmetry assumption has a direct effect on the final bracket dimensions.
