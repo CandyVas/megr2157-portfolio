@@ -19,11 +19,13 @@ Design using a safety factor of 4 and applied load in between 500 lbf < F < 800 
 
 ## 1. Stress Analysis
 
-The material I decided to go with was steel as i The yield stress of ASTM A36 steel is 36,000 psi, 250 MPa. Since the force was given in lbf we will stick wwith the psi units so it will convert correctly. Since we are meant to design applied load in between 500 lbf < F < 800 lbf, i decided to choose the medium allowable strength of 650 lbf. Using the available information, i make sure to list my knowns and unknowns in order to solve for a stress analysis. SInce the Design consist of 5 parts, i will be generating Free Body DIagrams for each dimension accordibgly to the stress analysis being done. Since we easily have the yeild strength and safety factor, we can easily calculate the allowed stress by dividg 36000 by 4m which gives us 9,000 psi. 
+The material I decided to go with was steel, as the yield stress of ASTM A36 steel is 36,000 psi, or 250 MPa. Since the force was given in lbf, we will stick with the psi units so everything will convert correctly. Since we are meant to design for an applied load between 500 lbf < F < 800 lbf, I decided to choose the medium allowable strength of 650 lbf.
 
-One thing i made sure to do was that is a stumled along something with inconsistent units, i made sure to convert it before it got into my mathematical solving. 
+Using the available information, I made sure to list my knowns and unknowns in order to solve for a stress analysis. Since the design consists of 5 parts, I will be generating Free Body Diagrams for each dimension according to the stress analysis being done. Since we are given the yield strength and safety factor, we can easily calculate the allowable stress by dividing 36,000 by 4, which gives us 9,000 psi. 
 
-In the process of solving these i recognized that we arepretty much solving this with no dimensions. Therefore i took the liberty of making up numbers and start with unknown dimensions to eventually solve for the minimum dimensions needed to survive the load. 
+One thing I made sure to do was that if I stumbled along something with inconsistent units, I made sure to convert it before it got into my mathematical solving.
+
+In the process of solving these, I recognized that there were no dimensions given. Therefore, I took the liberty of making up numbers and starting with unknown dimensions to eventually solve for the minimum dimensions needed to withstand the load.
 
 ### Feature A
 <img width="464" height="262" alt="Screenshot 2026-09-24 050722" src="https://github.com/user-attachments/assets/09cdf869-f499-4dd3-b5ce-295383e18c10" />
@@ -32,14 +34,17 @@ In the process of solving these i recognized that we arepretty much solving this
 <img width="446" height="258" alt="Screenshot 2026-09-24 050736" src="https://github.com/user-attachments/assets/51b86982-a029-45a2-b252-124161cd00c5" />
 
 ### Feature C
-For feaure C, in the appendix A it appears that the cylinder is potruding/ appears to be loger than the rest f the design.SO i reduced the assumed length of 2 inches down to 1.5 in. I also wasnt condient with my previous attempt at solving because i ended up with a potential of two areas ad i didnt know which one to decide more valid than the other. i figured it would be the first calculation because it doesnt use the hypothetical width i assigned it, but that wouldnt explain why the area is less than the thickness we solved numerically. 
+For Feature C, in Appendix A, it appears that the cylinder is protruding and appears to be longer than the rest of the design. So, I reduced the assumed length of 2 inches down to 1.5 inches.
+
+I also wasn't confident with my previous attempt at solving because I ended up with a potential of two areas, and I didn't know which one to decide was more valid than the other. I figured it would be the first calculation because it doesn't use the hypothetical width I assigned it, but that wouldn't explain why the area is less than the thickness we solved numerically.
+
 
 <img width="467" height="252" alt="Screenshot 2026-09-24 050748" src="https://github.com/user-attachments/assets/368d610f-0eb2-4d74-a921-edbe2b484e45" />
 
 ### Feature D
-Same goes here for feature D, i figured id keep shrinking it by incriments so i have settled on a lenth of 1 inch. I essemtiay followed th same steps as C on E and D. the mist idficuly part was parts a b and c because of the many unknowns. they essentially act as setting stone for the future problems
+The same goes here for Feature D. I figured I would keep shrinking it by increments, so I have settled on a length of 1 inch. I essentially followed the same steps as C on E and D. The most difficult part was Parts A, B, and C because of the many unknowns. They essentially act as stepping stones for the future problems.
 
-I'm the previous Fbd i had 2 forces visible, but since both features D and E appear on two sides of the design, i decided to half the load which ca be justified by the symmetrical fixes. 
+In the previous FBD, I had two forces visible, but since both Features D and E appear on two sides of the design, I decided to halve the load, which can be justified by the symmetrical features. Therefore, each side would experience half of the total 650-lbf load which gives 325 lbf, which allows me to use the appropriate applied loads. 
 
 <img width="467" height="257" alt="Screenshot 2026-09-24 050800" src="https://github.com/user-attachments/assets/66a6d7a2-f6aa-4643-84b2-93316a22e9f7" />
 
@@ -48,6 +53,7 @@ I'm the previous Fbd i had 2 forces visible, but since both features D and E app
 
  
 ## 2. Stiffness Analysis
+For the stiffness analysis, we were given a maximum allowable deflection of 0.005 in. We were also given the same assumption that shear shear deflections were negligible. Based off the load distributions i saw fit, i assigned them their equation to solve for deflection as well as moment o inertia. 
 
 ### Feature A
 <img width="326" height="180" alt="image" src="https://github.com/user-attachments/assets/3eaccd74-19f8-4222-a761-17d9f96597a0" />
@@ -67,15 +73,17 @@ I'm the previous Fbd i had 2 forces visible, but since both features D and E app
 
 ## 3. Multiview Sketches 
 
+For the multiview sketches, I used the dimensions calculated from the stress and stiffness analyses above and applied them to my draw design. The multiview helped visualize the bracket from different directions and to ensure that the dimensions were consistent. 
+
 <img width="487" height="292" alt="image" src="https://github.com/user-attachments/assets/146a9914-5f7e-4f8c-b507-6aea935df421" />
 
 ## 4. Lessons Learned 
 
 ### a. Governing failure mode
-For Feature E, stress governed the design. The stress analysis required a minimum height of 0.329 in, while the stiffness analysis required .0024 in to keep the deflection below 0.005 in. Perhaps that was due to an error on my end of the work for it to come out so drastically different. However if we were to work off these numbers alone, the stress requirement would control the final dimension. This is because they are nowhere near close, and since the stress requirement is larger then that governs final dimension. 
+For Feature E, stress governed the design. The stress analysis required a minimum height of 0.329 in, while the stiffness analysis required .0024 in to keep the deflection below 0.005 in. Perhaps this was due to an error on my end of the work for it to come out so drastically different. However, if we were to work off these numbers alone, the stress requirement would control the final dimension. This is because the two requirements are nowhere near close, and since the stress requirement is larger, it governs the final dimension.
 
 ### b. Error propagation 
-I struggled with this throuhout the assignment, especially because the load is transferred from one feature to the next and i had a difficult time making assumptions for each feature due to the fact they all connected. This is particularly true with the reaction forces from the symmetric load split which was carried throughout the features. An early mistake of using the full 650-lbf load instead of the 325-lbf load on each symmetric side would have trickled down into Features B–E, or vise versa. This would have increased their calculations and make them invalid.
+I struggled with this throughout the assignment, especially because the load is transferred from one feature to the next, and i had a difficult time making assumptions for each feature due to the fact that they all connected. This is particularly true with the reaction forces from the symmetric load split, which were carried throughout the features. An early mistake of using the full 650-lbf load instead of the 325-lbf load on each symmetric side would have trickled down into Features B–E, or vice versa. This would have increased their calculated loads and moments and could have made the final dimensions invalid.
 
 ### c. Assumption sensitivity
 One important assumption was the equal load distribution between the two symmetric sides. If the strap load were not centered, one side could carry more than 325 lbf. Because of the equation M = PL, the increased load would increase the bending moment and required section modulus, resulting in larger required dimensions. Therefore, the symmetry assumption has a direct effect on the final bracket dimensions.
