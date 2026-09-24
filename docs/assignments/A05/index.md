@@ -34,7 +34,7 @@ In the process of solving these, I recognized that there were no dimensions give
 <img width="446" height="258" alt="Screenshot 2026-09-24 050736" src="https://github.com/user-attachments/assets/51b86982-a029-45a2-b252-124161cd00c5" />
 
 ### Feature C
-For Feature C, in Appendix A, it appears that the cylinder is protruding and appears to be longer than the rest of the design. So, I reduced the assumed length of 2 inches down to 1.5 inches.
+For Feature C, in the 3d rendering we were given, it appears that the cylinder is protruding and looks to be longer than the rest of the design. So, I reduced the assumed length of 2 inches down to 1.5 inches.
 
 I also wasn't confident with my previous attempt at solving because I ended up with a potential of two areas, and I didn't know which one to decide was more valid than the other. I figured it would be the first calculation because it doesn't use the hypothetical width I assigned it, but that wouldn't explain why the area is less than the thickness we solved numerically.
 
@@ -42,7 +42,7 @@ I also wasn't confident with my previous attempt at solving because I ended up w
 <img width="467" height="252" alt="Screenshot 2026-09-24 050748" src="https://github.com/user-attachments/assets/368d610f-0eb2-4d74-a921-edbe2b484e45" />
 
 ### Feature D
-The same goes here for Feature D. I figured I would keep shrinking it by increments, so I have settled on a length of 1 inch. I essentially followed the same steps as C on E and D. The most difficult part was Parts A, B, and C because of the many unknowns. They essentially act as stepping stones for the future problems.
+The same goes here for Feature D. I figured I would keep shrinking the length by small increments as they appear to gradually decrease in size. I essentially followed the same steps as C on E and D. The most difficult part was Parts A, B, and C because of the many unknowns. They essentially act as stepping stones for the future problems.
 
 In the previous FBD, I had two forces visible, but since both Features D and E appear on two sides of the design, I decided to halve the load, which can be justified by the symmetrical features. Therefore, each side would experience half of the total 650-lbf load which gives 325 lbf, which allows me to use the appropriate applied loads. 
 
