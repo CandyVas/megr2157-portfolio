@@ -3,12 +3,20 @@
 ## Parametric Design
 _For each feature, determine the appropriate dimension from the last assignment. Generate a parametrically designed solid model based on either the stiffness or strength analysis from the previous assignment. Show images of each designed dimension as a parameter in CAD._
 
-Sin w wr givn th option to design a solid modelbased on either the stiffness or strength analysis from thr previous assignmeny, i decided to go with stress. I decided on stress because of the large discrepencies i  had on my stiffness analysis. i had my range went from .0028 to .490 which was not ideal if the purpose fo this assignment is to design. The features would come out too thin compared to another 
+Sin w wr givn th option to design a solid modelbased on either the stiffness or strength analysis from thr previous assignmeny, i decided to go with stress. I decided on stress because of the large discrepencies i  had on my stiffness analysis. i had my range went from .0028 to .490 which was not ideal if the purpose fo this assignment is to design. The features would come out too thin compared to another. When inputting these values into solidowrks, i ensured that the setting was set to IPS so there would be no discrepencies in conveting since all my solved answers r in inches
+
 
 since this assignment asls for a parametrically designed solid model,  instead of straight sketching with my determined numbers, ik decided to go into solidworks global variables and analytical equations to control the bracket dimensions in SolidWorks. This allowed the dimensions of the model to reference **equations** instead of only using manually entered values. This can also help reconfirm my work and whether or nto it was done correctly. Vice versa, if i i get an incorrect result will help me know if i input an incorrect value/equation. 
 
-When inputting these values into solidowrks, i ensured that the setting was set to IPS so there would be no discrepencies in conveting since all my solved answers r in inches
+<img width="652" height="420" alt="image" src="https://github.com/user-attachments/assets/8de41efa-6fa8-4f4a-89ec-0127f49b8e40" />
 
+for features a and b i was able to make pretty consice equations, however features c d and e became very lengthy and included muliple parts in order to solve the next. As inconvenient as it was i didnt see it a big enugh issue to need to shorten it down so i continued on. 
+
+
+
+From here i was finally able to model it in CAD! I deicded i might as well work in chronological order, so i started off with Feature A and used its calculated diameter and length as parametric dimension
+
+*Pic*
 
 Drawing
 _Generate a fully dimensioned multiview drawing in CAD with engineered tolerances. Note: From the previous assignment “The bracket is designed with three different sliding fits over the rigid T beam.” Additionally, the change in the specifications have changed the T feature_
