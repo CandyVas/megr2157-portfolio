@@ -13,22 +13,65 @@ since this assignment asls for a parametrically designed solid model,  instead o
 for features a and b i was able to make pretty consice equations, however features c d and e became very lengthy and included muliple parts in order to solve the next. As inconvenient as it was i didnt see it a big enugh issue to need to shorten it down so i continued on. 
 
 
-
+### Feature A
 From here i was finally able to model it in CAD! I deicded i might as well work in chronological order, so i started off with Feature A and used its calculated diameter and length as parametric dimension, along with the extruded length which i assigned to be 2 in
 
 <img width="445" height="264" alt="image" src="https://github.com/user-attachments/assets/30255dcc-2c2f-4fab-9be6-941d506989a4" />
 <img width="706" height="365" alt="image" src="https://github.com/user-attachments/assets/50a445b5-2f38-46c5-9f85-4185e43d9fa7" />
 
-The connecting geometry was positioned using a dimension related to the surrounding calculated features, which in my A5 i mentioned how the width from feature a transferred to B since they are attached
+### Feature B
+The connecting geometry was positioned using a dimension related to the surrounding calculated features, which in my A5 i mentioned how the width from feature a transferred to B since they are attached 
 
 <img width="374" height="340" alt="Screenshot 2026-09-29 213925" src="https://github.com/user-attachments/assets/ed1f7f6d-fef0-4b21-8192-d087c7fd4cd3" />
 <img width="692" height="350" alt="image" src="https://github.com/user-attachments/assets/7583143f-418d-4d39-b229-55463f84161d" />
 
+
 <img width="150" height="150" alt="Screenshot 2026-09-29 214325" src="https://github.com/user-attachments/assets/23cce1ea-88a3-45ee-b93a-13f4d6ca1daa" />
 <img width="150" height="150" alt="image" src="https://github.com/user-attachments/assets/5f257ac0-b40f-4c3a-90e6-7da26dca2354" />
 
-Drawing
-_Generate a fully dimensioned multiview drawing in CAD with engineered tolerances. Note: From the previous assignment “The bracket is designed with three different sliding fits over the rigid T beam.” Additionally, the change in the specifications have changed the T feature_
+### Feature C 
+
+
+i used w =2 and lC for a length of 1.5 and extruded hc
+
+<img width="347" height="296" alt="image" src="https://github.com/user-attachments/assets/5d741461-da14-4f1c-8680-57c238353b23" />
+<img width="702" height="350" alt="image" src="https://github.com/user-attachments/assets/6450c7ce-f48c-4efb-9ca5-b8aba60ee4af" />
+
+### Feature D 
+<img width="632" height="401" alt="image" src="https://github.com/user-attachments/assets/f2cac053-a1aa-4ff4-8d46-305d76f368fb" />
+
+When getting to featue D i had a hard time identifying whether or not feature D was on top of feature C, oe off to the side. In appendix c provided in the A5 assign,ent, youll see that the C bracket is cut off to only be the inside base. But then bracket D does not include the cut underneath. I attempted both manners, neither coming out with desirable outcomes. Suide by side the height i got was too short, whereas on top the width was too thick, meaning there would be no room for part B which extends inwards. Therefore i found a workout 
+
+<img width="461" height="340" alt="Screenshot 2026-09-30 003043" src="https://github.com/user-attachments/assets/d3f7143f-5b1f-491c-8b80-8af3f0621961" />
+<img width="272" height="332" alt="image" src="https://github.com/user-attachments/assets/91173626-ccad-44e8-be4d-5421a34b8d76" />
+
+> on top
+
+<img width="341" height="314" alt="image" src="https://github.com/user-attachments/assets/6a10c41e-826b-4a7b-9281-decf2def09cf" />
+
+> on the side
+
+<img width="124" height="226" alt="image" src="https://github.com/user-attachments/assets/da420f27-e7a8-4ef8-8883-4457f8210e46" />
+<img width="751" height="340" alt="image" src="https://github.com/user-attachments/assets/0cc2fc2d-543e-4773-80ac-af88ee9edcd5" />
+
+> my solution
+
+
+### Feature E
+
+Onto the last feature, i once again followed appendix C and built feature E on top of feature D. 
+<img width="547" height="269" alt="image" src="https://github.com/user-attachments/assets/cf21596f-1344-4488-a4e3-1dcd5a56b463" />
+<img width="377" height="323" alt="image" src="https://github.com/user-attachments/assets/e59506fb-5c8c-472b-9a6a-92dc59cc4ce9" />
+
+### Final CAD
+<img width="245" height="221" alt="Screenshot 2026-09-30 005107" src="https://github.com/user-attachments/assets/f2d5f9d8-7992-4c83-9318-49a03ac94d8c" />
+<img width="257" height="228" alt="image" src="https://github.com/user-attachments/assets/466ee620-0eca-408e-9eb1-86a3e6843ad7" />
+
+### Drawinf
+
+Here i have generated a fully dimensioned multiview drawing in CAD with engineered tolerances. 
+
+
 (10%) Make sure drawing is laid out in third angle projection (symbol recommended but not required).
 (20%) The tolerances for the gap need to be observed in your drawing and should match your fit tolerances.
 (5%) Include a tolerance block.
