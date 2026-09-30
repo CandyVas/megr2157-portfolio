@@ -8,15 +8,24 @@ Sin w wr givn th option to design a solid modelbased on either the stiffness or 
 
 since this assignment asls for a parametrically designed solid model,  instead of straight sketching with my determined numbers, ik decided to go into solidworks global variables and analytical equations to control the bracket dimensions in SolidWorks. This allowed the dimensions of the model to reference **equations** instead of only using manually entered values. This can also help reconfirm my work and whether or nto it was done correctly. Vice versa, if i i get an incorrect result will help me know if i input an incorrect value/equation. 
 
-<img width="652" height="420" alt="image" src="https://github.com/user-attachments/assets/8de41efa-6fa8-4f4a-89ec-0127f49b8e40" />
+<img width="640" height="359" alt="Screenshot 2026-09-29 213906" src="https://github.com/user-attachments/assets/fc3d46c9-15bb-42c4-a937-d9a61a428a07" />
 
 for features a and b i was able to make pretty consice equations, however features c d and e became very lengthy and included muliple parts in order to solve the next. As inconvenient as it was i didnt see it a big enugh issue to need to shorten it down so i continued on. 
 
 
 
-From here i was finally able to model it in CAD! I deicded i might as well work in chronological order, so i started off with Feature A and used its calculated diameter and length as parametric dimension
+From here i was finally able to model it in CAD! I deicded i might as well work in chronological order, so i started off with Feature A and used its calculated diameter and length as parametric dimension, along with the extruded length which i assigned to be 2 in
 
-*Pic*
+<img width="445" height="264" alt="image" src="https://github.com/user-attachments/assets/30255dcc-2c2f-4fab-9be6-941d506989a4" />
+<img width="706" height="365" alt="image" src="https://github.com/user-attachments/assets/50a445b5-2f38-46c5-9f85-4185e43d9fa7" />
+
+The connecting geometry was positioned using a dimension related to the surrounding calculated features, which in my A5 i mentioned how the width from feature a transferred to B since they are attached
+
+<img width="374" height="340" alt="Screenshot 2026-09-29 213925" src="https://github.com/user-attachments/assets/ed1f7f6d-fef0-4b21-8192-d087c7fd4cd3" />
+<img width="692" height="350" alt="image" src="https://github.com/user-attachments/assets/7583143f-418d-4d39-b229-55463f84161d" />
+
+<img width="150" height="150" alt="Screenshot 2026-09-29 214325" src="https://github.com/user-attachments/assets/23cce1ea-88a3-45ee-b93a-13f4d6ca1daa" />
+<img width="150" height="150" alt="image" src="https://github.com/user-attachments/assets/5f257ac0-b40f-4c3a-90e6-7da26dca2354" />
 
 Drawing
 _Generate a fully dimensioned multiview drawing in CAD with engineered tolerances. Note: From the previous assignment “The bracket is designed with three different sliding fits over the rigid T beam.” Additionally, the change in the specifications have changed the T feature_
