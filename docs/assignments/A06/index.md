@@ -1,16 +1,17 @@
 # A6 – [Topic]
 
 ## Parametric Design
-
-(55%) For each feature, determine the appropriate dimension from the last assignment. Generate a parametrically designed solid model based on either the stiffness or strength analysis from the previous assignment. Show images of each designed dimension as a parameter in CAD.
+_For each feature, determine the appropriate dimension from the last assignment. Generate a parametrically designed solid model based on either the stiffness or strength analysis from the previous assignment. Show images of each designed dimension as a parameter in CAD._
 
 Sin w wr givn th option to design a solid modelbased on either the stiffness or strength analysis from thr previous assignmeny, i decided to go with stress. I decided on stress because of the large discrepencies i  had on my stiffness analysis. i had my range went from .0028 to .490 which was not ideal if the purpose fo this assignment is to design. The features would come out too thin compared to another 
 
 since this assignment asls for a parametrically designed solid model,  instead of straight sketching with my determined numbers, ik decided to go into solidworks global variables and analytical equations to control the bracket dimensions in SolidWorks. This allowed the dimensions of the model to reference **equations** instead of only using manually entered values. This can also help reconfirm my work and whether or nto it was done correctly. Vice versa, if i i get an incorrect result will help me know if i input an incorrect value/equation. 
 
+When inputting these values into solidowrks, i ensured that the setting was set to IPS so there would be no discrepencies in conveting since all my solved answers r in inches
+
 
 Drawing
-(35%) Generate a fully dimensioned multiview drawing in CAD with engineered tolerances. Note: From the previous assignment “The bracket is designed with three different sliding fits over the rigid T beam.” Additionally, the change in the specifications have changed the T feature.
+_Generate a fully dimensioned multiview drawing in CAD with engineered tolerances. Note: From the previous assignment “The bracket is designed with three different sliding fits over the rigid T beam.” Additionally, the change in the specifications have changed the T feature_
 (10%) Make sure drawing is laid out in third angle projection (symbol recommended but not required).
 (20%) The tolerances for the gap need to be observed in your drawing and should match your fit tolerances.
 (5%) Include a tolerance block.
