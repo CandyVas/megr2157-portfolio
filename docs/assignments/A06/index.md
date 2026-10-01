@@ -1,4 +1,4 @@
-# A6 – [Topic]
+# A6 – [Bracket Drawing]
 Download my CAD files here! 
 
 [Bracket Solid Model](https://drive.google.com/file/d/1GgQWCIwWzx3vZQ0zwyOpJ5hfY6XAedJE/view?usp=drive_link)
