@@ -1,4 +1,7 @@
 # A6 – [Topic]
+Download my CAD files here! 
+[Bracket Solid Model](https://drive.google.com/file/d/1GgQWCIwWzx3vZQ0zwyOpJ5hfY6XAedJE/view?usp=drive_link)
+[Bracket Drawing](https://drive.google.com/file/d/1DViOjW9j3nBZgAKWtZuzzuWriehEhukw/view?usp=drive_link)
 
 ## Parametric Design
 
