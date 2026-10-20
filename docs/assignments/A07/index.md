@@ -39,12 +39,15 @@ i followed procedure similar to assignment three where we conducted an FEA on a 
 <img width="428" height="335" alt="image" src="https://github.com/user-attachments/assets/081f47af-dbdc-4e02-a0c6-fb92825e4a60" />
 <img width="398" height="344" alt="image" src="https://github.com/user-attachments/assets/34bb96de-818c-4635-b7f3-62e337a2676e" />
 
-> FEA Test 1
+> FEA Test I
+
+<img width="448" height="339" alt="image" src="https://github.com/user-attachments/assets/a507122b-9e22-4dd8-be37-75740931494c" />
+<img width="471" height="335" alt="image" src="https://github.com/user-attachments/assets/d565ed17-c837-41b9-92cb-72d668925a92" />
 
 
-> FEA Test 2
+> FEA Test II
 
-I decided to try out both extremes of rying the course mesh then the fine mesh to hone in on what design would be best to base the rest of them off of. 
+I decided to try out both extremes of trying the course mesh then the fine mesh to hone in on what design would be best to base the rest of them off of. 
 
 The inner loop’s function  is to validate the results. The outer loop’s function is for the geometry design optimization.
 
