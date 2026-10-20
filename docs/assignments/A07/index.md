@@ -47,8 +47,8 @@ The inner loop’s function  is to validate the results. The outer loop’s func
 
 |  | FEA TEST I | FEA TEST II | 
 | --- | --- | --- |
-| Max Stress  | [58136788.00](https://drive.google.com/file/d/1n-E-lD2effLE1anY7ydzKKSMu0z6pctL/view?usp=drive_link)  | Row 1, Col 3 |
-| Max deflection  | Row 2, Col 2 | Row 2, Col 3 | 
+| Max Stress (Nmm^2) | [58136788.00](https://drive.google.com/file/d/1n-E-lD2effLE1anY7ydzKKSMu0z6pctL/view?usp=drive_link)  | Row 1, Col 3 |
+| Max deflection (mm) | [0.080682](https://drive.google.com/file/d/1Y7MK77naOn6LkMiopf3ArcWKSTZTAXWz/view?usp=drive_link) | Row 2, Col 3 | 
 | mass | Row 3, Col 2 | Row 3, Col 3 | 
 | Safety Factor | Row 4, Col 2 | Row 4, Col 3 | 
 | Mesh elements | Row 5, Col 2 | Row 5, Col 3 | 
