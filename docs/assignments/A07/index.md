@@ -39,7 +39,12 @@ i followed procedure similar to assignment three where we conducted an FEA on a 
 <img width="428" height="335" alt="image" src="https://github.com/user-attachments/assets/081f47af-dbdc-4e02-a0c6-fb92825e4a60" />
 <img width="398" height="344" alt="image" src="https://github.com/user-attachments/assets/34bb96de-818c-4635-b7f3-62e337a2676e" />
 
-> i decided to initially begin with a course mesh to go up the scale and compare my answers with an even finer one
+> FEA Test 1
+
+
+> FEA Test 2
+
+I decided to try out both extremes of rying the course mesh then the fine mesh to hone in on what design would be best to base the rest of them off of. 
 
 The inner loop’s function  is to validate the results. The outer loop’s function is for the geometry design optimization.
 
@@ -47,9 +52,9 @@ The inner loop’s function  is to validate the results. The outer loop’s func
 
 |  | FEA TEST I | FEA TEST II | 
 | --- | --- | --- |
-| Max Stress (Nmm^2) | [58136788.00](https://drive.google.com/file/d/1n-E-lD2effLE1anY7ydzKKSMu0z6pctL/view?usp=drive_link)  | Row 1, Col 3 |
-| Max deflection (mm) | [0.080682](https://drive.google.com/file/d/1Y7MK77naOn6LkMiopf3ArcWKSTZTAXWz/view?usp=drive_link) | Row 2, Col 3 | 
-| mass | Row 3, Col 2 | Row 3, Col 3 | 
+| Max Stress (psi) | [8432.03 ](https://drive.google.com/file/d/1LmoA18RBS0y-WfzUCphlt8YkyB1MwGF-/view?usp=drive_link)  | Row 1, Col 3 |
+| Max deflection (mm) | [0.]() | Row 2, Col 3 | 
+| mass (lb) | [1.80](https://drive.google.com/file/d/1HaQvMry4wOUBWCf5TgsEzOzqOQDRxNlk/view?usp=drive_link) | Row 3, Col 3 | 
 | Safety Factor | Row 4, Col 2 | Row 4, Col 3 | 
 | Mesh elements | Row 5, Col 2 | Row 5, Col 3 | 
 
