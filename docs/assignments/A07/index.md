@@ -45,6 +45,14 @@ The inner loop’s function  is to validate the results. The outer loop’s func
 
 ## INNER LOOP #1
 
+|  | FEA TEST I | FEA TEST II | 
+| --- | --- | --- |
+| Max Stress  | [58136788.00](https://drive.google.com/file/d/1n-E-lD2effLE1anY7ydzKKSMu0z6pctL/view?usp=drive_link)  | Row 1, Col 3 |
+| Max deflection  | Row 2, Col 2 | Row 2, Col 3 | 
+| mass | Row 3, Col 2 | Row 3, Col 3 | 
+| Safety Factor | Row 4, Col 2 | Row 4, Col 3 | 
+| Mesh elements | Row 5, Col 2 | Row 5, Col 3 | 
+
 Outer Loop: Based on Design Optimization
 (30% total: each time through the outer loop is 10%)
 
