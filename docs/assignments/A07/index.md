@@ -36,16 +36,21 @@ i followed procedure similar to assignment three where we conducted an FEA on a 
 
 > chose external loads, force, and applied it to the cylinder which will be held by polyester strap. I made sure to convert the units to my original lbf and used my determined 650
 
-<img width="428" height="335" alt="image" src="https://github.com/user-attachments/assets/081f47af-dbdc-4e02-a0c6-fb92825e4a60" />
-<img width="398" height="344" alt="image" src="https://github.com/user-attachments/assets/34bb96de-818c-4635-b7f3-62e337a2676e" />
+<img width="304" height="260" alt="image" src="https://github.com/user-attachments/assets/081f47af-dbdc-4e02-a0c6-fb92825e4a60" />
+<img width="290" height="260" alt="image" src="https://github.com/user-attachments/assets/34bb96de-818c-4635-b7f3-62e337a2676e" />
 
-> FEA Test I
+> FEA Test I (course)
 
-<img width="448" height="339" alt="image" src="https://github.com/user-attachments/assets/a507122b-9e22-4dd8-be37-75740931494c" />
-<img width="471" height="335" alt="image" src="https://github.com/user-attachments/assets/d565ed17-c837-41b9-92cb-72d668925a92" />
+<img width="304" height="260" alt="image" src="https://github.com/user-attachments/assets/70df71e8-12e5-4687-ad14-5fb0ddd8a94a" />
+<img width="250" height="260" alt="image" src="https://github.com/user-attachments/assets/f248c78d-c202-4b21-9620-8e0174af7b8b" />
+
+> FEA Test II (medium)
 
 
-> FEA Test II
+<img width="304" height="260" alt="image" src="https://github.com/user-attachments/assets/a507122b-9e22-4dd8-be37-75740931494c" />
+<img width="304" height="260" alt="image" src="https://github.com/user-attachments/assets/d565ed17-c837-41b9-92cb-72d668925a92" />
+
+> FEA Test III (fine)
 
 I decided to try out both extremes of trying the course mesh then the fine mesh to hone in on what design would be best to base the rest of them off of. 
 
@@ -53,13 +58,13 @@ The inner loop’s function  is to validate the results. The outer loop’s func
 
 ## INNER LOOP #1
 
-|  | FEA TEST I | FEA TEST II | 
-| --- | --- | --- |
-| Max Stress (psi) | [8432.03 ](https://drive.google.com/file/d/1LmoA18RBS0y-WfzUCphlt8YkyB1MwGF-/view?usp=drive_link)  | [13039.83](https://drive.google.com/file/d/1-ZmRt7BGcYg2v_fihzhOCRqZBACOtOV4/view?usp=drive_link) |
-| Max deflection (in) | [0.003176](https://drive.google.com/file/d/1qqbKx0bDmgthT4KH65L3eSJQ36-L8P4y/view?usp=drive_link) | [0.003261](https://drive.google.com/file/d/1h88byk-4Fjp9dEaLACUSn3epMsGkUT82/view?usp=drive_link) | 
-| mass (lb) | [1.80](https://drive.google.com/file/d/1HaQvMry4wOUBWCf5TgsEzOzqOQDRxNlk/view?usp=drive_link) | [1.80](https://drive.google.com/file/d/1HaQvMry4wOUBWCf5TgsEzOzqOQDRxNlk/view?usp=drive_link) | 
-| Min Safety Factor | [4.3](https://drive.google.com/file/d/1rIlzJ5jylqaa2AHQpRtdf6rnpYS43JHF/view?usp=drive_link) | [2.8](https://drive.google.com/file/d/1DQxkk-69Jwnkx02tcLOZ9H1o-NJjp2bW/view?usp=drive_link) | 
-| Mesh elements | [1166](https://drive.google.com/file/d/1ZSm8HjPi9pv1s8OypYy0S5V9oICioKHf/view?usp=drive_link) | [62568](https://drive.google.com/file/d/1s0uQqB2zTZbSzdjKj46UIfusShTZ44OY/view?usp=drive_link) | 
+|  | FEA TEST I | FEA TEST II | FEA TEST III | 
+| --- | --- | --- | --- |
+| Max Stress (psi) | [8432.03 ](https://drive.google.com/file/d/1LmoA18RBS0y-WfzUCphlt8YkyB1MwGF-/view?usp=drive_link)  | [10351.64](https://drive.google.com/file/d/1sx3DWyFvPLpq3ygLxlOQVUxShEE6iWvI/view?usp=drive_link) | [13039.83](https://drive.google.com/file/d/1-ZmRt7BGcYg2v_fihzhOCRqZBACOtOV4/view?usp=drive_link) |
+| Max deflection (in) | [0.003176](https://drive.google.com/file/d/1qqbKx0bDmgthT4KH65L3eSJQ36-L8P4y/view?usp=drive_link) | [0.003236](https://drive.google.com/file/d/1b0eXsh6fwuehORkabmpAiPix238T88Sg/view?usp=drive_link) | [0.003261](https://drive.google.com/file/d/1h88byk-4Fjp9dEaLACUSn3epMsGkUT82/view?usp=drive_link) | 
+| mass (lb) | [1.80](https://drive.google.com/file/d/1HaQvMry4wOUBWCf5TgsEzOzqOQDRxNlk/view?usp=drive_link) | [1.80](https://drive.google.com/file/d/1HaQvMry4wOUBWCf5TgsEzOzqOQDRxNlk/view?usp=drive_link) | [1.80](https://drive.google.com/file/d/1HaQvMry4wOUBWCf5TgsEzOzqOQDRxNlk/view?usp=drive_link) | 
+| Min Safety Factor | [4.3](https://drive.google.com/file/d/1rIlzJ5jylqaa2AHQpRtdf6rnpYS43JHF/view?usp=drive_link) | [3.5](https://drive.google.com/file/d/1qDnxA7d-pIfPDjlx0o__ciH2jlDy9Gw-/view?usp=drive_link) | [2.8](https://drive.google.com/file/d/1DQxkk-69Jwnkx02tcLOZ9H1o-NJjp2bW/view?usp=drive_link) | 
+| Mesh elements | [1166](https://drive.google.com/file/d/1ZSm8HjPi9pv1s8OypYy0S5V9oICioKHf/view?usp=drive_link) | [8442](https://drive.google.com/file/d/1sMF6kFER_4_QVDnT89wkHPI-IdpMtVnS/view?usp=drive_link) | [62568](https://drive.google.com/file/d/1s0uQqB2zTZbSzdjKj46UIfusShTZ44OY/view?usp=drive_link) | 
 
 I decided to keep the bracket geometry exactly the same for now since the purpose of this stage is to validate the original design before making any design changes.
 
