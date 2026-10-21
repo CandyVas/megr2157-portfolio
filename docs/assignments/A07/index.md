@@ -52,7 +52,7 @@ i followed procedure similar to assignment three where we conducted an FEA on a 
 
 > FEA Test III (fine)
 
-I decided to try out both extremes of trying the course mesh then the fine mesh to hone in on what design would be best to base the rest of them off of. 
+I decided to try out both extremes of trying the course mesh then the fine mesh to hone in on what design would be best to base the rest of them off of. Then fr proper measure i also kept solidworks default center setting 
 
 The inner loop’s function  is to validate the results. The outer loop’s function is for the geometry design optimization.
 
@@ -65,6 +65,10 @@ The inner loop’s function  is to validate the results. The outer loop’s func
 | mass (lb) | [1.80](https://drive.google.com/file/d/1HaQvMry4wOUBWCf5TgsEzOzqOQDRxNlk/view?usp=drive_link) | [1.80](https://drive.google.com/file/d/1HaQvMry4wOUBWCf5TgsEzOzqOQDRxNlk/view?usp=drive_link) | [1.80](https://drive.google.com/file/d/1HaQvMry4wOUBWCf5TgsEzOzqOQDRxNlk/view?usp=drive_link) | 
 | Min Safety Factor | [4.3](https://drive.google.com/file/d/1rIlzJ5jylqaa2AHQpRtdf6rnpYS43JHF/view?usp=drive_link) | [3.5](https://drive.google.com/file/d/1qDnxA7d-pIfPDjlx0o__ciH2jlDy9Gw-/view?usp=drive_link) | [2.8](https://drive.google.com/file/d/1DQxkk-69Jwnkx02tcLOZ9H1o-NJjp2bW/view?usp=drive_link) | 
 | Mesh elements | [1166](https://drive.google.com/file/d/1ZSm8HjPi9pv1s8OypYy0S5V9oICioKHf/view?usp=drive_link) | [8442](https://drive.google.com/file/d/1sMF6kFER_4_QVDnT89wkHPI-IdpMtVnS/view?usp=drive_link) | [62568](https://drive.google.com/file/d/1s0uQqB2zTZbSzdjKj46UIfusShTZ44OY/view?usp=drive_link) | 
+
+*add pic of calculations* 
+Ging foward i decided that tes I was an outlier, not only is it too course to capture accuracy, the jumo between 1.1k eements to 8.4k isnt that drastic of the jumo betwen 8.8k and 62.6k. Since the 8.8k was isnt he very middle i decided my following points will be towards the end hald 
+
 
 I decided to keep the bracket geometry exactly the same for now since the purpose of this stage is to validate the original design before making any design changes.
 
