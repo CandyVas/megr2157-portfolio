@@ -106,7 +106,7 @@ Ging foward i decided that tes I was an outlier, not only is it too course to ca
 > Test VII
 
 
-|  | FEA TEST IV | FEA TEST II | 
+|  | FEA TEST IV | FEA TEST III | 
 | --- | --- | --- |
 | Max Stress (psi) | [12468.35](https://drive.google.com/file/d/1e23cpEhdzElK1MktT5rvVsUP70MVf5nq/view?usp=drive_link) | [13039.83](https://drive.google.com/file/d/1-ZmRt7BGcYg2v_fihzhOCRqZBACOtOV4/view?usp=drive_link) |
 | Max deflection (in) | [0.003257](https://drive.google.com/file/d/1qqbKx0bDmgthT4KH65L3eSJQ36-L8P4y/view?usp=drive_link) | [0.003261](https://drive.google.com/file/d/1h88byk-4Fjp9dEaLACUSn3epMsGkUT82/view?usp=drive_link) | 
