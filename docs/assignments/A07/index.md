@@ -2,8 +2,6 @@
 Download my bracket file [HERE :)](https://drive.google.com/file/d/1nfd78894EtzllECF0gip0nWmreISuWJr/view?usp=sharing)
 ## Objective
 
-Your task is simply to create a high stiff, high strength, and lightweight component. Use Finite Element analysis to drive your decision making process throughout your design. Each step of the analysis and before you make geometric changes make sure the component’s results (stress/displacement/Safety Factor) converge on a 7% difference. Achieve this by modifying the number of elements. If after three attempts to converge use the stiffness and stress from the finer mesh size use the finest mesh size and proceed through the process.
-
 Since we are modifying our previously designed bracket from Assignments #5 and #6, we are supposed to keep the same material that we originally chose. We were given three options: aluminum, steel, or titanium. I initially decided to use steel, so I will continue using steel for this simulation and the rest of my design changes.
 
 ### First Test 
