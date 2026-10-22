@@ -77,26 +77,38 @@ Ging foward i decided that tes I was an outlier, not only is it too course to ca
 
 > Test IV
 
+<img width="431" height="299" alt="image" src="https://github.com/user-attachments/assets/38af265e-77ea-4133-b48d-c0665626a647" />
+<img width="338" height="271" alt="image" src="https://github.com/user-attachments/assets/73e0093a-2ebb-48e2-95fe-4352bfa9317b" />
 
+> Test V
 
 |  | FEA TEST IV | FEA TEST V | FEA TEST III | 
 | --- | --- | --- | --- |
-| Max Stress (psi) | [10691.54](https://drive.google.com/file/d/1MJ7gGu1tqx9gj4DPVeWiUv3buM2gfWa0/view?usp=drive_link)  |  | [13039.83](https://drive.google.com/file/d/1-ZmRt7BGcYg2v_fihzhOCRqZBACOtOV4/view?usp=drive_link) |
-| Max deflection (in) | [0.003238](https://drive.google.com/file/d/1dPtVXxx03N8nPZgLZO4dmoQMzIdoZC-C/view?usp=drive_link) |  | [0.003261](https://drive.google.com/file/d/1h88byk-4Fjp9dEaLACUSn3epMsGkUT82/view?usp=drive_link) | 
-| mass (lb) | [1.80](https://drive.google.com/file/d/1HaQvMry4wOUBWCf5TgsEzOzqOQDRxNlk/view?usp=drive_link) | | [1.80](https://drive.google.com/file/d/1HaQvMry4wOUBWCf5TgsEzOzqOQDRxNlk/view?usp=drive_link) | 
-| Min Safety Factor | [3.4](https://drive.google.com/file/d/1AsDNtX6vw21OG3OOxiBKqWM08zSHdHEe/view?usp=drive_link) |  | [2.8](https://drive.google.com/file/d/1DQxkk-69Jwnkx02tcLOZ9H1o-NJjp2bW/view?usp=drive_link) | 
-| Mesh elements | [10944](https://drive.google.com/file/d/1e23cpEhdzElK1MktT5rvVsUP70MVf5nq/view?usp=drive_link) | [8442](https://drive.google.com/file/d/1sMF6kFER_4_QVDnT89wkHPI-IdpMtVnS/view?usp=drive_link) | [62568](https://drive.google.com/file/d/1s0uQqB2zTZbSzdjKj46UIfusShTZ44OY/view?usp=drive_link) | 
+| Max Stress (psi) | [10691.54](https://drive.google.com/file/d/1MJ7gGu1tqx9gj4DPVeWiUv3buM2gfWa0/view?usp=drive_link) | [11475.80](https://drive.google.com/file/d/1uf39Zxmo70pj-xr1qI6cMnohy28NTYTS/view?usp=drive_link) | [13039.83](https://drive.google.com/file/d/1-ZmRt7BGcYg2v_fihzhOCRqZBACOtOV4/view?usp=drive_link) |
+| Max deflection (in) | [0.003238](https://drive.google.com/file/d/1dPtVXxx03N8nPZgLZO4dmoQMzIdoZC-C/view?usp=drive_link) | [0.003249](https://drive.google.com/file/d/1i1E7-cMqJz-DT2yH8WoP8oinfBm4Wjrp/view?usp=drive_link) | [0.003261](https://drive.google.com/file/d/1h88byk-4Fjp9dEaLACUSn3epMsGkUT82/view?usp=drive_link) | 
+| mass (lb) | [1.80](https://drive.google.com/file/d/1HaQvMry4wOUBWCf5TgsEzOzqOQDRxNlk/view?usp=drive_link) | [1.80](https://drive.google.com/file/d/1HaQvMry4wOUBWCf5TgsEzOzqOQDRxNlk/view?usp=drive_link)  | [1.80](https://drive.google.com/file/d/1HaQvMry4wOUBWCf5TgsEzOzqOQDRxNlk/view?usp=drive_link) | 
+| Min Safety Factor | [3.4](https://drive.google.com/file/d/1AsDNtX6vw21OG3OOxiBKqWM08zSHdHEe/view?usp=drive_link) | [3.2](https://drive.google.com/file/d/1pZZk6Y6gLLaCFWQMmEJis6R2lIi7sRCv/view?usp=drive_link) | [2.8](https://drive.google.com/file/d/1DQxkk-69Jwnkx02tcLOZ9H1o-NJjp2bW/view?usp=drive_link) | 
+| Mesh elements | [10944](https://drive.google.com/file/d/1e23cpEhdzElK1MktT5rvVsUP70MVf5nq/view?usp=drive_link) | [19431](https://drive.google.com/file/d/1pZZk6Y6gLLaCFWQMmEJis6R2lIi7sRCv/view?usp=drive_link) | [62568](https://drive.google.com/file/d/1s0uQqB2zTZbSzdjKj46UIfusShTZ44OY/view?usp=drive_link) | 
+
+
+
+## INNER LOOP #3
+
+<img width="461" height="332" alt="Screenshot 2026-10-20 192205" src="https://github.com/user-attachments/assets/ad738b66-6b28-4564-b4ae-5d66aa47670b" />
+<img width="341" height="308" alt="Screenshot 2026-10-20 192231" src="https://github.com/user-attachments/assets/6dba00a4-a440-42db-a28b-9d71503678b9" />
+
+> Test VI
+
 
 <img width="481" height="344" alt="image" src="https://github.com/user-attachments/assets/d1c25216-32dc-4aff-92bf-bf4e7fed1121" />
 <img width="393" height="332" alt="image" src="https://github.com/user-attachments/assets/6a5a5a2c-a7dd-4743-9e83-be0ee0e38bed" />
 
-## INNER LOOP #3
-> Test IV
+> Test VII
 
 
 |  | FEA TEST IV | FEA TEST II | 
 | --- | --- | --- |
-| Max Stress (psi) | [12468.35](https://drive.google.com/file/d/1LmoA18RBS0y-WfzUCphlt8YkyB1MwGF-/view?usp=drive_link)  | [13039.83](https://drive.google.com/file/d/1-ZmRt7BGcYg2v_fihzhOCRqZBACOtOV4/view?usp=drive_link) |
+| Max Stress (psi) | [12468.35](https://drive.google.com/file/d/1e23cpEhdzElK1MktT5rvVsUP70MVf5nq/view?usp=drive_link) | [13039.83](https://drive.google.com/file/d/1-ZmRt7BGcYg2v_fihzhOCRqZBACOtOV4/view?usp=drive_link) |
 | Max deflection (in) | [0.003257](https://drive.google.com/file/d/1qqbKx0bDmgthT4KH65L3eSJQ36-L8P4y/view?usp=drive_link) | [0.003261](https://drive.google.com/file/d/1h88byk-4Fjp9dEaLACUSn3epMsGkUT82/view?usp=drive_link) | 
 | mass (lb) | [1.80](https://drive.google.com/file/d/1HaQvMry4wOUBWCf5TgsEzOzqOQDRxNlk/view?usp=drive_link) | [1.80](https://drive.google.com/file/d/1HaQvMry4wOUBWCf5TgsEzOzqOQDRxNlk/view?usp=drive_link) | 
 | Min Safety Factor | [2.9](https://drive.google.com/file/d/1rIlzJ5jylqaa2AHQpRtdf6rnpYS43JHF/view?usp=drive_link) | [2.8](https://drive.google.com/file/d/1DQxkk-69Jwnkx02tcLOZ9H1o-NJjp2bW/view?usp=drive_link) | 
