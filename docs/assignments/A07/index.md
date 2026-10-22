@@ -52,7 +52,7 @@ For my first test, I tried three different mesh sizes, coarse, medium, and fine.
 | Min Safety Factor | [4.3](https://drive.google.com/file/d/1rIlzJ5jylqaa2AHQpRtdf6rnpYS43JHF/view?usp=drive_link) | [3.5](https://drive.google.com/file/d/1qDnxA7d-pIfPDjlx0o__ciH2jlDy9Gw-/view?usp=drive_link) | [2.8](https://drive.google.com/file/d/1DQxkk-69Jwnkx02tcLOZ9H1o-NJjp2bW/view?usp=drive_link) | 
 | Mesh elements | [1166](https://drive.google.com/file/d/1ZSm8HjPi9pv1s8OypYy0S5V9oICioKHf/view?usp=drive_link) | [8442](https://drive.google.com/file/d/1sMF6kFER_4_QVDnT89wkHPI-IdpMtVnS/view?usp=drive_link) | [62568](https://drive.google.com/file/d/1s0uQqB2zTZbSzdjKj46UIfusShTZ44OY/view?usp=drive_link) | 
 
-When looking at the results, I noticed that the maximum stress increased quite a bit as the mesh became finer. The coarse mesh gave me a stress of 8,432.03 psi, while the fine mesh gave me 13,039.83 psi. This showed me that the coarse mesh was not capturing the maximum stress as accurately as the finer mesh.
+When looking at the results, I noticed that the maximum stress increased quite a bit as the mesh became finer. The coarse mesh gave me a stress of 8,432.03 psi, while the fine mesh gave me 13,039.83 psi. This showed me that the coarse mesh was not getting the maximum stress as accurately as the finer mesh.
 
 For maximum stress:
 
@@ -66,9 +66,7 @@ For maximum displacement:
   
 + Test II to Test III: |(0.003261 − 0.003236) / 0.003236| × 100% = 0.77%.
 
-Both differences were greater than the required 7%, meaning the stress results had not converged yet. 
-
-Going forward, I decided that Test I was too coarse to use as my main reference because its stress result was much lower than the results from the finer meshes.  I kept Test III as my fine-mesh reference because it had the highest number of elements at 62,568.
+Both differences were greater than the required 7%, meaning the stress results had not converged yet. Therefore I decided that Test I was too coarse to use as my main reference because its stress result was much lower than the results from the finer meshes. I kept Test III as my fine-mesh reference because it had the highest number of elements at 62,568.
 
 
 ## INNER LOOP #2
@@ -140,11 +138,7 @@ Maximum displacement
 
 + Test VII to Test III: |(0.003261 − 0.003257) / 0.003257| × 100% = 0.123%.
 
-Both differences were within the required 7% limit. This showed that the stress results were now much closer together and that the mesh was giving more consistent results.
-
-After completing the third round of testing, I was more confident in the results because the stress and displacement differences were now within the required 7% limit for the comparisons I made.
-
-I decided to keep Test III as my final reference because it had the highest number of elements, at 62,568. Its maximum stress was 13,039.83 psi, its maximum displacement was 0.003261 in, and its minimum factor of safety was 2.8.
+Both differences were within the required 7% limit, however I decided to keep Test III as my final reference because it had the highest number of elements, at 62,568. Its maximum stress was 13,039.83 psi, its maximum displacement was 0.003261 in, and its minimum factor of safety was 2.8.
 
 ## Design Optimization
 
@@ -179,7 +173,7 @@ For maximum displacement:
 + Test II to Test III: |(0.003246 − 0.003230) / 0.003230| × 100% = 0.50%.
 
 
-I noticed that the maximum stress from the finest mesh decreased slightly from 13,039.83 psi to 13,003.94 psi after adding the fillet. This is a decrease of approximately 0.28%. Although the stress reduction was small, it shows that the fillet had a slight effect on the maximum stress. 
+I noticed that the maximum stress from the finest mesh decreased slightly from 13,039.83 psi to 13,003.94 psi after adding the fillet which shows that the fillet had a slight effect on the maximum stress. 
 
 ### Design 2: 
 
@@ -208,7 +202,7 @@ For maximum displacement:
 
 + Test II to Test III: |(0.003850 − 0.003821) / 0.003821| × 100% = 0.76%.
 
-The main improvement from this design was the reduction in mass. The original bracket had a mass of 1.80 lb, while the hollowed-out design had a mass of 1.52 lb. However, I also noticed that the maximum stress increased to 14,450 psi in the fine-mesh test, compared with 13,003.94 psi for the previous fillet design. This is an increase of approximately 11.12%. The minimum factor of safety also decreased from 2.8 to 2.5, showing that removing material had a negative effect on the bracket's strength.
+The main improvement from this design was the reduction in mass. The original bracket had a mass of 1.80 lb, while the hollowed-out design had a mass of 1.52 lb. However, I also noticed that the maximum stress increased to 14,450 psi in the fine-mesh test, compared with 13,003.94 psi for the previous fillet design. The minimum factor of safety also decreased from 2.8 to 2.5, showing that removing material had a negative effect on the bracket's strength.
 
 ### Design 3: 
 
@@ -236,7 +230,8 @@ For maximum displacement:
 
 Based on these results, increasing the thickness of the supporting bar was the most effective change I have tested so far. The maximum stress and displacement both decreased significantly, while the minimum factor of safety increased. Even though the mass increased compared with the hollowed-out design, it remained lower than the original bracket's mass.
 
-## Tabulate each outer loop iteration after convergence using the table below
+## Tabulate...
+each outer loop iteration after convergence using the table below
 
 |  | Design I (fillet) | Design II (hallowed cylinder)| Design III (ticker bar) |
 | --- | --- | --- | --- |
