@@ -106,13 +106,13 @@ Ging foward i decided that tes I was an outlier, not only is it too course to ca
 > Test VII
 
 
-|  | FEA TEST IV | FEA TEST III | 
-| --- | --- | --- |
-| Max Stress (psi) | [12468.35](https://drive.google.com/file/d/1e23cpEhdzElK1MktT5rvVsUP70MVf5nq/view?usp=drive_link) | [13039.83](https://drive.google.com/file/d/1-ZmRt7BGcYg2v_fihzhOCRqZBACOtOV4/view?usp=drive_link) |
-| Max deflection (in) | [0.003257](https://drive.google.com/file/d/1qqbKx0bDmgthT4KH65L3eSJQ36-L8P4y/view?usp=drive_link) | [0.003261](https://drive.google.com/file/d/1h88byk-4Fjp9dEaLACUSn3epMsGkUT82/view?usp=drive_link) | 
-| mass (lb) | [1.80](https://drive.google.com/file/d/1HaQvMry4wOUBWCf5TgsEzOzqOQDRxNlk/view?usp=drive_link) | [1.80](https://drive.google.com/file/d/1HaQvMry4wOUBWCf5TgsEzOzqOQDRxNlk/view?usp=drive_link) | 
-| Min Safety Factor | [2.9](https://drive.google.com/file/d/1rIlzJ5jylqaa2AHQpRtdf6rnpYS43JHF/view?usp=drive_link) | [2.8](https://drive.google.com/file/d/1DQxkk-69Jwnkx02tcLOZ9H1o-NJjp2bW/view?usp=drive_link) | 
-| Mesh elements | [49319](https://drive.google.com/file/d/1ZSm8HjPi9pv1s8OypYy0S5V9oICioKHf/view?usp=drive_link) | [62568](https://drive.google.com/file/d/1s0uQqB2zTZbSzdjKj46UIfusShTZ44OY/view?usp=drive_link) | 
+|  |FEA TEST VI | FEA TEST VII | FEA TEST III | 
+| --- | --- | --- | --- |
+| Max Stress (psi) | [12800.14 ](https://drive.google.com/file/d/1Mb_RpzCKlbmUZSs4rUbw9T09wy8wptMs/view?usp=drive_link)|[12468.35](https://drive.google.com/file/d/1e23cpEhdzElK1MktT5rvVsUP70MVf5nq/view?usp=drive_link) | [13039.83](https://drive.google.com/file/d/1-ZmRt7BGcYg2v_fihzhOCRqZBACOtOV4/view?usp=drive_link) |
+| Max deflection (in) | [0.003256](https://drive.google.com/file/d/1But4_6RX-oerGQLNMoek-1LGg15jETto/view?usp=drive_link) | [0.003257](https://drive.google.com/file/d/1qqbKx0bDmgthT4KH65L3eSJQ36-L8P4y/view?usp=drive_link) | [0.003261](https://drive.google.com/file/d/1h88byk-4Fjp9dEaLACUSn3epMsGkUT82/view?usp=drive_link) | 
+| mass (lb) | [1.80](https://drive.google.com/file/d/1HaQvMry4wOUBWCf5TgsEzOzqOQDRxNlk/view?usp=drive_link) | [1.80](https://drive.google.com/file/d/1HaQvMry4wOUBWCf5TgsEzOzqOQDRxNlk/view?usp=drive_link) | [1.80](https://drive.google.com/file/d/1HaQvMry4wOUBWCf5TgsEzOzqOQDRxNlk/view?usp=drive_link) | 
+| Min Safety Factor | [2.8](https://drive.google.com/file/d/1BniY2cQJyzA0uOpW_JSn7IzdD13bFvut/view?usp=drive_link) | [2.9](https://drive.google.com/file/d/1rIlzJ5jylqaa2AHQpRtdf6rnpYS43JHF/view?usp=drive_link) | [2.8](https://drive.google.com/file/d/1DQxkk-69Jwnkx02tcLOZ9H1o-NJjp2bW/view?usp=drive_link) | 
+| Mesh elements | [36654](https://drive.google.com/file/d/1BniY2cQJyzA0uOpW_JSn7IzdD13bFvut/view?usp=drive_link) | [49319](https://drive.google.com/file/d/1ZSm8HjPi9pv1s8OypYy0S5V9oICioKHf/view?usp=drive_link) | [62568](https://drive.google.com/file/d/1s0uQqB2zTZbSzdjKj46UIfusShTZ44OY/view?usp=drive_link) | 
 
 
 Design Optimization
