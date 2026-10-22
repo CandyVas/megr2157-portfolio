@@ -1,25 +1,13 @@
-# A7 – [Topic]
-
+# A7 – [FEA]
+Download my bracket file [HERE :)](https://drive.google.com/file/d/1nfd78894EtzllECF0gip0nWmreISuWJr/view?usp=sharing)
 ## Objective
 
 Your task is simply to create a high stiff, high strength, and lightweight component. Use Finite Element analysis to drive your decision making process throughout your design. Each step of the analysis and before you make geometric changes make sure the component’s results (stress/displacement/Safety Factor) converge on a 7% difference. Achieve this by modifying the number of elements. If after three attempts to converge use the stiffness and stress from the finer mesh size use the finest mesh size and proceed through the process.
 
-## Tabulate each outer loop iteration after convergence using the table below
-
-|  | Design I | Design II | Design III |
-| --- | --- | --- | --- |
-| Max Stress and location | Row 1, Col 2 | Row 1, Col 3 | Row 1, Col 4 |
-| Max deflection and location | Row 2, Col 2 | Row 2, Col 3 | Row 2, Col 4 |
-| mass | Row 3, Col 2 | Row 3, Col 3 | Row 3, Col 4 |
-| Safety Factor | Row 4, Col 2 | Row 4, Col 3 | Row 4, Col 4 |
-| Number of elements | Row 5, Col 2 | Row 5, Col 3 | Row 5, Col 4 |
-
-
 Since we are modifying our previously designed bracket from Assignments #5 and #6, we are supposed to keep the same material that we originally chose. We were given three options: aluminum, steel, or titanium. I initially decided to use steel, so I will continue using steel for this simulation and the rest of my design changes.
 
 ### First Test 
-Since I wanted to start with something familiar, I decided to use the same 650 lbf load that I used in my previous hand calculations and FEA work. This gave me a starting point to see how the original bracket would perform before making any changes. I applied the force to the cylindrical section of the bracket where the polyester strap will be placed. I chose this area because it represents where the force will be applied to the bracket during use.
-
+I wanted to start with something familiar, I decided to use the same 650 lbf load that I used in my previous hand calculations and FEA work. This gave me a starting point to see how the original bracket would perform before making any changes. I applied the force to the cylindrical section of the bracket where the polyester strap will be placed. I chose this area because it represents where the force will be applied to the bracket during use.
 
 To set up the simulation, I followed essentially the same steps from Assignment #3 when we performed an FEA on a beam. I opened the Simulation tab in SolidWorks and created a new static study.
 
@@ -66,7 +54,17 @@ For my first test, I tried three different mesh sizes, coarse, medium, and fine.
 
 When looking at the results, I noticed that the maximum stress increased quite a bit as the mesh became finer. The coarse mesh gave me a stress of 8,432.03 psi, while the fine mesh gave me 13,039.83 psi. This showed me that the coarse mesh was not capturing the maximum stress as accurately as the finer mesh.
 
-*add pic of calculations* 
+For maximum stress:
+
++ Test I to Test II: |(10,351.64 − 8,432.03) / 8,432.03| × 100% = 22.77%.
+
++ Test II to Test III: |(13,039.83 − 10,351.64) / 10,351.64| × 100% = 25.97%.
+
+For maximum displacement:
+
++ Test I to Test II: |(0.003236 − 0.003176) / 0.003176| × 100% = 1.89%.
+  
++ Test II to Test III: |(0.003261 − 0.003236) / 0.003236| × 100% = 0.77%.
 
 Both differences were greater than the required 7%, meaning the stress results had not converged yet. 
 
@@ -97,7 +95,17 @@ In this round, I noticed that the displacement results were staying very close t
 
 However, the stress results were still changing. Test IV had a maximum stress of 10,691.54 psi, while Test V had a maximum stress of 11,475.80 psi.
 
-*calc*
+Maximum stress
+
++ Test IV to Test V: |(11,475.80 − 10,691.54) / 10,691.54| × 100% = 7.33%.
+
++ Test V to Test III: |(13,039.83 − 11,475.80) / 11,475.80| × 100% = 13.62%.
+
+Maximum displacement
+
++ Test IV to Test V: |(0.003249 − 0.003238) / 0.003238| × 100% = 0.34%.
+
++ Test V to Test III: |(0.003261 − 0.003249) / 0.003249| × 100% = 0.37%.
 
 ## INNER LOOP #3
 
@@ -120,7 +128,17 @@ However, the stress results were still changing. Test IV had a maximum stress of
 | Min Safety Factor | [2.8](https://drive.google.com/file/d/1BniY2cQJyzA0uOpW_JSn7IzdD13bFvut/view?usp=drive_link) | [2.9](https://drive.google.com/file/d/1rIlzJ5jylqaa2AHQpRtdf6rnpYS43JHF/view?usp=drive_link) | [2.8](https://drive.google.com/file/d/1DQxkk-69Jwnkx02tcLOZ9H1o-NJjp2bW/view?usp=drive_link) | 
 | Mesh elements | [36654](https://drive.google.com/file/d/1BniY2cQJyzA0uOpW_JSn7IzdD13bFvut/view?usp=drive_link) | [49319](https://drive.google.com/file/d/1ZSm8HjPi9pv1s8OypYy0S5V9oICioKHf/view?usp=drive_link) | [62568](https://drive.google.com/file/d/1s0uQqB2zTZbSzdjKj46UIfusShTZ44OY/view?usp=drive_link) | 
 
-*calc*
+Maximum stress
+
++ Test VI to Test VII: |(12,468.35 − 12,800.14) / 12,800.14| × 100% = 2.59%.
+
++ Test VII to Test III: |(13,039.83 − 12,468.35) / 12,468.35| × 100% = 4.58%.
+
+Maximum displacement
+
++ Test VI to Test VII: |(0.003257 − 0.003256) / 0.003256| × 100% = 0.031%.
+
++ Test VII to Test III: |(0.003261 − 0.003257) / 0.003257| × 100% = 0.123%.
 
 Both differences were within the required 7% limit. This showed that the stress results were now much closer together and that the mesh was giving more consistent results.
 
@@ -128,12 +146,113 @@ After completing the third round of testing, I was more confident in the results
 
 I decided to keep Test III as my final reference because it had the highest number of elements, at 62,568. Its maximum stress was 13,039.83 psi, its maximum displacement was 0.003261 in, and its minimum factor of safety was 2.8.
 
+## Design Optimization
 
-Design Optimization
-Review results to make geometric changes, adding and removing material where needed in an attempt to modify the component to be stronger, stiffer, and more lightweight than the prior solutions.
-Repeat #1 through #x  a minimum of three times.
-End Outer Loop
+### Design 1: 
 
-Reflections
-(10%) Detail engineering lessons learned from the assignment and be specific. Eliminate words like good and bad from this section. Be more articulate. Document time spent.
-For example, I learned how different size and shape meshes affect the results and the time to solve. The greater the number of meshes increases the computational time to solve.
+For my first design change, I added a fillet radius of .15 inches around the curved connection of the cylinder. I chose this area because the original stress plot showed a lot of stress concentration near the bend,, which could be from the sharp corner. My reasoning was that making the transition smoother could help spread the stress over a larger area instead of concentrating it in one small region.
+
+After making this change, I ran the FEA again using the same steel material, 650 lbf load, and fixed fixtures. I then checked the maximum stress, maximum displacement, minimum factor of safety, and mass to see how the new design compared to the original bracket.
+
+Design 1: Increased Fillet Radius
+
+<img width="478" height="352" alt="image" src="https://github.com/user-attachments/assets/39a02f5e-9aba-4a4c-9cff-19caba32722f" />
+
+|  | FEA TEST I (course) | FEA TEST II (medium) | FEA TEST III (fine) | 
+| --- | --- | --- | --- |
+| Max Stress (psi) | 11845.74 | 12012.02 | 13003.94 |
+| Max deflection (in) | 0.003189 | 0.003230 | 0.003246 |
+| mass (lb) | 1.80 | 1.80 | 1.80 |
+| Min Safety Factor | 3.1 | 3 | 2.8 |
+| Mesh elements | 1571 | 8527 | 63129 |
+
+For maximum stress:
+
++ Test I to Test II: |(12,012.02 − 11,845.74) / 11,845.74| × 100% = 1.40%.
+
++ Test II to Test III: |(13,003.94 − 12,012.02) / 12,012.02| × 100% = 8.26%.
+
+For maximum displacement:
+
++ Test I to Test II: |(0.003230 − 0.003189) / 0.003189| × 100% = 1.29%.
+
++ Test II to Test III: |(0.003246 − 0.003230) / 0.003230| × 100% = 0.50%.
+
+
+I noticed that the maximum stress from the finest mesh decreased slightly from 13,039.83 psi to 13,003.94 psi after adding the fillet. This is a decrease of approximately 0.28%. Although the stress reduction was small, it shows that the fillet had a slight effect on the maximum stress. 
+
+### Design 2: 
+
+Another thing I noticed is that the displacement plot showed a lot of red around the lower cylindrical section. This shows that this region experiences high displacement sure to the load. Since my goal is to make the bracket stiffer and lighter, I decided that my next design change will be to hollow out the cylindrical section.
+
+<img width="385" height="281" alt="image" src="https://github.com/user-attachments/assets/19eb78bb-54b0-484e-9c07-509253077c40" />
+<img width="288" height="280" alt="image" src="https://github.com/user-attachments/assets/574da93c-372b-498d-baf2-abc14569989c" />
+
+|  | FEA TEST I (course) | FEA TEST II (medium) | FEA TEST III (fine) | 
+| --- | --- | --- | --- |
+| Max Stress (psi) | 12579.11| 12769.22 | 14450.00 |
+| Max deflection (in) | 0.003768 | 0.003821 | 0.003850 |
+| mass (lb) | 1.52 | 1.52 | 1.52 |
+| Min Safety Factor | 2.9 | 2.8 | 2.5 |
+| Mesh elements | 2752 | 7112 | 54713 |
+
+For maximum displacement:
+
++ Test I to Test II: |(12,769.22 − 12,579.11) / 12,579.11| × 100% = 1.51%.
+
++ Test II to Test III: |(14,450.00 − 12,769.22) / 12,769.22| × 100% = 13.16%.
+
+For maximum displacement:
+
++ Test I to Test II: |(0.003821 − 0.003768) / 0.003768| × 100% = 1.41%.
+
++ Test II to Test III: |(0.003850 − 0.003821) / 0.003821| × 100% = 0.76%.
+
+The main improvement from this design was the reduction in mass. The original bracket had a mass of 1.80 lb, while the hollowed-out design had a mass of 1.52 lb. However, I also noticed that the maximum stress increased to 14,450 psi in the fine-mesh test, compared with 13,003.94 psi for the previous fillet design. This is an increase of approximately 11.12%. The minimum factor of safety also decreased from 2.8 to 2.5, showing that removing material had a negative effect on the bracket's strength.
+
+### Design 3: 
+
+For my next design, I decided to increase the thickness of the vertical bar that supports the cylindrical section. I chose this area because it connects the cylinder to the rest of the bracket and helps transfer the applied load through the structure. Since the previous design showed an increase in stress and displacement after removing material, I wanted to add material back to this supporting section rather than make the entire bracket thicker. The current extrusion is 0.66 in but i increased it to 1.00 in.
+
+|  | FEA TEST I (course) | FEA TEST II (medium) | FEA TEST III (fine) | 
+| --- | --- | --- | --- |
+| Max Stress (psi) | 6427.94 | 6686.14  | 7580.85  |
+| Max deflection (in) | 0.001046 | 0.001059 | 0.001067 |
+| mass (lb) | 1.69 | 1.69 | 1.69 |
+| Min Safety Factor | 5.6 | 5.4 | 4.8 |
+| Mesh elements | 1485 | 7935 | 59696 |
+
+For maximum stress:
+
++ Test I to Test II: |(6,686.14 − 6,427.94) / 6,427.94| × 100% = 4.02%.
+
++ Test II to Test III: |(7,580.85 − 6,686.14) / 6,686.14| × 100% = 13.38%.
+
+For maximum displacement:
+
++ Test I to Test II: |(0.001059 − 0.001046) / 0.001046| × 100% = 1.24%.
+
++ Test II to Test III: |(0.001067 − 0.001059) / 0.001059| × 100% = 0.76%.
+
+Based on these results, increasing the thickness of the supporting bar was the most effective change I have tested so far. The maximum stress and displacement both decreased significantly, while the minimum factor of safety increased. Even though the mass increased compared with the hollowed-out design, it remained lower than the original bracket's mass.
+
+## Tabulate each outer loop iteration after convergence using the table below
+
+|  | Design I (fillet) | Design II (hallowed cylinder)| Design III (ticker bar) |
+| --- | --- | --- | --- |
+| Max Stress (psi) | 13003.94 | 14450.00 | 7580.85 |
+| Max deflection (in) | 0.003246 | 0.003850 | 0.001067 |
+| Safety Factor | 2.8 | 2.5 | 4.8 |
+| Number of elements | 63129 | 54713 | 59696 |
+
+
+## Reflections
+
+Throughout this assignment, I learned how important mesh refinement is when using Finite Element Analysis to make design decisions. At first, I thought using a fine mesh would automatically give me the correct results, but after comparing the different tests, I noticed that the maximum stress could change quite a bit as the number of elements increased. The displacement results were generally more consistent, while stress and factor of safety were more sensitive to the mesh size. This showed me why I needed to check convergence before using the results to make changes to the bracket.
+
+Another lesson I learned was that changing the design can affect stress, displacement, and weight differently. When I added the 0.15 in fillet, the maximum stress decreased slightly compared with the original bracket, but the improvement was small. This showed me that smoothing a corner can help with a stress concentration, but the size and location of the change matter. Similarly, when I hollowed out the cylinder section, I reduced the mass from 1.80 lb to 1.52 lb. However, the maximum stress and displacement increased, and the minimum factor of safety decreased. This taught me that removing material can reduce weight but can also make a component less stiff and increase the stress in the remaining material. A lightweight design still needs enough material in the areas that carry the load.
+
+I also learned that i cannot judge a design based on only one result. For example, the hollowed-out design was the lightest, but it also had the highest maximum stress and displacement of the three modified designs. The thicker supporting bar had a higher mass than the hollowed-out version, but it performed better in terms of stress, displacement, and factor of safety. 
+
+## Time Spent
+I spent 6 hours completing this assignment. This included setting up the simulations, testing different mesh sizes, checking the convergence calculations, and writing my report.
