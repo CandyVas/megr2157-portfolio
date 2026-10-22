@@ -14,27 +14,30 @@ Your task is simply to create a high stiff, high strength, and lightweight compo
 | Safety Factor | Row 4, Col 2 | Row 4, Col 3 | Row 4, Col 4 |
 | Number of elements | Row 5, Col 2 | Row 5, Col 3 | Row 5, Col 4 |
 
-### Instructions
 
-Outline:
-
-Since we are modifying our previous designed bracket from Assignment #5 and #6, we are meant to keep the assigned material on the bracket that we initially started with. We were originally given the option to choose between the three metals, Aluminum, Steel, or Titanium. I intially settled on Steel which is what we will use for this stimulation. 
+Since we are modifying our previously designed bracket from Assignments #5 and #6, we are supposed to keep the same material that we originally chose. We were given three options: aluminum, steel, or titanium. I initially decided to use steel, so I will continue using steel for this simulation and the rest of my design changes.
 
 ### First Test 
-Since we are to find a high stiff, high strength, and lightweight component, i decided that my initial attempt will be using what i used when doing my hand calculations in previous FEA's. For my stimulation i will use a load of 650 lbf and work from there. 
+Since I wanted to start with something familiar, I decided to use the same 650 lbf load that I used in my previous hand calculations and FEA work. This gave me a starting point to see how the original bracket would perform before making any changes. I applied the force to the cylindrical section of the bracket where the polyester strap will be placed. I chose this area because it represents where the force will be applied to the bracket during use.
 
-i followed procedure similar to assignment three where we conducted an FEA on a beam. Following solidworks feature tree, i g down the menu when performing this FEA
+
+To set up the simulation, I followed essentially the same steps from Assignment #3 when we performed an FEA on a beam. I opened the Simulation tab in SolidWorks and created a new static study.
 
 <img width="390" height="329" alt="image" src="https://github.com/user-attachments/assets/bbd6aaeb-81e8-4f27-b0a8-a25dcb713bdd" />
-> clicked on stimulation tab and created a new study
+
+> New static study
 
 <img width="434" height="343" alt="image" src="https://github.com/user-attachments/assets/dfdb54d6-7cfe-4115-ae9d-083c44e0c67e" />
 
-> selected on fixed geometry for thr ficture and placed them inside the bracket since it is being slotting
+> Selected fixed geometry for the fixtures and applied them to the inside surfaces of the bracket where it would be held in place
 
 <img width="414" height="328" alt="image" src="https://github.com/user-attachments/assets/3bb49d1a-c5d9-4c72-a472-80f6edf88369" />
 
-> chose external loads, force, and applied it to the cylinder which will be held by polyester strap. I made sure to convert the units to my original lbf and used my determined 650
+> Chose external loads, force, and applied it to the cylinder.
+
+## Inner Loop #1
+
+For my first test, I tried three different mesh sizes, coarse, medium, and fine. I wanted to see how much the results changed when I increased the number of elements.
 
 <img width="304" height="260" alt="image" src="https://github.com/user-attachments/assets/081f47af-dbdc-4e02-a0c6-fb92825e4a60" />
 <img width="290" height="260" alt="image" src="https://github.com/user-attachments/assets/34bb96de-818c-4635-b7f3-62e337a2676e" />
@@ -46,19 +49,14 @@ i followed procedure similar to assignment three where we conducted an FEA on a 
 
 > FEA Test II (medium)
 
-
 <img width="304" height="260" alt="image" src="https://github.com/user-attachments/assets/a507122b-9e22-4dd8-be37-75740931494c" />
 <img width="304" height="260" alt="image" src="https://github.com/user-attachments/assets/d565ed17-c837-41b9-92cb-72d668925a92" />
 
 > FEA Test III (fine)
 
-I decided to try out both extremes of trying the course mesh then the fine mesh to hone in on what design would be best to base the rest of them off of. Then fr proper measure i also kept solidworks default center setting 
+### Testing
 
-The inner loop’s function  is to validate the results. The outer loop’s function is for the geometry design optimization.
-
-## INNER LOOP #1
-
-|  | FEA TEST I | FEA TEST II | FEA TEST III | 
+|  | FEA TEST I (coursest) | FEA TEST II (medium) | FEA TEST III (finest) | 
 | --- | --- | --- | --- |
 | Max Stress (psi) | [8432.03 ](https://drive.google.com/file/d/1LmoA18RBS0y-WfzUCphlt8YkyB1MwGF-/view?usp=drive_link)  | [10351.64](https://drive.google.com/file/d/1sx3DWyFvPLpq3ygLxlOQVUxShEE6iWvI/view?usp=drive_link) | [13039.83](https://drive.google.com/file/d/1-ZmRt7BGcYg2v_fihzhOCRqZBACOtOV4/view?usp=drive_link) |
 | Max deflection (in) | [0.003176](https://drive.google.com/file/d/1qqbKx0bDmgthT4KH65L3eSJQ36-L8P4y/view?usp=drive_link) | [0.003236](https://drive.google.com/file/d/1b0eXsh6fwuehORkabmpAiPix238T88Sg/view?usp=drive_link) | [0.003261](https://drive.google.com/file/d/1h88byk-4Fjp9dEaLACUSn3epMsGkUT82/view?usp=drive_link) | 
@@ -66,9 +64,14 @@ The inner loop’s function  is to validate the results. The outer loop’s func
 | Min Safety Factor | [4.3](https://drive.google.com/file/d/1rIlzJ5jylqaa2AHQpRtdf6rnpYS43JHF/view?usp=drive_link) | [3.5](https://drive.google.com/file/d/1qDnxA7d-pIfPDjlx0o__ciH2jlDy9Gw-/view?usp=drive_link) | [2.8](https://drive.google.com/file/d/1DQxkk-69Jwnkx02tcLOZ9H1o-NJjp2bW/view?usp=drive_link) | 
 | Mesh elements | [1166](https://drive.google.com/file/d/1ZSm8HjPi9pv1s8OypYy0S5V9oICioKHf/view?usp=drive_link) | [8442](https://drive.google.com/file/d/1sMF6kFER_4_QVDnT89wkHPI-IdpMtVnS/view?usp=drive_link) | [62568](https://drive.google.com/file/d/1s0uQqB2zTZbSzdjKj46UIfusShTZ44OY/view?usp=drive_link) | 
 
+When looking at the results, I noticed that the maximum stress increased quite a bit as the mesh became finer. The coarse mesh gave me a stress of 8,432.03 psi, while the fine mesh gave me 13,039.83 psi. This showed me that the coarse mesh was not capturing the maximum stress as accurately as the finer mesh.
+
 *add pic of calculations* 
 
-Ging foward i decided that tes I was an outlier, not only is it too course to capture accuracy, the jumo between 1.1k eements to 8.4k isnt that drastic of the jumo betwen 8.8k and 62.6k. Since the 8.8k was isnt he very middle i decided my following points will be towards the end half. Since the instructions were If after three attempts to converge use the stiffness and stress from the finer mesh size use the finest mesh size and proceed through the process, i figured i would keep test III for the sake of reference. 
+Both differences were greater than the required 7%, meaning the stress results had not converged yet. 
+
+Going forward, I decided that Test I was too coarse to use as my main reference because its stress result was much lower than the results from the finer meshes.  I kept Test III as my fine-mesh reference because it had the highest number of elements at 62,568.
+
 
 ## INNER LOOP #2
 
@@ -82,7 +85,7 @@ Ging foward i decided that tes I was an outlier, not only is it too course to ca
 
 > Test V
 
-|  | FEA TEST IV | FEA TEST V | FEA TEST III | 
+|  | FEA TEST IV | FEA TEST V | FEA TEST III (ref) | 
 | --- | --- | --- | --- |
 | Max Stress (psi) | [10691.54](https://drive.google.com/file/d/1MJ7gGu1tqx9gj4DPVeWiUv3buM2gfWa0/view?usp=drive_link) | [11475.80](https://drive.google.com/file/d/1uf39Zxmo70pj-xr1qI6cMnohy28NTYTS/view?usp=drive_link) | [13039.83](https://drive.google.com/file/d/1-ZmRt7BGcYg2v_fihzhOCRqZBACOtOV4/view?usp=drive_link) |
 | Max deflection (in) | [0.003238](https://drive.google.com/file/d/1dPtVXxx03N8nPZgLZO4dmoQMzIdoZC-C/view?usp=drive_link) | [0.003249](https://drive.google.com/file/d/1i1E7-cMqJz-DT2yH8WoP8oinfBm4Wjrp/view?usp=drive_link) | [0.003261](https://drive.google.com/file/d/1h88byk-4Fjp9dEaLACUSn3epMsGkUT82/view?usp=drive_link) | 
@@ -90,7 +93,11 @@ Ging foward i decided that tes I was an outlier, not only is it too course to ca
 | Min Safety Factor | [3.4](https://drive.google.com/file/d/1AsDNtX6vw21OG3OOxiBKqWM08zSHdHEe/view?usp=drive_link) | [3.2](https://drive.google.com/file/d/1pZZk6Y6gLLaCFWQMmEJis6R2lIi7sRCv/view?usp=drive_link) | [2.8](https://drive.google.com/file/d/1DQxkk-69Jwnkx02tcLOZ9H1o-NJjp2bW/view?usp=drive_link) | 
 | Mesh elements | [10944](https://drive.google.com/file/d/1e23cpEhdzElK1MktT5rvVsUP70MVf5nq/view?usp=drive_link) | [19431](https://drive.google.com/file/d/1pZZk6Y6gLLaCFWQMmEJis6R2lIi7sRCv/view?usp=drive_link) | [62568](https://drive.google.com/file/d/1s0uQqB2zTZbSzdjKj46UIfusShTZ44OY/view?usp=drive_link) | 
 
+In this round, I noticed that the displacement results were staying very close to each other. The maximum displacement only increased from 0.003238 in to 0.003249 in between Test IV and Test V.
 
+However, the stress results were still changing. Test IV had a maximum stress of 10,691.54 psi, while Test V had a maximum stress of 11,475.80 psi.
+
+*calc*
 
 ## INNER LOOP #3
 
@@ -99,20 +106,27 @@ Ging foward i decided that tes I was an outlier, not only is it too course to ca
 
 > Test VI
 
-
 <img width="481" height="344" alt="image" src="https://github.com/user-attachments/assets/d1c25216-32dc-4aff-92bf-bf4e7fed1121" />
 <img width="393" height="332" alt="image" src="https://github.com/user-attachments/assets/6a5a5a2c-a7dd-4743-9e83-be0ee0e38bed" />
 
 > Test VII
 
 
-|  |FEA TEST VI | FEA TEST VII | FEA TEST III | 
+|  |FEA TEST VI | FEA TEST VII | FEA TEST III (ref) | 
 | --- | --- | --- | --- |
 | Max Stress (psi) | [12800.14 ](https://drive.google.com/file/d/1Mb_RpzCKlbmUZSs4rUbw9T09wy8wptMs/view?usp=drive_link)|[12468.35](https://drive.google.com/file/d/1e23cpEhdzElK1MktT5rvVsUP70MVf5nq/view?usp=drive_link) | [13039.83](https://drive.google.com/file/d/1-ZmRt7BGcYg2v_fihzhOCRqZBACOtOV4/view?usp=drive_link) |
 | Max deflection (in) | [0.003256](https://drive.google.com/file/d/1But4_6RX-oerGQLNMoek-1LGg15jETto/view?usp=drive_link) | [0.003257](https://drive.google.com/file/d/1qqbKx0bDmgthT4KH65L3eSJQ36-L8P4y/view?usp=drive_link) | [0.003261](https://drive.google.com/file/d/1h88byk-4Fjp9dEaLACUSn3epMsGkUT82/view?usp=drive_link) | 
 | mass (lb) | [1.80](https://drive.google.com/file/d/1HaQvMry4wOUBWCf5TgsEzOzqOQDRxNlk/view?usp=drive_link) | [1.80](https://drive.google.com/file/d/1HaQvMry4wOUBWCf5TgsEzOzqOQDRxNlk/view?usp=drive_link) | [1.80](https://drive.google.com/file/d/1HaQvMry4wOUBWCf5TgsEzOzqOQDRxNlk/view?usp=drive_link) | 
 | Min Safety Factor | [2.8](https://drive.google.com/file/d/1BniY2cQJyzA0uOpW_JSn7IzdD13bFvut/view?usp=drive_link) | [2.9](https://drive.google.com/file/d/1rIlzJ5jylqaa2AHQpRtdf6rnpYS43JHF/view?usp=drive_link) | [2.8](https://drive.google.com/file/d/1DQxkk-69Jwnkx02tcLOZ9H1o-NJjp2bW/view?usp=drive_link) | 
 | Mesh elements | [36654](https://drive.google.com/file/d/1BniY2cQJyzA0uOpW_JSn7IzdD13bFvut/view?usp=drive_link) | [49319](https://drive.google.com/file/d/1ZSm8HjPi9pv1s8OypYy0S5V9oICioKHf/view?usp=drive_link) | [62568](https://drive.google.com/file/d/1s0uQqB2zTZbSzdjKj46UIfusShTZ44OY/view?usp=drive_link) | 
+
+*calc*
+
+Both differences were within the required 7% limit. This showed that the stress results were now much closer together and that the mesh was giving more consistent results.
+
+After completing the third round of testing, I was more confident in the results because the stress and displacement differences were now within the required 7% limit for the comparisons I made.
+
+I decided to keep Test III as my final reference because it had the highest number of elements, at 62,568. Its maximum stress was 13,039.83 psi, its maximum displacement was 0.003261 in, and its minimum factor of safety was 2.8.
 
 
 Design Optimization
