@@ -67,21 +67,25 @@ The inner loop’s function  is to validate the results. The outer loop’s func
 | Mesh elements | [1166](https://drive.google.com/file/d/1ZSm8HjPi9pv1s8OypYy0S5V9oICioKHf/view?usp=drive_link) | [8442](https://drive.google.com/file/d/1sMF6kFER_4_QVDnT89wkHPI-IdpMtVnS/view?usp=drive_link) | [62568](https://drive.google.com/file/d/1s0uQqB2zTZbSzdjKj46UIfusShTZ44OY/view?usp=drive_link) | 
 
 *add pic of calculations* 
-Ging foward i decided that tes I was an outlier, not only is it too course to capture accuracy, the jumo between 1.1k eements to 8.4k isnt that drastic of the jumo betwen 8.8k and 62.6k. Since the 8.8k was isnt he very middle i decided my following points will be towards the end hald 
+
+Ging foward i decided that tes I was an outlier, not only is it too course to capture accuracy, the jumo between 1.1k eements to 8.4k isnt that drastic of the jumo betwen 8.8k and 62.6k. Since the 8.8k was isnt he very middle i decided my following points will be towards the end half. Since the instructions were If after three attempts to converge use the stiffness and stress from the finer mesh size use the finest mesh size and proceed through the process, i figured i would keep test III for the sake of reference. 
+
+## INNER LOOP #2
+
+<img width="428" height="299" alt="Screenshot 2026-10-22 011229" src="https://github.com/user-attachments/assets/4da04dd1-f8bc-430f-a716-2a8870431e5e" />
+<img width="352" height="298" alt="image" src="https://github.com/user-attachments/assets/e89f9cf9-1f2b-42e5-8e85-4f9a4272b5db" />
+
+> Test IV
 
 
-I decided to keep the bracket geometry exactly the same for now since the purpose of this stage is to validate the original design before making any design changes.
 
-## INNER LOOP #1
-|  | FEA TEST III | FEA TEST II | 
-| --- | --- | --- |
-| Max Stress (psi) | [](https://drive.google.com/file/d/1LmoA18RBS0y-WfzUCphlt8YkyB1MwGF-/view?usp=drive_link)  | [13039.83](https://drive.google.com/file/d/1-ZmRt7BGcYg2v_fihzhOCRqZBACOtOV4/view?usp=drive_link) |
-| Max deflection (in) | [](https://drive.google.com/file/d/1qqbKx0bDmgthT4KH65L3eSJQ36-L8P4y/view?usp=drive_link) | [0.003261](https://drive.google.com/file/d/1h88byk-4Fjp9dEaLACUSn3epMsGkUT82/view?usp=drive_link) | 
-| mass (lb) | [](https://drive.google.com/file/d/1HaQvMry4wOUBWCf5TgsEzOzqOQDRxNlk/view?usp=drive_link) | [1.80](https://drive.google.com/file/d/1HaQvMry4wOUBWCf5TgsEzOzqOQDRxNlk/view?usp=drive_link) | 
-| Min Safety Factor | [](https://drive.google.com/file/d/1rIlzJ5jylqaa2AHQpRtdf6rnpYS43JHF/view?usp=drive_link) | [2.8](https://drive.google.com/file/d/1DQxkk-69Jwnkx02tcLOZ9H1o-NJjp2bW/view?usp=drive_link) | 
-| Mesh elements | [](https://drive.google.com/file/d/1ZSm8HjPi9pv1s8OypYy0S5V9oICioKHf/view?usp=drive_link) | [62568](https://drive.google.com/file/d/1s0uQqB2zTZbSzdjKj46UIfusShTZ44OY/view?usp=drive_link) | 
-
-
+|  | FEA TEST IV | FEA TEST V | FEA TEST III | 
+| --- | --- | --- | --- |
+| Max Stress (psi) | [10691.54](https://drive.google.com/file/d/1MJ7gGu1tqx9gj4DPVeWiUv3buM2gfWa0/view?usp=drive_link)  |  | [13039.83](https://drive.google.com/file/d/1-ZmRt7BGcYg2v_fihzhOCRqZBACOtOV4/view?usp=drive_link) |
+| Max deflection (in) | [0.003238](https://drive.google.com/file/d/1dPtVXxx03N8nPZgLZO4dmoQMzIdoZC-C/view?usp=drive_link) |  | [0.003261](https://drive.google.com/file/d/1h88byk-4Fjp9dEaLACUSn3epMsGkUT82/view?usp=drive_link) | 
+| mass (lb) | [1.80](https://drive.google.com/file/d/1HaQvMry4wOUBWCf5TgsEzOzqOQDRxNlk/view?usp=drive_link) | | [1.80](https://drive.google.com/file/d/1HaQvMry4wOUBWCf5TgsEzOzqOQDRxNlk/view?usp=drive_link) | 
+| Min Safety Factor | [3.4](https://drive.google.com/file/d/1AsDNtX6vw21OG3OOxiBKqWM08zSHdHEe/view?usp=drive_link) |  | [2.8](https://drive.google.com/file/d/1DQxkk-69Jwnkx02tcLOZ9H1o-NJjp2bW/view?usp=drive_link) | 
+| Mesh elements | [10944](https://drive.google.com/file/d/1e23cpEhdzElK1MktT5rvVsUP70MVf5nq/view?usp=drive_link) | [8442](https://drive.google.com/file/d/1sMF6kFER_4_QVDnT89wkHPI-IdpMtVnS/view?usp=drive_link) | [62568](https://drive.google.com/file/d/1s0uQqB2zTZbSzdjKj46UIfusShTZ44OY/view?usp=drive_link) | 
 
 <img width="481" height="344" alt="image" src="https://github.com/user-attachments/assets/d1c25216-32dc-4aff-92bf-bf4e7fed1121" />
 <img width="393" height="332" alt="image" src="https://github.com/user-attachments/assets/6a5a5a2c-a7dd-4743-9e83-be0ee0e38bed" />
@@ -98,27 +102,6 @@ I decided to keep the bracket geometry exactly the same for now since the purpos
 | Min Safety Factor | [2.9](https://drive.google.com/file/d/1rIlzJ5jylqaa2AHQpRtdf6rnpYS43JHF/view?usp=drive_link) | [2.8](https://drive.google.com/file/d/1DQxkk-69Jwnkx02tcLOZ9H1o-NJjp2bW/view?usp=drive_link) | 
 | Mesh elements | [49319](https://drive.google.com/file/d/1ZSm8HjPi9pv1s8OypYy0S5V9oICioKHf/view?usp=drive_link) | [62568](https://drive.google.com/file/d/1s0uQqB2zTZbSzdjKj46UIfusShTZ44OY/view?usp=drive_link) | 
 
-Outer Loop: Based on Design Optimization
-(30% total: each time through the outer loop is 10%)
-
-Inner Loop: Based on validation
-(60% total: each time through the inner loop is 20%)
-
-Preprocessing
-Perform a static stress analysis
-Select proper constraints
-Select appropriate loading
-Select a mesh
-Computation
-Solve
-Data Interpretation
-Review the results by tabulating the
-safety factor
-maximum stress and it’s location
-maximum displacement and it’s location  
-Error Estimation
-Validate the model by repeating until either the results converge within 7% or it is the third attempt to converge.
-End Inner Loop
 
 Design Optimization
 Review results to make geometric changes, adding and removing material where needed in an attempt to modify the component to be stronger, stiffer, and more lightweight than the prior solutions.
