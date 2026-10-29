@@ -54,6 +54,8 @@ However as I'm writing my report, I noticed that my finalized gearbox CAD design
 
 ## CAD Model
 
+Download my assembly [HERE](https://drive.google.com/file/d/1M0O_UuriJo7TWA23bJ-Iu4MZB_xhiVJA/view?usp=sharing)
+
 For the CAD model, I used parametric equations to keep the dimensions consistent throughout the design. I based the dimensions on the information provided on the McMaster-Carr website and the calculations I completed earlier in the assignment. Using parameters made it easier to keep related dimensions connected.
 
 <img width="514" height="188" alt="image" src="https://github.com/user-attachments/assets/33b420b8-ba40-4c37-b744-59c01d48e92f" />
@@ -100,8 +102,11 @@ From here I created an assembly to combine the parts into one gearbox. I used th
 
 ### Lessons Learned
 
-Throughout this assignment, I learned how important it is to plan a CAD model around the actual components since they all affect how the final gearbox fits together. Finding a part that matches the required dimensions is not always easy, especially when there are limited options available. For example, I could not find a 9-tooth gear, so I selected gears with 48 and 18 teeth instead. This allowed me to maintain the required gear ratio while using parts that were actually available.
+Throughout this assignment, I learned how important it is to plan a CAD model around the actual components since they all affect how the final gearbox fits together. I ran into a few challenges while working through the calculations. One of the main issues was finding gears that matched the required tooth count and shaft diameters. Since I could not find a suitable gear with only 9 teeth, I had to look for an alternative combination that maintained the required gear ratio. So I had to make the decision of selecting gears with 48 and 18 teeth instead. This allowed me to maintain the required gear ratio while using parts that were actually available.
 
-Another lesson is the fact that my original sketch was not exactly the same as my final CAD model because I changed the shaft openings to make the two housing halves identical. I found that using matching halves made the design simpler and easier to manage. This showed me that the first design idea is not always the most practical, and changes may be needed as the project develops.
+Another lesson is the fact that my original sketch was not exactly the same as my final CAD model because I changed the shaft openings to make the two housing halves identical. I found that using matching halves made the design simpler and easier to assemble. This showed me that the first design idea is not always the most practical, and changes may be needed as the project advances.
 
-And finally, I learned how to properly use the assembly feature in SolidWorks. Before this project, I was not as comfortable with putting different parts together but by assembling the gears, shafts, journal bearings, I got more practice using the mate feature to position each component correctly.
+And finally, I learned how to properly use the assembly feature in SolidWorks. Before this project, I was not as comfortable with putting different parts together but by assembling the gears, shafts, journal bearings, I got more practice using the mate feature to position each component correctly. Although it did take some trial and error because the parts needed to line up correctly without interfering with each other or the housing.
+
+For this assignment, I spent a total of 9 working on this assignment which includes the calculations, researching components, sketching the housing, creating the SolidWorks parts, assembling the gearbox, and writing the report.
+
