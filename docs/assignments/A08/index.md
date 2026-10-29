@@ -51,6 +51,39 @@ For the gearbox housing, I chose a two-piece design that uses bolts and nuts to 
 ## CAD Model
 
 
+<img width="442" height="311" alt="Screenshot 2026-10-28 194758" src="https://github.com/user-attachments/assets/4e251924-b9ad-4a65-b5c2-b90fbafde991" />
+
+<img width="485" height="323" alt="Screenshot 2026-10-28 201251" src="https://github.com/user-attachments/assets/ca2d672d-32e1-4f6f-b067-15e8a1c575b4" />
+
+<img width="380" height="298" alt="image" src="https://github.com/user-attachments/assets/8f1f7517-eab6-4a13-b159-c501d53e2f88" />
+
+
+With my gear house constructed, i decided to open up the indiviial files of the gears and shafts. 
+
+
+<img width="219" height="225" alt="image" src="https://github.com/user-attachments/assets/aa46b244-61c1-46a1-baf8-f08cc01fa5db" />
+
+> 7880K19
+
+<img width="188" height="243" alt="image" src="https://github.com/user-attachments/assets/9e4d1dcb-567b-45a4-b0eb-b7a0a00a2ae9" />
+
+> 7880K24
+
+<img width="167" height="164" alt="image" src="https://github.com/user-attachments/assets/0c15308e-1fe1-459b-861b-a66086e180ea" />
+
+> 9368T96
+
+<img width="234" height="246" alt="image" src="https://github.com/user-attachments/assets/8ad34dac-4b44-4a0e-bb10-3800e040065e" />
+
+> 9368T11
+
+From here i made an assembly to combine all the parts together
+
+<img width="461" height="353" alt="image" src="https://github.com/user-attachments/assets/b6ee0b92-6917-424c-a2cb-7e803a32a5b5" />
+
+<img width="395" height="346" alt="image" src="https://github.com/user-attachments/assets/6cd1f46a-2f3e-4923-b88b-a728ff2dd62e" />
+
+
 
 ### Lessons Learned
 
