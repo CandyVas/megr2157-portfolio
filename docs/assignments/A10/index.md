@@ -211,158 +211,187 @@ If your team prefers to order all components through McMaster-Carr using the int
 - **Component Sourcing & Interfaces:** Selected standard 1/2"-10 Acme leadscrews from catalog resources, ensuring the 9.83 mm minor diameter comfortably exceeded the calculated 3.71 mm stress limit.
 - **Parametric Assembly Modeling:** Configured global variables in SOLIDWORKS (Crosshead Length, Crosshead Width, Height, Screw Spacing) to establish robust parametric links between the custom crosshead, leadscrews, nuts, and aluminum frame.
 
+# For 2157 Students (Candy) 
+
+## 1.) Finite Element Analysis
+
+### a.) Model Setup
+
+- Constrained the flange interface against the bottom surface of the crosshead where it is meant to be screwed in, then applied the 2 kN (2,000 N) loading directly center aligned with the crosshead.  
+- This decision was made using Figure #1 of the assignment as a reference, as the grip is centered to the crosshead.  
+- The flange was removed in the actual mesh test so it would not affect the result of the crosshead strength analysis.
+
+<img width="975" height="265" alt="image" src="https://github.com/user-attachments/assets/57c891fa-81c6-4610-b529-2b01a88caf67" />
+
+<img width="560" height="211" alt="image" src="https://github.com/user-attachments/assets/fe09ba8f-034b-4be7-81bd-7c759a403073" />
+
+<img width="618" height="179" alt="image" src="https://github.com/user-attachments/assets/ca07552e-a52c-4f7d-9854-07115a671b73" />
+
+<img width="598" height="248" alt="image" src="https://github.com/user-attachments/assets/99b93422-d31e-4a5c-8e79-a1d4e94e35b3" />
+
+---
+
+### b. & c.) Meshing, Verification & Report
+
+Use a solid mesh with local refinement at stress raisers.  
+Perform a mesh convergence check (at least two refinements) and report key metrics (max von Mises stress and max vertical deflection).
+
+
+
+
+<img width="443" height="167" alt="image" src="https://github.com/user-attachments/assets/9c5692db-25bb-4b73-8d62-7d3210d6aece" /> <img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/cb55c9fb-3618-4fe0-a532-75f16478beb1" />
+
+
+
+<img width="402" height="182" alt="image" src="https://github.com/user-attachments/assets/71bb54bc-cdd6-48c5-8e66-eec9130d693e" /> <img width="527" height="156" alt="image" src="https://github.com/user-attachments/assets/de1d2677-be68-4424-8de0-6ac7c0589d12" />
+
+
+
+<img width="387" height="173" alt="image" src="https://github.com/user-attachments/assets/26f34707-2650-4882-b9c2-cb8f1f269de2" /> <img width="549" height="187" alt="image" src="https://github.com/user-attachments/assets/3a73f858-c1d4-4da8-b0db-c703f8c64556" />
+
+
+
+**Original Design Results**
+
+Stress:
+
+<img width="975" height="463" alt="image" src="https://github.com/user-attachments/assets/f1a615e1-8453-429a-868a-c610c44797c2" />
+
+ Displacement:
+
+<img width="975" height="381" alt="image" src="https://github.com/user-attachments/assets/a1cd108c-7c22-45dc-b279-9c2782291b14" />
+
+Factor Of Safety: 
+
+<img width="975" height="381" alt="image" src="https://github.com/user-attachments/assets/f3a0a32d-6168-4084-8c40-9f37e41c2479" />
+
+
+| Metric                  | FEA TEST I (Coarse) | FEA TEST II (Medium/Default) | FEA TEST III (Fine) |
+|-------------------------|---------------------|------------------------------|---------------------|
+| Max Stress (N/m²)       | 9,254,784.00        | 8,848,740.00                 | 9,804,605.00        |
+| Min. Safety Factor      | 30                  | 31                           | 28                  |
+| Max Deflection (mm)     | 0.014899            | 0.015074                     | 0.015128            |
+
+The medium mesh produces the lowest stress, while the fine mesh produces the highest. The maximum deflection stays somewhat consistent across all three tests.
+
+The 2,000 N force is applied to the center of the crosshead and travels through the crosshead toward the flange, where it is fixed in place. Since the load is applied directly in the center, there should be little twisting. The small deflection results also show that the crosshead stays fairly stiff and does not bend much under the load. Overall, the crosshead appears to handle the applied force well with no major signs of bending or deformation.
+
+#### i. Max Stress Convergence
+
+**Coarse Mesh to Medium Mesh**  
+Percentage Change = (|8,848,740 − 9,254,784| / 9,254,784) × 100  
+Percentage Change = (406,044 / 9,254,784) × 100  
+Percentage Change = 4.39%
+
+**Medium Mesh to Fine Mesh**  
+Percentage Change = (|9,804,605 − 8,848,740| / 8,848,740) × 100  
+Percentage Change = (955,865 / 8,848,740) × 100  
+Percentage Change = 10.80%
+
+#### ii. Max Deflection Convergence
+
+**Coarse Mesh to Medium Mesh**  
+Percentage Change = (|0.015074 − 0.014899| / 0.014899) × 100  
+Percentage Change = (0.000175 / 0.014899) × 100  
+Percentage Change = 1.17%
+
+**Medium Mesh to Fine Mesh**  
+Percentage Change = (|0.015128 − 0.015074| / 0.015074) × 100  
+Percentage Change = (0.000054 / 0.015074) × 100  
+Percentage Change = 0.36%
+
+|                        | Coarse to Medium | Medium to Fine |
+|------------------------|------------------|----------------|
+| Maximum Stress         | 4.39%            | 10.80%         |
+| Maximum Deflection     | 1.17%            | 0.36%          |
+
+---
+
+### d.) Optimization Pass
+
+The original design had a high Factor of Safety of 28, a maximum deflection of 0.015128 mm, and a peak stress of approximately 9.80 MPa. Since the design was already strong enough to handle the applied load, the main goal of optimization was to reduce the weight without affecting its strength.
+
+To do this, pockets were added by removing material in the area between the two mounting holes. The pockets were placed on the same surface as the mounting holes rather than on the sides of the crosshead in order to keep the side walls intact and help maintain the bracket’s strength and stiffness. 2 mm fillets were also applied to the inside walls of the pockets. This helped smooth out sharp corners and reduce potential stress concentrations around the openings.
+
+**Optimized Design Results**
+
+Stress:  
+
+<img width="975" height="377" alt="image" src="https://github.com/user-attachments/assets/5bfeb1db-cdbe-48d7-96ed-3b25cda7ed38" />
+
+Deflection: 
+
+<img width="975" height="365" alt="image" src="https://github.com/user-attachments/assets/d23a1a53-6d28-48cc-a0d7-7422db16b488" />
+
+Factor of Safety:
+
+<img width="975" height="233" alt="image" src="https://github.com/user-attachments/assets/3a027f87-856d-4d88-9e1e-e0127a93a74a" />
+
+| Metric                  | FEA TEST I (Coarse) | FEA TEST II (Medium/Default) | FEA TEST III (Fine) |
+|-------------------------|---------------------|------------------------------|---------------------|
+| Max Stress (N/m²)       | 8,911,211.00        | 9,239,235.00                 | 9,118,962.00        |
+| Min. Safety Factor      | 31                  | 30                           | 30                  |
+| Max Deflection (mm)     | 0.017141            | 0.017124                     | 0.017157            |
+
+#### i. Max Stress Convergence
+
+**Coarse to Medium**  
+Percentage Change = (|9,239,235 − 8,911,211| / 8,911,211) × 100  
+Percentage Change = (328,024 / 8,911,211) × 100  
+Percentage Change = 3.68%
+
+**Medium to Fine**  
+Percentage Change = (|9,118,962 − 9,239,235| / 9,239,235) × 100  
+Percentage Change = (120,273 / 9,239,235) × 100  
+Percentage Change = 1.30%
+
+#### ii. Max Deflection Convergence
+
+**Coarse to Medium**  
+Percentage Change = (|0.017124 − 0.017141| / 0.017141) × 100  
+Percentage Change = 0.10%
+
+**Medium to Fine**  
+Percentage Change = (|0.017157 − 0.017124| / 0.017124) × 100  
+Percentage Change = 0.19%
+
+The optimization was successful in reducing the maximum stress while maintaining a high Factor of Safety. The maximum stress decreased by 6.99%, and the Factor of Safety improved from 28 to 30. Although the maximum deflection increased by approximately 13.41%, it is still a very small 0.017157 mm.
+
+These optimized mesh results show good convergence, with both stress and deflection changing by less than 5% between the medium and fine meshes. Since the main goal was weight reduction, this optimization reduced the weight from 4.9 lbs (2230 g) down to 4.7 lbs (2113 g).
+
+ original:  
+
+<img width="399" height="284" alt="image" src="https://github.com/user-attachments/assets/b6919f77-e154-4f45-9abe-2d6fc97729b1" />
+
+ optimized:  
+
+<img width="432" height="290" alt="image" src="https://github.com/user-attachments/assets/ec3b8df1-979e-46ad-a625-4b250f9ba955" />
+
+---
+
+## 2.)  Drawing of the crosshead
+
+<img width="975" height="758" alt="image" src="https://github.com/user-attachments/assets/b30747da-2f88-49b1-b2ee-002128f38923" />
+
+
 **Total Time Spent:**
 
 - Calculations & Theoretical Sizing: 4 hours
 - Catalog Research & Part Selection: 2 hours
 - SOLIDWORKS Modeling & Assembly: 5 hours
-- Documentation & Portfolio Write-Up: 3 hours
-- **Total Time: 14.0 Hours**
+- Documentation & Portfolio Write-Up: 3.5 hours
+- For 2157 Students only: 5 hours
+- **Total Time: 19.50 Hours**
 
 ## Download Link
 
 - [A10 Assembly.SLDASM](./A10%20Assembly.SLDASM)
 - [Crosshead.SLDPRT](./Crosshead.SLDPRT)
+- [Crosshead optimized.SLDPRT](./Crosshead%20optimized.SLDPRT)
+- [Crosshead drawing.SLDDRW](./Crosshead%20drawing.SLDDRW)
 - [1329K102_Precision Acme Flange.SLDPRT](./1329K102_Precision%20Acme%20Flange.SLDPRT)
 - [95072A209_Precision Acme Externally Threaded Nut.SLDPRT](./95072A209_Precision%20Acme%20Externally%20Threaded%20Nut.SLDPRT)
 - [99030A005_1018 Carbon Steel Precision Acme Lead Screw(2).SLDPRT](./99030A005_1018%20Carbon%20Steel%20Precision%20Acme%20Lead%20Screw(2).SLDPRT)
 - [5537T038_T-Slotted Framing.SLDPRT](./5537T038_T-Slotted%20Framing.SLDPRT)
 - [5537T46_T-Slotted Framing.SLDPRT](./5537T46_T-Slotted%20Framing.SLDPRT)
-
-## 1.) 2157
-
-a.) Model Setup: 
-Constrained the flange interface against the bottom surface off the crosshead where it is meant to be screwed in, then applied the 2 kN (2,000 N) loading directly center aligned with the crosshead. This decision was made using Figure #1 of the assignment as a reference, as thor grip is centered to crosshead. I made sure to remove the flange in the actual mesh test as it could have affected the result of our crossheads strength 
-
-*
-
-
-
-b. & c.) Meshing, Verification & report
-Use a solid mesh with local refinement at stress raisers. Perform a mesh convergence check (at least two refinements) and report key metrics (max von Mises stress and max vertical deflection).
-
-
-
-
-
-
-
-> Stress
-
-> Displacement 
-
-> Factor Of Safety
-
-| Original | FEA TEST I (course) | FEA TEST II (medium) | FEA TEST III (fine) | 
-| --- | --- | --- | --- |
-| Max Stress (N/m^2) | 9254784.00 | 8848740.00 | 9804605.00 |
-| Min. Safety Factor | 30 | 31 | 28 |
-| Max Deflection (mm) | 0.014899 | 0.015074 | 0.015128 |
-
-
-
-The medium mesh produces the lowest stress, while the fine mesh produces the highest. The maximum deflection stays somewhat consistent across all three tests.
-
-The 2,000 N force is applied to the center of the crosshead and travels through the crosshead toward the flange, where it is fixed in place. Since the load is applied directly in the center, there should be little twisting. The small deflection results also show that the crosshead stays fairly stiff and does not bend much under the load. Overall, the crosshead appears to handle the applied force well with no major signs of bending or deformation. 
-
-i. Max Stress Convergence
-Coarse Mesh to Medium Mesh
-
-Percentage Change = (|8,848,740 - 9,254,784| / 9,254,784) x 100
-Percentage Change = (406,044 / 9,254,784) x 100
-Percentage Change = 4.39%
-
-Medium Mesh to Fine Mesh
-
-Percentage Change = (|9,804,605 - 8,848,740| / 8,848,740) x 100
-Percentage Change = (955,865 / 8,848,740) x 100
-Percentage Change = 10.80%
-ii. Max Deflection Convergence
-Coarse Mesh to Medium Mesh
-
-Percentage Change = (|0.015074 - 0.014899| / 0.014899) x 100
-Percentage Change = (0.000175 / 0.014899) x 100
-Percentage Change = 1.17%
-
-Medium Mesh to Fine Mesh
-
-Percentage Change = (|0.015128 - 0.015074| / 0.015074) x 100
-Percentage Change = (0.000054 / 0.015074) x 100
-Percentage Change = 0.36%
-
-
-
-| | Coarse to Medium | Medium to Fine | 
-| --- | --- | --- | 
-| Maximum Stress  | 4.39% | 10.80% |
-| Maximum Deflection | 1.17% | 0.36% | 
-
-
-
-d.) Optimization Pass
-
-The original design had a high Factor of Safety of 28, a maximum deflection of 0.015128 mm, and a peak stress of approximately 9.80 MPa. Since the design was already strong enough to handle the applied load, the main goal of optimization was to reduce the weight without affecting its strength.
-
-To do this, I decided to add pockets by removing material in the area between the two mounting holes. I chose to place the pockets on the same surface as the mounting holes rather than on the sides of the crosshead in order to keep the side walls intact to help maintain the bracket's strength and stiffness. I also applied 2 mm fillets to the inside walls of the pockets. This helped smooth out sharp corners and reduce potential stress concentrations around the openings.
-
-
-> Stress
-
-> Deflection
-
-> Factor of Safety
-
-| Optimized | FEA TEST I (course) | FEA TEST II (medium) | FEA TEST III (fine) | 
-| --- | --- | --- | --- |
-| Max Stress (N/m^2) | 8911211.00 | 9239235.00 | 9118962.00 |
-| Min. Safety Factor | 31 | 30 | 30 |
-| Max Deflection (mm) | 0.017141 | 0.017124 | 0.017157 |
-
-
-i. Max Stress Convergence
-Coarse to Medium
-
-Percentage Change = (|9,239,235 - 8,911,211| / 8,911,211) x 100
-Percentage Change = (328,024 / 8,911,211) x 100
-Percentage Change = 3.68%
-
-
-Medium to Fine
-
-
-Percentage Change = (|9,118,962 - 9,239,235| / 9,239,235) x 100
-Percentage Change = (120,273 / 9,239,235) x 100
-Percentage Change = 1.30%
-ii. Max Deflection Convergence
-
-
-Coarse to Medium
-
-
-Percentage Change = (|0.017124 - 0.017141| / 0.017141) x 100
-Percentage Change = 0.10%
-
-
-
-
-Medium to Fine
-
-
-Percentage Change = (|0.017157 - 0.017124| / 0.017124) x 100
-Percentage Change = 0.19%
-
-The optimization was successful in reducing the maximum stress while maintaining a high Factor of Safety. The maximum stress decreased by 6.99%, and the Factor of Safety improved from 28 to 30. Although the maximum deflection increased by approximately 13.41%, it is still a very small 0.017157 mm. 
-
-These optimized mesh results show good convergence, with both stress and deflection changing by less than 5% between the medium and fine meshes. Since the main goal was weight reduction, this optimization managed the weight from 4.9 (2230 g) down to 4.7 lbs (2113 g)
-
-
-> original 
-
-> optimized 
-
-2.) Finite Element Analysis
-
-
-
-
 
